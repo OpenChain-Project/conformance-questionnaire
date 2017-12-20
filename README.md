@@ -23,13 +23,13 @@ The following columns are used in the questionnaire:
 * Spec Reference Number: A list of specification sections and subsections related to the questions.  Can contain multiple reference numbers separated by commas.  Can be blank.
 * Question Text: Text for the question.  Must be UTF-8 encoded.
 * Answer Type: One of:
- * `YES_NO`: A question where the only valid answers are Yes and No
- * `SUBQUESTIONS`: A category of questions where the correct answer depends on the number of correct sub question responses.
- * `YES_NO_NA`: A YES_NO question that can also have a response of Not Applicable
+..* `YES_NO`: A question where the only valid answers are Yes and No
+..* `SUBQUESTIONS`: A category of questions where the correct answer depends on the number of correct sub question responses.
+..* `YES_NO_NA`: A YES_NO question that can also have a response of Not Applicable
 * Correct Answer: The answer which would be considered correct.  Valid entries in this column depend on the question type as described below:
- * `YES_NO`: Valid Correct Answer is either 'Yes' or 'No'
- * `SUBQUESTIONS`: Valid Correct Answer is a numeric value indicating the minimum number of sub questions that need to be correctly answered for this question to be correctly answered
- * `YES_NO_NA`: Valid Correct Answer is either 'YesNotApplicable' or 'NoNotApplicable'
+..* `YES_NO`: Valid Correct Answer is either 'Yes' or 'No'
+..* `SUBQUESTIONS`: Valid Correct Answer is a numeric value indicating the minimum number of sub questions that need to be correctly answered for this question to be correctly answered
+..* `YES_NO_NA`: Valid Correct Answer is either 'YesNotApplicable' or 'NoNotApplicable'
 * Evidence Prompt: Reserved for future use as a prompt to the user when additional information is requested for a question
 * Evidence Validation: Reserved for future use as a regular expression validation to be applied against the response to the evidence request
 * Sub-Question Of Number: The SUBQUESTION question number this question is a sub questions of
