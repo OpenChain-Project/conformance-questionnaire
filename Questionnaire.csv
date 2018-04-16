@@ -1,40 +1,40 @@
-Section Name,Question Number,Spec Reference Number,Question Text,Answer Type,Correct Answer,Evidence Prompt,Evidence Validation,Sub-Question Of Number
-G1,1.a,"1.1, 1.1.1","Do you have a documented policy that governs FOSS license compliance of the Supplied Software distribution (e.g., via training, internal wiki, or other practical communication method)?",YES_NO,Yes,,,
-G1,1.b,1.1,Is the policy internally communicated?,YES_NO,Yes,,,
-G1,1.c,1.1.2,Do you have a documented procedure that communicates the existence of the FOSS policy to all Software Staff?,YES_NO,Yes,,,
-G1,1.d,"1.2, 1.2.1","Do you have FOSS training materials (e.g., slide decks or online course) covering the following topics?",SUBQUESTIONS,6,,,
-G1,1.d.i,1.2,"     The FOSS policy and where to find it,",YES_NO,Yes,,,1.d
-G1,1.d.ii,1.2,"     Basics of Intellectual Property law pertaining to FOSS and FOSS licenses,",YES_NO,Yes,,,1.d
-G1,1.d.iii,1.2,"     FOSS licensing concepts (including the concepts of permissive and copyleft licenses),",YES_NO,Yes,,,1.d
-G1,1.d.iv,1.2,"     FOSS project licensing models,",YES_NO,Yes,,,1.d
-G1,1.d.v,1.2,"     Software Staff roles and responsibilities pertaining to FOSS compliance specifically and the FOSS policy in general,",YES_NO,Yes,,,1.d
-G1,1.d.vi,1.2,"     Process for identifying, recording and/or tracking of FOSS components contained in Supplied Software?",YES_NO,Yes,,,1.d
-G1,1.e,1.2.2,Do you track the completion of the training for all Software Staff?,YES_NO,Yes,,,
-G1,1.f,1.2; 1.2.3,"Have 85% or more of the Software Staff responsible for the design, development and delivery of each Supplied Software
-release reviewed under the OpenChain conforming program completed a FOSS training within the last 24 months?",YES_NO,Yes,,,
-G1,1.g,1.3,"Do you have a process for reviewing the Identified Licenses to determine the obligations, restrictions and rights granted by each license?",YES_NO,Yes,,,
-G1,1.h,1.3.1,"Do you have a documented procedure to review and document the obligations, restrictions and rights granted by each license?",YES_NO,Yes,,,
-G2,2.a,"2.1, 2.2.1","Have you assigned individual(s) responsible for receiving external FOSS compliance inquiries (""FOSS Liaison"")?",YES_NO,Yes,,,
-G2,2.b,2.1.1,Is the External FOSS Liaison function publicly identified (e.g. via an email address and/or the Linux Foundation's Open Compliance Directory)?,YES_NO,Yes,,,
-G2,2.c,"2.1.2, 2.2.3",Do you have a documented procedure that assigns responsibility for receiving FOSS compliance inquiries?,YES_NO,Yes,,,
-G2,2.d,2.2.1,"Have you assigned a person, group or function responsible for managing internal FOSS compliance? The FOSS Compliance role and FOSS Liaison can be the same individual.",YES_NO,Yes,,,
-G2,2.e,2.2.2,"Is legal expertise pertaining to FOSS compliance accessible to the FOSS Compliance Role (e.g., internal or external)?",YES_NO,Yes,,,
-G2,2.f,2.2.3,Have you assigned responsibilities to develop and maintain FOSS compliance policy and processes? ,YES_NO,Yes,,,
-G2,2.g,"2.1.2, 2.2.4",Do you have a documented procedure for handling review and remediation of non-compliant cases?,YES_NO,Yes,,,
-G3,3.a,3.1.1,"Do you have a documented procedure for identifying, tracking and archiving information about the collection of FOSS components from which a Supplied Software release is comprised?",YES_NO,Yes,,,
-G3,3.b,3.1.2,Do you have FOSS component records for each Supplied Software release which demonstrates the documented procedure was properly followed?,YES_NO,Yes,,,
-G3,3.c,3.2.1,Do you have a documented procedure for handling at least the following common FOSS license use cases for the FOSS components of the supplied Supplied Software?,SUBQUESTIONS,6,,,
-G3,3.c.i,3.2,     distributed in binary form;,YES_NO,Yes,,,3.c
-G3,3.c.ii,3.2,     distributed in source form;,YES_NO,Yes,,,3.c
-G3,3.c.iii,3.2,     integrated with other FOSS such that it may trigger copyleft obligations;,YES_NO,Yes,,,3.c
-G3,3.c.iv,3.2,     contains modified FOSS;,YES_NO,Yes,,,3.c
-G3,3.c.v,3.2,     contains FOSS or other software under an incompatible license interacting with other components within the Supplied Software;,YES_NO,Yes,,,3.c
-G3,3.c.vi,3.2,     contains FOSS with attribution requirements.,YES_NO,Yes,,,3.c
-G4,4.a,4.1.1,Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are prepared and distributed with Supplied Software releases as required by the Identified Licenses?,YES_NO,Yes,,,
-G4,4.b,4.1.2,Do you archive copies of the Compliance Artifacts of the Supplied Software?,YES_NO,Yes,,,
-G4,4.c,4.1.2,Can you easily retrieve the archived copies of the Compliance Artifacts of the Supplied Software?,YES_NO,Yes,,,
-G4,4.d,4.1.2,Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?,YES_NO,Yes,,,
-G5,5.a,5.1,Do you allow employees to contribute to FOSS projects on behalf of your organization?,YES_NO,Any,,,
-G5,5.b,5.1.1,Do you have a documented FOSS contribution policy?,YES_NO,Yes,,,
-G5,5.c,5.1.2,"Is your Software Staff aware of the existence of the FOSS Contribution Policy (e.g. via training, internal wiki, or other practical communication method)?",YES_NO,Yes,,,
-G5,5.d,5.2.1,"Provided the FOSS contribution policy permits contributions, do you have a documented procedure that describes the FOSS contribution process?",YES_NO,Any,,,
+"Section Name","Question Number","Spec Reference Number","Question Text","Answer Type","Correct Answer","Evidence Prompt","Evidence Validation","Sub-Question Of Number"
+"G1","1.a","1.1, 1.1.1","Do you have a documented policy that governs FOSS license compliance of the Supplied Software distribution (e.g., via training, internal wiki, or other practical communication method)?","YES_NO","Yes","","",
+"G1","1.b","1.1","Is the policy internally communicated?","YES_NO","Yes","","",
+"G1","1.c","1.1.2","Do you have a documented procedure that communicates the existence of the FOSS policy to all Software Staff?","YES_NO","Yes","","",
+"G1","1.d","1.2, 1.2.1","Do you have FOSS training materials (e.g., slide decks or online course) covering the following topics?","SUBQUESTIONS","6","","",
+"G1","1.d.i","1.2","     The FOSS policy and where to find it,","YES_NO","Yes","","","1.d"
+"G1","1.d.ii","1.2","     Basics of Intellectual Property law pertaining to FOSS and FOSS licenses,","YES_NO","Yes","","","1.d"
+"G1","1.d.iii","1.2","     FOSS licensing concepts (including the concepts of permissive and copyleft licenses),","YES_NO","Yes","","","1.d"
+"G1","1.d.iv","1.2","     FOSS project licensing models,","YES_NO","Yes","","","1.d"
+"G1","1.d.v","1.2","     Software Staff roles and responsibilities pertaining to FOSS compliance specifically and the FOSS policy in general,","YES_NO","Yes","","","1.d"
+"G1","1.d.vi","1.2","     Process for identifying, recording and/or tracking of FOSS components contained in Supplied Software?","YES_NO","Yes","","","1.d"
+"G1","1.e","1.2.2","Do you track the completion of the training for all Software Staff?","YES_NO","Yes","","",
+"G1","1.f","1.2; 1.2.3","Have 85% or more of the Software Staff responsible for the design, development and delivery of each Supplied Software
+release reviewed under the OpenChain conforming program completed a FOSS training within the last 24 months?","YES_NO","Yes","","",
+"G1","1.g","1.3","Do you have a process for reviewing the Identified Licenses to determine the obligations, restrictions and rights granted by each license?","YES_NO","Yes","","",
+"G1","1.h","1.3.1","Do you have a documented procedure to review and document the obligations, restrictions and rights granted by each license?","YES_NO","Yes","","",
+"G2","2.a","2.1, 2.2.1","Have you assigned individual(s) responsible for receiving external FOSS compliance inquiries (""FOSS Liaison"")?","YES_NO","Yes","","",
+"G2","2.b","2.1.1","Is the External FOSS Liaison function publicly identified (e.g. via an email address and/or the Linux Foundation's Open Compliance Directory)?","YES_NO","Yes","","",
+"G2","2.c","2.1.2, 2.2.3","Do you have a documented procedure that assigns responsibility for receiving FOSS compliance inquiries?","YES_NO","Yes","","",
+"G2","2.d","2.2.1","Have you assigned a person, group or function responsible for managing internal FOSS compliance? The FOSS Compliance role and FOSS Liaison can be the same individual.","YES_NO","Yes","","",
+"G2","2.e","2.2.2","Is legal expertise pertaining to FOSS compliance accessible to the FOSS Compliance Role (e.g., internal or external)?","YES_NO","Yes","","",
+"G2","2.f","2.2.3","Have you assigned responsibilities to develop and maintain FOSS compliance policy and processes? ","YES_NO","Yes","","",
+"G2","2.g","2.1.2, 2.2.4","Do you have a documented procedure for handling review and remediation of non-compliant cases?","YES_NO","Yes","","",
+"G3","3.a","3.1.1","Do you have a documented procedure for identifying, tracking and archiving information about the collection of FOSS components from which a Supplied Software release is comprised?","YES_NO","Yes","","",
+"G3","3.b","3.1.2","Do you have FOSS component records for each Supplied Software release which demonstrates the documented procedure was properly followed?","YES_NO","Yes","","",
+"G3","3.c","3.2.1","Have you implemented a procedure that handles at least the following common FOSS license use cases for the FOSS components of each supplied Supplied Software release?","SUBQUESTIONS","6","","",
+"G3","3.c.i","3.2","     distributed in binary form;","YES_NO","Yes","","","3.c"
+"G3","3.c.ii","3.2","     distributed in source form;","YES_NO","Yes","","","3.c"
+"G3","3.c.iii","3.2","     integrated with other FOSS such that it may trigger copyleft obligations;","YES_NO","Yes","","","3.c"
+"G3","3.c.iv","3.2","     contains modified FOSS;","YES_NO","Yes","","","3.c"
+"G3","3.c.v","3.2","     contains FOSS or other software under an incompatible license interacting with other components within the Supplied Software;","YES_NO","Yes","","","3.c"
+"G3","3.c.vi","3.2","     contains FOSS with attribution requirements.","YES_NO","Yes","","","3.c"
+"G4","4.a","4.1.1","Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?","YES_NO","Yes","","",
+"G4","4.b","4.1.2","Do you archive copies of the Compliance Artifacts of the Supplied Software?","YES_NO","Yes","","",
+"G4","4.c","4.1.2","Can you easily retrieve the archived copies of the Compliance Artifacts of the Supplied Software?","YES_NO","Yes","","",
+"G4","4.d","4.1.2","Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?","YES_NO","Yes","","",
+"G5","5.a","5.1","Do you allow employees to contribute to FOSS projects on behalf of your organization?","YES_NO","Any","","",
+"G5","5.b","5.1.1","Do you have a documented FOSS contribution policy?","YES_NO","Yes","","",
+"G5","5.c","5.1.2","Is your Software Staff aware of the existence of the FOSS Contribution Policy (e.g. via training, internal wiki, or other practical communication method)?","YES_NO","Yes","","",
+"G5","5.d","5.2.1","Provided the FOSS contribution policy permits contributions, do you have a documented procedure that describes the FOSS contribution process?","YES_NO","Any","","",
