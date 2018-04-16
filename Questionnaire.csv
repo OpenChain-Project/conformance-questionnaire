@@ -23,14 +23,14 @@ release reviewed under the OpenChain conforming program completed a FOSS trainin
 "G2","2.g","2.1.2, 2.2.4","Do you have a documented procedure for handling review and remediation of non-compliant cases?","YES_NO","Yes","","",
 "G3","3.a","3.1.1","Do you have a documented procedure for identifying, tracking and archiving information about the collection of FOSS components from which a Supplied Software release is comprised?","YES_NO","Yes","","",
 "G3","3.b","3.1.2","Do you have FOSS component records for each Supplied Software release which demonstrates the documented procedure was properly followed?","YES_NO","Yes","","",
-"G3","3.c","3.2.1","Have you implemented a procedure that handles at least the following common FOSS license use cases for the FOSS components of each supplied Supplied Software release?","SUBQUESTIONS","6","","",
+"G3","3.c","3.2.1","Do you have a documented procedure for handling at least the following common FOSS license use cases for the FOSS components of the supplied Supplied Software?","SUBQUESTIONS","6","","",
 "G3","3.c.i","3.2","     distributed in binary form;","YES_NO","Yes","","","3.c"
 "G3","3.c.ii","3.2","     distributed in source form;","YES_NO","Yes","","","3.c"
 "G3","3.c.iii","3.2","     integrated with other FOSS such that it may trigger copyleft obligations;","YES_NO","Yes","","","3.c"
 "G3","3.c.iv","3.2","     contains modified FOSS;","YES_NO","Yes","","","3.c"
 "G3","3.c.v","3.2","     contains FOSS or other software under an incompatible license interacting with other components within the Supplied Software;","YES_NO","Yes","","","3.c"
 "G3","3.c.vi","3.2","     contains FOSS with attribution requirements.","YES_NO","Yes","","","3.c"
-"G4","4.a","4.1.1","Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?","YES_NO","Yes","","",
+"G4","4.a","4.1.1","Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are prepared and distributed with Supplied Software releases as required by the Identified Licenses?","YES_NO","Yes","","",
 "G4","4.b","4.1.2","Do you archive copies of the Compliance Artifacts of the Supplied Software?","YES_NO","Yes","","",
 "G4","4.c","4.1.2","Can you easily retrieve the archived copies of the Compliance Artifacts of the Supplied Software?","YES_NO","Yes","","",
 "G4","4.d","4.1.2","Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?","YES_NO","Yes","","",
