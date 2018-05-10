@@ -13,11 +13,12 @@ The materials in this repository is licensed under the Commons Attribution Licen
 ## File Information
 The repository contains one file per language translation in the format questionnaire_LL.json where LL is the language.  There is also a file questionnaire.json which contains the default language representation of the questionnaire.
 
-## Updating the Questionnaire
+## Contributing
+Contributions are welcome.  Issues and Pull requests will be reviewed by the OpenChain Conformance Working Group.  Any contributions to the questions must be licensed under the CC-BY-4 license.
 
 ### Pull requests
-The preferred method of updating the questionnaire is to create a pull request with the modifications to the questionnaire.json file.  To create a pull request, you will need a github username.  You can create a github user [here](https://github.com/join).  Members of the conformance team can gain write access to the repository.  Email requests to the [Openchain Conformance Team](mailto:Openchain-conformance@lists.linuxfoundation.org).  If you are not familiar with github and would like a quick and easy way to make small changes, those conformance team members with write access can do the following:
-* Edit the [questionnaire.json file](https://github.com/OpenChain-Project/conformance-questionnaire/edit/master/questionnaire.json)
+The preferred method of updating the questionnaire is to create a pull request with the modifications to the questionnaire.json file.  To create a pull request, you will need a github username.  You can create a github user [here](https://github.com/join).  Members of the conformance team can gain write access to the repository.  To request access, email your github username to the [Openchain Conformance Team](mailto:Openchain-conformance@lists.linuxfoundation.org).  If you are not familiar with github and would like a quick and easy way to make small changes, those conformance team members with write access can do the following:
+* Edit the [questionnaire.json file](questionnaire.json)
 * Make your changes
 * Select "Create a new branch and start a pull request" at the bottom of the page
 * Enter a title and description of the changes
@@ -40,7 +41,7 @@ The easiest and safest way to add simple yes/no question is to copy/paste an exi
 * Copy everything between the `{` and `}` surrounding the question information
 * Paste the question within the section where you want to add the question
 * Update the question text
-* Change the spec reference numbers to indicate which specification section(s) the question relates to.  If there are no spec references, just leave things as a blank between the double quotes (e.g. "")
+* Change the spec reference numbers to indicate which specification section(s) the question relates to.  If there are no spec references, just leave things as a blank between the double quotes (e.g. `""`)
 * Update the correct answer - be sure to use the proper case `"Yes"` and `"No"`
 * Update any additional optional fields as described under the Questionnaire JSON Format section
 
@@ -94,10 +95,7 @@ All deployed versions are tagged with the version number.
 All released versions since version 1.2 are maintained in a branch identified by the release.
 
 ## Localization
-See the [localization README] for information on localizing the questionnaire.
-
-## Contributing
-Contributions are welcome.  Issues and Pull requests will be reviewed by the OpenChain Conformance Working Group.  Any contributions to the questions must be licensed under the CC-BY-4 license.
+See the [localization README](README-LOCALIZATION.md) for information on localizing the questionnaire.
 
 ## Self Certification Website Source
 The source code for the self-certification website is available under the Apache 2.0 license in the [Online-Self-Certification-Web-App](https://github.com/OpenChain-Project/Online-Self-Certification-Web-App) repository.  Contributions to the web application are welcome.
