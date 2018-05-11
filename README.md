@@ -16,7 +16,9 @@ The repository contains one file per language translation in the format question
 ## Contributing
 Contributions are welcome.  Issues and Pull requests will be reviewed by the OpenChain Conformance Working Group.  Any contributions to the questions must be licensed under the CC-BY-4 license.
 
-### Pull requests
+If you are an experienced git user or if you do not have write access to the repository, you can create a pull request by forking the repository and making the changes.  See [creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) for help on this approach.
+
+### Github Users
 The preferred method of updating the questionnaire is to create a pull request with the modifications to the questionnaire.json file.  To create a pull request, you will need a github username.  You can create a github user [here](https://github.com/join).  Members of the conformance team can gain write access to the repository.  To request access, email your github username to the [Openchain Conformance Team](mailto:Openchain-conformance@lists.linuxfoundation.org).  If you are not familiar with github and would like a quick and easy way to make small changes, those conformance team members with write access can do the following:
 * Edit the [questionnaire.json file](questionnaire.json)
 * Make your changes
@@ -25,8 +27,6 @@ The preferred method of updating the questionnaire is to create a pull request w
 * Commit the changes
 
 See [creating a pull request](https://help.github.com/articles/creating-a-pull-request/) for additional information.
-
-If you are an experienced git user or if you do not have write access to the repository, you can create a pull request by forking the repository and making the changes.  See [creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) for help on this approach.
 
 If you do not have a github account and would like to recommend changes, email the [Openchain Conformance Team](mailto:Openchain-conformance@lists.linuxfoundation.org) with your suggested changes.
 
