@@ -11,100 +11,131 @@
           "question": "Do you have a documented policy that governs FOSS license compliance of the Supplied Software distribution (e.g., via training, internal wiki, or other practical communication method)?",
           "number": "1.a",
           "type": "YES_NO",
-          "specReference": "1.1, 1.1.1"
+          "specReference": [
+            "1.1",
+            "1.1.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Is the policy internally communicated?",
           "number": "1.b",
           "type": "YES_NO",
-          "specReference": "1.1"
+          "specReference": [
+            "1.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you have a documented procedure that communicates the existence of the FOSS policy to all Software Staff?",
           "number": "1.c",
           "type": "YES_NO",
-          "specReference": "1.1.2"
+          "specReference": [
+            "1.1.2"
+          ]
         },
         {
+		  "question": "Do you have FOSS training materials (e.g., slide decks or online course) covering the following topics?",
+          "number": "1.d",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "1.2",
+            "1.2.1"
+          ],
           "minNumberValidatedAnswers": 6,
           "subQuestions": {
             "1.d.i": {
               "correctAnswer": "Yes",
-              "question": "     The FOSS policy and where to find it,",
+              "question": "The FOSS policy and where to find it,",
               "number": "1.d.i",
               "type": "YES_NO",
-              "specReference": "1.2"
+              "specReference": [
+                "1.2"
+              ]
             },
             "1.d.ii": {
               "correctAnswer": "Yes",
-              "question": "     Basics of Intellectual Property law pertaining to FOSS and FOSS licenses,",
+              "question": "Basics of Intellectual Property law pertaining to FOSS and FOSS licenses,",
               "number": "1.d.ii",
               "type": "YES_NO",
-              "specReference": "1.2"
+              "specReference": [
+                "1.2"
+              ]
             },
             "1.d.iii": {
               "correctAnswer": "Yes",
-              "question": "     FOSS licensing concepts (including the concepts of permissive and copyleft licenses),",
+              "question": "FOSS licensing concepts (including the concepts of permissive and copyleft licenses),",
               "number": "1.d.iii",
               "type": "YES_NO",
-              "specReference": "1.2"
+              "specReference": [
+                "1.2"
+              ]
             },
             "1.d.iv": {
               "correctAnswer": "Yes",
-              "question": "     FOSS project licensing models,",
+              "question": "FOSS project licensing models,",
               "number": "1.d.iv",
               "type": "YES_NO",
-              "specReference": "1.2"
+              "specReference": [
+                "1.2"
+              ]
             },
             "1.d.v": {
               "correctAnswer": "Yes",
-              "question": "     Software Staff roles and responsibilities pertaining to FOSS compliance specifically and the FOSS policy in general,",
+              "question": "Software Staff roles and responsibilities pertaining to FOSS compliance specifically and the FOSS policy in general,",
               "number": "1.d.v",
               "type": "YES_NO",
-              "specReference": "1.2"
+              "specReference": [
+                "1.2"
+              ]
             },
             "1.d.vi": {
               "correctAnswer": "Yes",
-              "question": "     Process for identifying, recording and/or tracking of FOSS components contained in Supplied Software?",
+              "question": "Process for identifying, recording and/or tracking of FOSS components contained in Supplied Software?",
               "number": "1.d.vi",
               "type": "YES_NO",
-              "specReference": "1.2"
+              "specReference": [
+                "1.2"
+              ]
             }
-          },
-          "question": "Do you have FOSS training materials (e.g., slide decks or online course) covering the following topics?",
-          "number": "1.d",
-          "type": "SUBQUESTIONS",
-          "specReference": "1.2, 1.2.1"
+          }
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you track the completion of the training for all Software Staff?",
           "number": "1.e",
           "type": "YES_NO",
-          "specReference": "1.2.2"
+          "specReference": [
+            "1.2.2"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Have 85% or more of the Software Staff completed a FOSS training within the last 24 months?",
           "number": "1.f",
           "type": "YES_NO",
-          "specReference": "1.2; 1.2.3"
+          "specReference": [
+            "1.2",
+			"1.2.3"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you have a process for reviewing the Identified Licenses to determine the obligations, restrictions and rights granted by each license?",
           "number": "1.g",
           "type": "YES_NO",
-          "specReference": "1.3"
+          "specReference": [
+            "1.3"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you have a documented procedure to review and document the obligations, restrictions and rights granted by each license?",
           "number": "1.h",
           "type": "YES_NO",
-          "specReference": "1.3.1"
+          "specReference": [
+            "1.3.1"
+          ]
         }
       ]
     },
@@ -117,49 +148,66 @@
           "question": "Have you assigned individual(s) responsible for receiving external FOSS compliance inquiries (\"FOSS Liaison\")?",
           "number": "2.a",
           "type": "YES_NO",
-          "specReference": "2.1, 2.2.1"
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Is the FOSS Liaison function publicly identified (e.g. via an email address and/or the Linux Foundation\u0027s Open Compliance Directory)?",
           "number": "2.b",
           "type": "YES_NO",
-          "specReference": "2.1.1"
+          "specReference": [
+            "2.1.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you have a documented procedure that assigns responsibility for receiving FOSS compliance inquiries?",
           "number": "2.c",
           "type": "YES_NO",
-          "specReference": "2.1.2, 2.2.3"
+          "specReference": [
+            "2.1.2",
+            "2.2.3"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Have you assigned a person, group or function responsible for managing internal FOSS compliance? The FOSS Compliance role and FOSS Liaison can be the same individual.",
           "number": "2.d",
           "type": "YES_NO",
-          "specReference": "2.2.1"
+          "specReference": [
+            "2.2.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Is legal expertise pertaining to FOSS compliance accessible to the FOSS Compliance Role (e.g., internal or external)?",
           "number": "2.e",
           "type": "YES_NO",
-          "specReference": "2.2.2"
+          "specReference": [
+            "2.2.2"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Have you assigned responsibilities to develop and maintain FOSS compliance policy and processes? ",
           "number": "2.f",
           "type": "YES_NO",
-          "specReference": "2.2.3"
+          "specReference": [
+            "2.2.3"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you have a documented procedure for handling review and remediation of non-compliant cases?",
           "number": "2.g",
           "type": "YES_NO",
-          "specReference": "2.1.2, 2.2.4"
+          "specReference": [
+            "2.1.2",
+            "2.2.4"
+          ]
         }
       ]
     },
@@ -172,16 +220,26 @@
           "question": "Do you have a documented procedure for identifying, tracking and archiving information about the collection of FOSS components from which a Supplied Software release is comprised?",
           "number": "3.a",
           "type": "YES_NO",
-          "specReference": "3.1.1"
+          "specReference": [
+            "3.1.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you have FOSS component records for each Supplied Software release which demonstrates the documented procedure was properly followed?",
           "number": "3.b",
           "type": "YES_NO",
-          "specReference": "3.1.2"
+          "specReference": [
+            "3.1.2"
+          ]
         },
         {
+		  "question": "Have you implemented a procedure that handles at least the following common FOSS license use cases for the FOSS components of each supplied Supplied Software release?",
+          "number": "3.c",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "3.2.1"
+          ],
           "minNumberValidatedAnswers": 6,
           "subQuestions": {
             "3.c.i": {
@@ -189,48 +247,56 @@
               "question": "     distributed in binary form;",
               "number": "3.c.i",
               "type": "YES_NO",
-              "specReference": "3.2"
+              "specReference": [
+                "3.2"
+              ]
             },
             "3.c.ii": {
               "correctAnswer": "Yes",
               "question": "     distributed in source form;",
               "number": "3.c.ii",
               "type": "YES_NO",
-              "specReference": "3.2"
+              "specReference": [
+                "3.2"
+              ]
             },
             "3.c.iii": {
               "correctAnswer": "Yes",
               "question": "     integrated with other FOSS such that it may trigger copyleft obligations;",
               "number": "3.c.iii",
               "type": "YES_NO",
-              "specReference": "3.2"
+              "specReference": [
+                "3.2"
+              ]
             },
             "3.c.iv": {
               "correctAnswer": "Yes",
               "question": "     contains modified FOSS;",
               "number": "3.c.iv",
               "type": "YES_NO",
-              "specReference": "3.2"
+              "specReference": [
+                "3.2"
+              ]
             },
             "3.c.v": {
               "correctAnswer": "Yes",
               "question": "     contains FOSS or other software under an incompatible license interacting with other components within the Supplied Software;",
               "number": "3.c.v",
               "type": "YES_NO",
-              "specReference": "3.2"
+              "specReference": [
+                "3.2"
+              ]
             },
             "3.c.vi": {
               "correctAnswer": "Yes",
               "question": "     contains FOSS with attribution requirements.",
               "number": "3.c.vi",
               "type": "YES_NO",
-              "specReference": "3.2"
+              "specReference": [
+                "3.2"
+              ]
             }
-          },
-          "question": "Have you implemented a procedure that handles at least the following common FOSS license use cases for the FOSS components of each supplied Supplied Software release?",
-          "number": "3.c",
-          "type": "SUBQUESTIONS",
-          "specReference": "3.2.1"
+          }
         }
       ]
     },
@@ -243,28 +309,36 @@
           "question": "Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?",
           "number": "4.a",
           "type": "YES_NO",
-          "specReference": "4.1.1"
+          "specReference": [
+            "4.1.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you archive copies of the Compliance Artifacts of the Supplied Software?",
           "number": "4.b",
           "type": "YES_NO",
-          "specReference": "4.1.2"
+          "specReference": [
+            "4.1.2"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Can you easily retrieve the archived copies of the Compliance Artifacts of the Supplied Software?",
           "number": "4.c",
           "type": "YES_NO",
-          "specReference": "4.1.2"
+          "specReference": [
+            "4.1.2"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?",
           "number": "4.d",
           "type": "YES_NO",
-          "specReference": "4.1.2"
+          "specReference": [
+            "4.1.2"
+          ]
         }
       ]
     },
@@ -277,28 +351,36 @@
           "question": "Do you allow employees to contribute to FOSS projects on behalf of your organization?",
           "number": "5.a",
           "type": "YES_NO",
-          "specReference": "5.1"
+          "specReference": [
+            "5.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Do you have a documented FOSS contribution policy?",
           "number": "5.b",
           "type": "YES_NO",
-          "specReference": "5.1.1"
+          "specReference": [
+            "5.1.1"
+          ]
         },
         {
           "correctAnswer": "Yes",
           "question": "Is your Software Staff aware of the existence of the FOSS Contribution Policy (e.g. via training, internal wiki, or other practical communication method)?",
           "number": "5.c",
           "type": "YES_NO",
-          "specReference": "5.1.2"
+          "specReference": [
+            "5.1.2"
+          ]
         },
         {
           "correctAnswer": "Any",
           "question": "Provided the FOSS contribution policy permits contributions, do you have a documented procedure that describes the FOSS contribution process?",
           "number": "5.d",
           "type": "YES_NO",
-          "specReference": "5.2.1"
+          "specReference": [
+            "5.2.1"
+          ]
         }
       ]
     }
