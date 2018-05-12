@@ -5,7 +5,7 @@
 * The conformance team will update the questionnaire up until a release
 * The questionnaire is reviewed by the conformance team and "released"
 * A new branch is created for the release containing only the file questionnaire.json
-* Localized versions of the file questionnaire.json are created using the naming convention questionnaire_LL.json where LL is the ISO 639 alpha-2 or alpha-3 language code
+* Localized versions of the file questionnaire.json are created using the naming convention questionnaire_LANGTAG.json where LANGTAG specifies the language in the [RFC 5646 format](https://tools.ietf.org/html/rfc5646) (e.g. questionnaire_en.json)
 * The localized versions are reviewed and a full release is determined
 * The branch is tagged for release
 * The files are uploaded to the conformance web application making it available to the users
@@ -16,7 +16,7 @@
 All of the `"specVersion"` fields in the questionnaire.json files must have exactly the same value.
 
 ## Specifying the language in the JSON file
-The `"language"` field in the JSON file must match the language indicated the questionnaire file name.
+The `"language"` field in the JSON file must match the [RFC 5646 format](https://tools.ietf.org/html/rfc5646) language tag indicated the questionnaire file name.
 
 ## Fields requiring localization
 

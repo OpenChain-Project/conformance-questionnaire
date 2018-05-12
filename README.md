@@ -11,12 +11,12 @@ The questionnaire is maintained by the [OpenChain Conformance Working Group](htt
 The materials in this repository is licensed under the Commons Attribution License 4.0 (CC-BY-4.0).
 
 ## File Information
-The repository contains one file per language translation in the format questionnaire_LL.json where LL is the language.  There is also a file questionnaire.json which contains the default language representation of the questionnaire.
+The repository contains one file per language translation in the format questionnaire_LANGTAG.json where LANGTAG specifies the language in the [RFC 5646 format](https://tools.ietf.org/html/rfc5646) (e.g. questionnaire_en.json).  There is also a file questionnaire.json which contains the default language representation of the questionnaire.
 
 ## Contributing
 Contributions are welcome.  Issues and Pull requests will be reviewed by the OpenChain Conformance Working Group.  Any contributions to the questions must be licensed under the CC-BY-4 license.
 
-If you are an experienced git user or if you do not have write access to the repository, you can create a pull request by forking the repository and making the changes.  See [creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) for help on this approach.
+If you do not have a github account and would like to recommend changes, email the [Openchain Conformance Team](mailto:Openchain-conformance@lists.linuxfoundation.org) with your suggested changes.
 
 ### Github Users
 The preferred method of updating the questionnaire is to create a pull request with the modifications to the questionnaire.json file.  To create a pull request, you will need a github username.  You can create a github user [here](https://github.com/join).  Members of the conformance team can gain write access to the repository.  To request access, email your github username to the [Openchain Conformance Team](mailto:Openchain-conformance@lists.linuxfoundation.org).  If you are not familiar with github and would like a quick and easy way to make small changes, those conformance team members with write access can do the following:
@@ -28,7 +28,7 @@ The preferred method of updating the questionnaire is to create a pull request w
 
 See [creating a pull request](https://help.github.com/articles/creating-a-pull-request/) for additional information.
 
-If you do not have a github account and would like to recommend changes, email the [Openchain Conformance Team](mailto:Openchain-conformance@lists.linuxfoundation.org) with your suggested changes.
+If you are an experienced git user or if you do not have write access to the repository, you can create a pull request by forking the repository and making the changes.  See [creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) for help on this approach.
 
 ### Changing an existing question
 To make a change to the text of an existing question, do the following:
@@ -60,7 +60,7 @@ Section information preceeds the questions for that section.  The `name` and `ti
 ## Questionnaire JSON Format
 At the top level, the JSON file contains 3 fields:
 * `"specVersion"`: The version of specification questionnaire in the format X.Y.Z where X.Y is the specification version and Z is the patch level of the questionnaire.  Note that all language files should have exactly the same version.
-* `"language"`: The ISO 639 alpha-2 or alpha-3 language code
+* `"language"`: [RFC 5646 format](https://tools.ietf.org/html/rfc5646) language tag
 * `"sections"`: The list of sections in the questionnaire
 
 Each section has the following fields:
