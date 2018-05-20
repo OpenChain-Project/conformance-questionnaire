@@ -1,0 +1,14 @@
+# https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+language: node_js
+node_js:
+  - "7"
+
+dist: trusty
+
+# https://docs.travis-ci.com/user/installing-dependencies/
+
+install:
+  - npm install
+
+script:
+  - npm test

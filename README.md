@@ -55,7 +55,7 @@ Prior to the list of subquestions, the minimum number of correct answers for the
 After the subquestions, the question text that shows up before the subquestion is listed along with the other fields detailed in the Questionnaire JSON Format section.
 
 ### Modifying Sections
-Section information preceeds the questions for that section.  The `name` and `title` can be edited.  To create a new section, it is recommended to make a copy/paste of an existing section and edit the information updating the title, name, and questions as appropriate.  The copy/paste should include everything from the `{` before `"name":` to the `},` following the questions.
+Section information precedes the questions for that section.  The `name` and `title` can be edited.  To create a new section, it is recommended to make a copy/paste of an existing section and edit the information updating the title, name, and questions as appropriate.  The copy/paste should include everything from the `{` before `"name":` to the `},` following the questions.
 
 ## Questionnaire JSON Format
 At the top level, the JSON file contains 3 fields:
@@ -84,6 +84,7 @@ Each question has the following fields:
 * `"notApplicablePrompt"`: Optional prompt to display for not applicable
 * `"evidencePrompt"`: Reserved for future use as a prompt to the user when additional information is requested for a question
 * `"evidenceValidation"`: Reserved for future use as a regular expression validation to be applied against the response to the evidence request
+* `"subQuestions"`: Only valid for question type SUBQUESTIONS.  Map of question numbers to questions and are included as subQuestions.  See working with subQuestions above.
 
 ## Branches, Tags and Versions
 The master branch will always be the version of the questionnaire under development.  
