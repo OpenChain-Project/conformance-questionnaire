@@ -9,6 +9,8 @@
 var glob = require('glob');
 var fs = require('fs');
 
+var srcDir = "./";
+
 // Patterns used for validation
 var specVersionPattern = new RegExp("^\\d+\\.\\d+(\\.\\d+)?$");
 var langPattern = new RegExp("^\\w+$"); //TODO: Change this to the pattern per the language tag specification
@@ -139,7 +141,6 @@ function validate(file) {
 }
 
 function main() {
-	var srcDir = "./";
 	var files = glob.sync(srcDir + 'questionnaire*.json');
 	var numFailures = 0;
 	var numPass = 0;
@@ -162,9 +163,6 @@ function main() {
 	if (error) {
 		console.error(error.message);
 		process.exit(1);
-	}
-	else {
-		process.exit(0);
 	}
 }
 

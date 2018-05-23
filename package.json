@@ -22,7 +22,7 @@
     ],
     "scripts": {
         "test": "node scripts/validate-questionnaire.js",
-        "publish": "node scripts/produce-pdf.js"
+        "pdf": "node scripts/produce-pdf.js"
     },
     "dependencies": {
         "glob": "7.1.2",
