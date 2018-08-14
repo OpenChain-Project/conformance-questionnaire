@@ -12,11 +12,32 @@ var fs = require('fs');
 var path = require('path');
 
 var outputDir = "../pdfs/";
-var srcDir = "./";
+var srcDir = "../";
 
 var font = "Times-Roman";
 var sectionFontSize = 16;
 var questionFontSize = 10;
+
+/**
+ * Formats a question into a string
+ * @param question Question to be formatted
+ * @returns string suitable for inclusion in the document
+ */
+function formatQuestion(question) {
+	var questionText = question.number;
+	if (question.specReference && question.specReference.length > 0) {
+		questionText += " [";
+		questionText += question.specReference[0];
+		for (var j = 1; j < question.specReference.length; j++) {
+			questionText += ", ";
+			questionText += question.specReference[j];
+		}
+		questionText += "]";
+	}
+	questionText += ": ";
+	questionText += question.question;
+	return questionText;
+}
 
 /**
  * Print a section
@@ -33,20 +54,17 @@ function printSection(doc, section) {
 	}
 	for (var i = 0; i < section.questions.length; i++) {
 		doc.moveDown();
-		var question = section.questions[i];
-		var questionText = question.number;
-		if (question.specReference && question.specReference.length > 0) {
-			questionText += " [";
-			questionText += question.specReference[0];
-			for (var j = 1; j < question.specReference.length; j++) {
-				questionText += ", ";
-				questionText += question.specReference[j];
+		doc.text(formatQuestion(section.questions[i]));
+		if (section.questions[i].subQuestions) {
+			var subQuestionList = [];
+			var subquestions = section.questions[i].subQuestions;
+			for (var subq in subquestions) {
+				if (subquestions[subq]) {
+					subQuestionList.push(formatQuestion(subquestions[subq]));
+				}
 			}
-			questionText += "]";
+			doc.list(subQuestionList);
 		}
-		questionText += ": ";
-		questionText += question.question;
-		doc.text(questionText);
 	}
 }
 
