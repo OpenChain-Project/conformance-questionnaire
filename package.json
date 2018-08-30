@@ -1,0 +1,33 @@
+{
+    "name": "conformance-questionnaire",
+    "version": "1.2.0",
+    "description": "conformance questionnaire used in the OpenChain self-certification website",
+    "author": "Linux Foundation and its Contributors",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OpenChain-Project/conformance-questionnaire"
+    },
+    "bugs": {
+        "url": "https://github.com/OpenChain-Project/conformance-questionnaire/issues"
+    },
+    "keywords": [
+        "OpenChain",
+        "Conformance",
+        "licenses",
+        "license",
+        "linux foundation",
+        "oss",
+        "open source",
+        "software"
+    ],
+    "scripts": {
+        "test": "node scripts/validate-questionnaire.js",
+        "pdf": "node scripts/produce-pdf.js"
+    },
+    "dependencies": {
+        "glob": "7.1.2",
+        "fs": "",
+        "pdfkit": "0.8.3"
+    },
+    "license": "CC-BY-3.0 AND MIT"
+}
