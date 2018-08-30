@@ -11,7 +11,7 @@ var glob = require('glob');
 var fs = require('fs');
 var path = require('path');
 
-var outputDir = "./pdfs/";
+var outputDir = "./docs/";
 var srcDir = "./";
 
 var font = "Times-Roman";
