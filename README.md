@@ -7,6 +7,8 @@ Information on the OpenChain project can be found on the [OpenChain Project Webs
 
 The questionnaire is maintained by the [OpenChain Conformance Working Group](https://www.openchainproject.org/conformance).  The Conformance Working Group also maintains a [Wiki](https://wiki.linuxfoundation.org/openchain/start#openchain-conformance).
 
+A [conformance questionnaire PDF document](https://openchain-project.github.io/conformance-questionnaire/questionnaire.pdf) is available for the most recent master branch version.
+
 ## License
 The materials in this repository is licensed under the Commons Attribution License 4.0 (CC-BY-4.0).
 
