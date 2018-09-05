@@ -27,9 +27,9 @@ var preambleText = ['The OpenChain Project builds trust in open source by making
 							+ 'license compliance becomes more predictable, ' 
 							+ 'understandable and efficient for participants of the software supply chain.',
 							'This document contains a series of questions to determine whether a company is '
-							+ 'OpenChain Conformant. If each of these questions can be answered with a “yes” '
+							+ 'OpenChain Conformant. If each of these questions can be answered with a "yes" '
 							+ 'then that company meets all the requirements of conformance to the OpenChain '
-							+ 'Specification version 1.2. If any of the questions are answered with a “no” '
+							+ 'Specification version 1.2. If any of the questions are answered with a "no" '
 							+ 'then the company can clearly identify where additional investment is needed to '
 							+ 'improve the compliance process.'];
 
