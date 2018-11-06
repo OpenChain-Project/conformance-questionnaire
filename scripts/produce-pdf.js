@@ -6,6 +6,7 @@
  * SPDX-ID: MIT
  */
 
+var PdfTable = require('voilab-pdf-table');
 var PDFDocument = require('pdfkit');
 var glob = require('glob');
 var fs = require('fs');
@@ -16,6 +17,7 @@ var srcDir = "./";
 
 var font = "Times-Roman";
 var sectionFontSize = 16;
+var headerFontSize = 12;
 var questionFontSize = 10;
 
 var preambleText = ['The OpenChain Project builds trust in open source by making open source license compliance '
@@ -34,6 +36,21 @@ var preambleText = ['The OpenChain Project builds trust in open source by making
 							+ 'improve the compliance process.'];
 
 /**
+ * Formats s spec reference to a comma separated list
+ */
+function formatSpecRef(specReference) {
+	if (!specReference || specReference.length === 0) {
+		return "";
+	}
+	var retval = specReference[0];
+	for (var i = 1; i < specReference.length; i++) {
+		retval += ", ";
+		retval += specReference[i];
+	}
+	return retval;
+}
+
+/**
  * Formats a question into a string
  * @param question Question to be formatted
  * @returns string suitable for inclusion in the document
@@ -42,11 +59,7 @@ function formatQuestion(question) {
 	var questionText = question.number;
 	if (question.specReference && question.specReference.length > 0) {
 		questionText += " [";
-		questionText += question.specReference[0];
-		for (var j = 1; j < question.specReference.length; j++) {
-			questionText += ", ";
-			questionText += question.specReference[j];
-		}
+		questionText += formatSpecRef(question.specReference);
 		questionText += "]";
 	}
 	questionText += ": ";
@@ -67,20 +80,74 @@ function printSection(doc, section) {
 	if (!section.questions) {
 		throw "Missing questions for section " + section.title;
 	}
+	var table = new PdfTable(doc, {
+        bottomMargin: 30
+    });
+	table
+    .addPlugin(new (require('voilab-pdf-table/plugins/fitcolumn'))({
+        column: 'text'
+    }))
+    .setColumnsDefaults({
+        headerBorder: 'LTBR',
+        headerPadding: [5],
+        headerAlign: 'center',
+        border: 'LTBR',
+        align: 'left',
+        valign: 'center',
+        padding: [5]
+    })
+    .addColumns([
+        {
+            id: 'section',
+            header: 'Section',
+            align: 'left',
+            width: 80,
+            valign: 'center',
+            padding: [5]
+        },
+        {
+            id: 'number',
+            header: ' Number',
+            width: 60,
+            valign: 'center',
+            padding: [5]
+        },
+        {
+            id: 'specref',
+            header: ' Spec Ref',
+            width: 60,
+            valign: 'center',
+            padding: [5]
+        },
+        {
+            id: 'text',
+            header: ' Question Text',
+            valign: 'center',
+            padding: [5]
+        }
+    ])
+    .onPageAdded(function (tb) {
+    	tb.addHeader();
+    });
+	var rows = [];
 	for (var i = 0; i < section.questions.length; i++) {
-		doc.moveDown();
-		doc.text(formatQuestion(section.questions[i]));
+		rows.push({'section':section.title, 
+			'number':section.questions[i].number,
+			'specref':formatSpecRef(section.questions[i].specReference),
+			'text':section.questions[i].question});
 		if (section.questions[i].subQuestions) {
-			var subQuestionList = [];
 			var subquestions = section.questions[i].subQuestions;
 			for (var subq in subquestions) {
 				if (subquestions[subq]) {
-					subQuestionList.push(formatQuestion(subquestions[subq]));
+					rows.push({'section':section.title, 
+						'number':subquestions[subq].number,
+						'specref':formatSpecRef(subquestions[subq].specReference),
+						'text':'- '+subquestions[subq].question});
 				}
 			}
-			doc.list(subQuestionList);
 		}
 	}
+	table.addBody(rows);
 }
 
 function printPreamble(doc) {
