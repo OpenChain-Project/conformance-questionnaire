@@ -27,7 +27,8 @@
     "dependencies": {
         "glob": "7.1.2",
         "fs": "",
-        "pdfkit": "0.8.3"
+        "pdfkit": "0.8.3",
+        "voilab-pdf-table": "0.4.0"
     },
     "license": "CC-BY-3.0 AND MIT"
 }
