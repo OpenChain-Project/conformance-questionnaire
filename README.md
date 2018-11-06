@@ -60,9 +60,10 @@ After the subquestions, the question text that shows up before the subquestion i
 Section information precedes the questions for that section.  The `name` and `title` can be edited.  To create a new section, it is recommended to make a copy/paste of an existing section and edit the information updating the title, name, and questions as appropriate.  The copy/paste should include everything from the `{` before `"name":` to the `},` following the questions.
 
 ## Questionnaire JSON Format
-At the top level, the JSON file contains 3 fields:
+At the top level, the JSON file contains 4 fields:
 * `"specVersion"`: The version of specification questionnaire in the format X.Y.Z where X.Y is the specification version and Z is the patch level of the questionnaire.  Note that all language files should have exactly the same version.
 * `"language"`: [RFC 5646 format](https://tools.ietf.org/html/rfc5646) language tag
+* `"preambleText"`: Text used to describe the questionnaire.  This text precedes the questionnaire text in the PDF document.
 * `"sections"`: The list of sections in the questionnaire
 
 Each section has the following fields:
