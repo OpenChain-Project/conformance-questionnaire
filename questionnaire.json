@@ -350,7 +350,7 @@
       "questions": [
         {
           "correctAnswer": "Any",
-          "question": "Do you allow employees to contribute to FOSS projects on behalf of your organization?",
+          "question": "Do you have a policy to explicitly permit or forbid contributions of your employees to FOSS projects on behalf of the organization?",
           "number": "5.a",
           "type": "YES_NO",
           "specReference": [
