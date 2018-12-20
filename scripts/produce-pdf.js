@@ -12,9 +12,9 @@ var glob = require('glob');
 var fs = require('fs');
 var path = require('path');
 
-var outputDir = "../docs/";
-var srcDir = "../";
-var imagedir = "../scripts/images/";
+var outputDir = "./docs/";
+var srcDir = "./";
+var imagedir = "./scripts/images/";
 var logofilename = "openchainlogo.png";
 
 var font = "Helvetica";
