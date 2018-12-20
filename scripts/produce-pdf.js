@@ -6,16 +6,10 @@
  * SPDX-ID: MIT
  */
 
-var PdfTable = require('voilab-pdf-table');
-var PDFDocument = require('pdfkit');
-var glob = require('glob');
-var fs = require('fs');
-var path = require('path');
-
-//var outputDir = "./docs/";
-//var srcDir = "./";
-//var imagedir = "./scripts/images/";
-//var logofilename = "openchainlogo.png";
+var outputDir = "./docs/";
+var srcDir = "./";
+var imagedir = "./scripts/images/";
+var logofilename = "openchainlogo.png";
 
 var outputDir = "../docs/";
 var srcDir = "../";
