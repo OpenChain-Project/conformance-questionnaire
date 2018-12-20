@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/OpenChain-Project/conformance-questionnaire.svg?branch=master)](https://travis-ci.org/OpenChain-Project/conformance-questionnaire)
 # Conformance Questionnaire
 Welcome to the OpenChain Project Conformance Questionnaire repository.
 
