@@ -12,13 +12,21 @@ var glob = require('glob');
 var fs = require('fs');
 var path = require('path');
 
-var outputDir = "./docs/";
-var srcDir = "./";
+//var outputDir = "./docs/";
+//var srcDir = "./";
+//var imagedir = "./scripts/images/";
+//var logofilename = "openchainlogo.png";
 
-var font = "Times-Roman";
+var outputDir = "../docs/";
+var srcDir = "../";
+var imagedir = "../scripts/images/";
+var logofilename = "openchainlogo.png";
+
+var font = "Helvetica";
+var titleFontSize = 36;
 var sectionFontSize = 16;
 var headerFontSize = 12;
-var questionFontSize = 10;
+var questionFontSize = 9;
 
 /**
  * Formats s spec reference to a comma separated list
@@ -108,7 +116,7 @@ function printSection(doc, section) {
             id: 'text',
             header: ' Question Text',
             valign: 'center',
-            padding: [5]
+            padding: [5],
         }
     ])
     .onPageAdded(function (tb) {
@@ -136,8 +144,32 @@ function printSection(doc, section) {
 }
 
 function printPreamble(doc, questionnaire) {
+	// Title page
+	doc.image(imagedir+logofilename, (doc.page.width - 380) /2, 100, {width: 380});
+	doc.fontSize(titleFontSize);
+	doc.moveDown();
+	doc.moveDown();
+	doc.moveDown();
+	doc.moveDown();
+	doc.moveDown();
+	doc.moveDown();
+	doc.moveDown();
+	doc.moveDown();
+	doc.text(questionnaire.title, {align:'center'});
+	doc.addPage();
+	// Table of Contents
+//	doc.fontSize(sectionFontSize);
+//	doc.text(questionnaire.tocText, {align:'center'});
+//	doc.moveDown();
+//	doc.fontSize(headerFontSize);
+//	doc.text(questionnaire.contextText, {align:'left'});
+//	doc.text("3", {align:'right'});
+//	doc.text(questionnaire.questionsText, {align:'left'});
+//	doc.text("4", {align:'right'});
+//	doc.addPage();
+	// Context
 	doc.fontSize(sectionFontSize);
-	doc.text('Context');
+	doc.text(questionnaire.contextText, {align:'center'});
 	doc.moveDown();
 	doc.fontSize(questionFontSize);
 	
@@ -172,11 +204,9 @@ function createPdf(inputJsonFileName, outputPdfFileName) {
 		throw "No sections found";
 	}
 	
-	doc.font(font);	
+	doc.font(font);
 	printPreamble(doc, questionnaire);
-	doc.addPage();
-	printSection(doc, questionnaire.sections[0]);
-	for (var i = 1; i < questionnaire.sections.length; i++) {
+	for (var i = 0; i < questionnaire.sections.length; i++) {
 		doc.addPage();
 		printSection(doc, questionnaire.sections[i]);
 	}

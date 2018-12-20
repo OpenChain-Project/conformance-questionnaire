@@ -63,6 +63,10 @@ Section information precedes the questions for that section.  The `name` and `ti
 At the top level, the JSON file contains 4 fields:
 * `"specVersion"`: The version of specification questionnaire in the format X.Y.Z where X.Y is the specification version and Z is the patch level of the questionnaire.  Note that all language files should have exactly the same version.
 * `"language"`: [RFC 5646 format](https://tools.ietf.org/html/rfc5646) language tag
+* `"title"`: The title Questionnaire to be used in the PDF document.
+* `"contextText"`: The text to be used at the beginning of the Context section in the PDF document (preceeds the preambleText).
+* `"questionsText"`: The text to be used at the beginning of Questions section in the PDF document.
+* ` "tocText"`: The text to be used at the beginning of the Table of Contents in the PDF document.
 * `"preambleText"`: Text used to describe the questionnaire.  This text precedes the questionnaire text in the PDF document.
 * `"sections"`: The list of sections in the questionnaire
 
