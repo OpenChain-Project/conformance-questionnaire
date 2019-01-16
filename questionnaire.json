@@ -117,7 +117,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Have 85% or more of the Software Staff completed a open source training within the last 24 months?",
+          "question": "Have 85% or more of the Software Staff completed an open source training within the last 24 months?",
           "number": "1.f",
           "type": "YES_NO",
           "specReference": [
@@ -189,7 +189,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Is legal expertise pertaining to open source compliance accessible to the open source Compliance Role (e.g., internal or external)?",
+          "question": "Is legal expertise pertaining to open source compliance accessible to the Open Source Compliance Role (e.g., internal or external)?",
           "number": "2.e",
           "type": "YES_NO",
           "specReference": [
@@ -308,7 +308,7 @@
     },
     {
       "name": "G4",
-      "title": "G4: Deliver open source Content Documentation and Artifacts",
+      "title": "G4: Deliver Open Source Content Documentation and Artifacts",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -372,7 +372,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Is your Software Staff aware of the existence of the open source Contribution Policy (e.g. via training, internal wiki, or other practical communication method)?",
+          "question": "Is your Software Staff aware of the existence of the Open Source Contribution Policy (e.g. via training, internal wiki, or other practical communication method)?",
           "number": "5.c",
           "type": "YES_NO",
           "specReference": [
