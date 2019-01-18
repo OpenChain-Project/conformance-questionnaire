@@ -372,7 +372,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Is your Software Staff aware of the existence of the Open Source Contribution Policy (e.g. via training, internal wiki, or other practical communication method)?",
+          "question": "Is your Software Staff aware of the existence of the open source contribution policy (e.g. via training, internal wiki, or other practical communication method)?",
           "number": "5.c",
           "type": "YES_NO",
           "specReference": [
