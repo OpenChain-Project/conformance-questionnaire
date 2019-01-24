@@ -23,6 +23,8 @@ The following fields are used in generating the PDF document and should be local
 * `"title"`: The title of the PDF document
 * `"contextText"`: Column heading
 * `"questionsText"`: Column heading for question text
+* `"completedText"`: Column heading for checkboxes on whether the question was completed
+* `"checkboxText"`: Column heading for the status on a particular question response
 * `"tocText"`: Table of contents title
 * `"preambleText"`: Text displayed on the first page of the PDF document
 
