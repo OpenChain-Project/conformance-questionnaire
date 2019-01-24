@@ -20,13 +20,14 @@ The `"language"` field in the JSON file must match the [RFC 5646 format](https:/
 
 ## Fields requiring localization
 The following fields are used in generating the PDF document and should be localized:
-* `"title"`: The title of the PDF document
-* `"contextText"`: Column heading
-* `"questionsText"`: Column heading for question text
+* `"title"`: The title Questionnaire to be used in the PDF document.
+* `"contextText"`: The text to be used at the beginning of the Context section in the PDF document (preceeds the preambleText).
+* `"questionsText"`: The text to be used at the beginning of Questions section in the PDF document.
 * `"completedText"`: Column heading for checkboxes on whether the question was completed
-* `"checkboxText"`: Column heading for the status on a particular question response
-* `"tocText"`: Table of contents title
-* `"preambleText"`: Text displayed on the first page of the PDF document
+* `"statusText"`: Column heading for the status on a particular question response
+* `"answerColumnText"`: Column heading for the answer to the question
+* ` "tocText"`: The text to be used at the beginning of the Table of Contents in the PDF document.
+* `"preambleText"`: Text used to describe the questionnaire.  This text precedes the questionnaire text in the PDF document.
 
 The following section fields in the questionnaire file should be localized:
 * `"title"`: The title of the section to be displayed in the UI
