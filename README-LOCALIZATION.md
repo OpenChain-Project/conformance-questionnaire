@@ -19,6 +19,12 @@ All of the `"specVersion"` fields in the questionnaire.json files must have exac
 The `"language"` field in the JSON file must match the [RFC 5646 format](https://tools.ietf.org/html/rfc5646) language tag indicated the questionnaire file name.
 
 ## Fields requiring localization
+The following fields are used in generating the PDF document and should be localized:
+* `"title"`: The title of the PDF document
+* `"contextText"`: Column heading
+* `"questionsText"`: Column heading for question text
+* `"tocText"`: Table of contents title
+* `"preambleText"`: Text displayed on the first page of the PDF document
 
 The following section fields in the questionnaire file should be localized:
 * `"title"`: The title of the section to be displayed in the UI
