@@ -67,6 +67,9 @@ At the top level, the JSON file contains 4 fields:
 * `"title"`: The title Questionnaire to be used in the PDF document.
 * `"contextText"`: The text to be used at the beginning of the Context section in the PDF document (preceeds the preambleText).
 * `"questionsText"`: The text to be used at the beginning of Questions section in the PDF document.
+* `"completedText"`: Column heading for checkboxes on whether the question was completed
+* `"statusText"`: Column heading for the status on a particular question response
+* `"answerColumnText"`: Column heading for the answer to the question
 * ` "tocText"`: The text to be used at the beginning of the Table of Contents in the PDF document.
 * `"preambleText"`: Text used to describe the questionnaire.  This text precedes the questionnaire text in the PDF document.
 * `"sections"`: The list of sections in the questionnaire
