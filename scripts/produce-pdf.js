@@ -17,14 +17,16 @@ var srcDir = "./";
 var imagedir = "./scripts/images/";
 var logofilename = "openchainlogo.png";
 
-var font = "Helvetica";
+var fontDir = "./scripts/fonts/CharisSIL-5.000/";
+var fontFile = "CharisSIL-R.ttf";
+var font = fontDir + fontFile;
 var titleFontSize = 36;
 var sectionFontSize = 16;
 var headerFontSize = 12;
 var questionFontSize = 9;
 
 /**
- * Formats s spec reference to a comma separated list
+ * Formats a spec reference to a comma separated list
  */
 function formatSpecRef(specReference) {
 	if (!specReference || specReference.length === 0) {

@@ -1,5 +1,3 @@
-
-
 # ConformanceScripts
 Scripts to support the creation and maintenance of the OpenChain Conformance Questionnaire
 
@@ -11,6 +9,11 @@ produce-pdf.js - Produces PDF versions of the questionnaire and publishes them t
 
 ## Developing
 Contributions welcome.  All contributions must agree to the Linux Foundation [Developer Certificate of Origin](https://developercertificate.org/).  All contributions to the scripts must be licensed under the MIT license.
+
+## License
+These scripts use the MIT license (see LICENSE file for full text).
+
+These scripts include the Charis SIL 5.0 font: https://software.sil.org/charis.  These fonts use the SIL OPEN FONT LICENSE Version 1.1.  See fonts/CharisSIL-5.000/OFL.txt for full text of the license. 
 
 ### Tools
 
