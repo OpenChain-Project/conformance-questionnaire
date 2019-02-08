@@ -15,9 +15,9 @@ var path = require('path');
 var outputDir = "./docs/";
 var srcDir = "./";
 var imagedir = "./scripts/images/";
-var logofilename = "openchainlogo.png";
-
 var fontDir = "./scripts/fonts/CharisSIL-5.000/";
+
+var logofilename = "openchainlogo.png";
 var fontFile = "CharisSIL-R.ttf";
 var font = fontDir + fontFile;
 var titleFontSize = 36;
@@ -63,7 +63,7 @@ function formatQuestion(question) {
  * @param section to print
  * @returns nothing
  */
-function printSection(doc, section) {
+function printSection(doc, section, questionnaire) {
 	doc.fontSize(sectionFontSize);
 	doc.text(section.title);
 	doc.fontSize(questionFontSize);
@@ -89,7 +89,7 @@ function printSection(doc, section) {
     .addColumns([
         {
             id: 'section',
-            header: 'Section',
+            header: ' ' + questionnaire.sectionColumnText,
             align: 'left',
             width: 80,
             valign: 'center',
@@ -97,21 +97,21 @@ function printSection(doc, section) {
         },
         {
             id: 'number',
-            header: ' Number',
+            header: ' ' + questionnaire.numberColumnText,
             width: 60,
             valign: 'center',
             padding: [5]
         },
         {
             id: 'specref',
-            header: ' Spec Ref',
+            header: ' ' + questionnaire.specRefColumnText,
             width: 60,
             valign: 'center',
             padding: [5]
         },
         {
             id: 'text',
-            header: ' Question Text',
+            header: ' ' + questionnaire.questionColumnText,
             valign: 'center',
             padding: [5],
         }
@@ -154,16 +154,6 @@ function printPreamble(doc, questionnaire) {
 	doc.moveDown();
 	doc.text(questionnaire.title, {align:'center'});
 	doc.addPage();
-	// Table of Contents
-//	doc.fontSize(sectionFontSize);
-//	doc.text(questionnaire.tocText, {align:'center'});
-//	doc.moveDown();
-//	doc.fontSize(headerFontSize);
-//	doc.text(questionnaire.contextText, {align:'left'});
-//	doc.text("3", {align:'right'});
-//	doc.text(questionnaire.questionsText, {align:'left'});
-//	doc.text("4", {align:'right'});
-//	doc.addPage();
 	// Context
 	doc.fontSize(sectionFontSize);
 	doc.text(questionnaire.contextText, {align:'center'});
@@ -205,7 +195,7 @@ function createPdf(inputJsonFileName, outputPdfFileName) {
 	printPreamble(doc, questionnaire);
 	for (var i = 0; i < questionnaire.sections.length; i++) {
 		doc.addPage();
-		printSection(doc, questionnaire.sections[i]);
+		printSection(doc, questionnaire.sections[i], questionnaire);
 	}
 	doc.end();
 }
