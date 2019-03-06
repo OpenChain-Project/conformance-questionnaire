@@ -15,6 +15,8 @@ These scripts use the MIT license (see LICENSE file for full text).
 
 These scripts include the Charis SIL 5.0 font: https://software.sil.org/charis.  These fonts use the SIL OPEN FONT LICENSE Version 1.1.  See fonts/CharisSIL-5.000/OFL.txt for full text of the license. 
 
+These scripts include the IPAex Font (IPAex Gothic) font: https://www.freejapanesefont.com/ipaex-gothic/.  These fonts use the IPA Font License Agreement v1.0.  See scripts/fonts/ipaexg00301/IPA_Font_License_Agreement_v1.0.txt for full text of the license. 
+
 ### Tools
 
 Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
