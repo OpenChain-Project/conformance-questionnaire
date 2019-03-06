@@ -91,7 +91,7 @@ function printSection(doc, section, questionnaire) {
             id: 'section',
             header: ' ' + questionnaire.sectionColumnText,
             align: 'left',
-            width: 80,
+            width: 100,
             valign: 'center',
             padding: [5]
         },
