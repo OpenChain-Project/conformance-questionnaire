@@ -15,10 +15,10 @@ var path = require('path');
 var outputDir = "./docs/";
 var srcDir = "./";
 var imagedir = "./scripts/images/";
-var fontDir = "./scripts/fonts/CharisSIL-5.000/";
+var fontDir = "./scripts/fonts/ipaexg00301/";
 
 var logofilename = "openchainlogo.png";
-var fontFile = "CharisSIL-R.ttf";
+var fontFile = "ipaexg.ttf";
 var font = fontDir + fontFile;
 var titleFontSize = 36;
 var sectionFontSize = 16;
