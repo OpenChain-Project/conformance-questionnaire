@@ -160,8 +160,9 @@ function printPreamble(doc, questionnaire) {
 	doc.moveDown();
 	doc.fontSize(questionFontSize);
 	
-	for (var line in questionnaire.preambleText) {
-		doc.text(questionnaire.preambleText[line]);
+	var lines = questionnaire.preambleText.split("\n");
+	for (var line in lines) {
+		doc.text(lines[line]);
 		doc.moveDown();
 	}
 }
