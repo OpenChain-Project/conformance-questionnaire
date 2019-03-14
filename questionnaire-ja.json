@@ -1,8 +1,8 @@
 {
   "specVersion": "1.2.2",
   "language": "ja",
-  "title": "Conformance in Questions",
-  "contextText": "コンテキスト",
+  "title": "適合チェック質問一覧",
+  "contextText": "背景",
   "questionsText": "質問",
   "completedText": "終了しましたか？",
   "statusText": "ステータス",
@@ -12,7 +12,7 @@
   "specRefColumnText": "仕様参考",
   "questionColumnText": "質問本文",
   "tocText": "目次",
-  "preambleText": "The OpenChain Project builds trust in open source by making open source license compliance simpler and more consistent. The OpenChain Specification defines a core set of requirements every quality compliance program must satisfy. The OpenChain Curriculum provides the educational foundation for open source processes and solutions, whilst meeting a key requirement of the OpenChain Specification. OpenChain Conformance allows organizations to display their adherence to these requirements. The result is that open source license compliance becomes more predictable, understandable and efficient for participants of the software supply chain.\nThis document contains a series of questions to determine whether a company is OpenChain Conformant. If each of these questions can be answered with a \"yes\" then that company meets all the requirements of conformance to the OpenChain Specification version 1.2. If any of the questions are answered with a \"no\" then the company can clearly identify where additional investment is needed to improve the compliance process.",
+  "preambleText": "OpenChainプロジェクトは、オープンソースライセンスへのコンプライアンスをよりシンプルにし、一貫性を持たせることで、オープンソースに対する信頼を築きます。OpenChain仕様では、各品質コンプライアンスプログラムが満足すべき核となる要件を定義しています。OpenChainカリキュラムは、OpenChain仕様の必須要件を満たしながら、オープンソースプロセスやソリューションの教育的基礎を提供しています。企業は、OpenChain適合によって、こういった要件に適合していることを示すことができます。その結果、オープンソース・ライセンス・コンプライアンスがソフトウェアサプライチェーンの中にいる者にとって、より予測可能でわかりやすく、効率的なものになっています。\nこのドキュメントには企業がOpenChain適合がどうかを判断するための一連の質問が記載されています。すべての質問が「はい」だった場合、その企業はOpenChain仕様1.2版のすべての要件に適合していることになります。いくつかの質問に対する答えが「いいえ」だった場合、その企業はコンプライアンスプロセスの改善のために何が必要かを明確にすることができます。",
   "sections": [
     {
       "name": "G1",
@@ -30,7 +30,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "ポリシーは社内で伝達されていますか？",
+          "question": "ポリシーは社内で伝わっていますか？",
           "number": "1.b",
           "type": "YES_NO",
           "specReference": [
@@ -67,7 +67,7 @@
             },
             "1.d.ii": {
               "correctAnswer": "Yes",
-              "question": "オープンソースおよびオープンソースライセンスに付随する知的財産権関連法令の基礎",
+              "question": "オープンソースおよびオープンソースライセンスに付随する知的財産権関連法令の基本",
               "number": "1.d.ii",
               "type": "YES_NO",
               "specReference": [
@@ -103,7 +103,7 @@
             },
             "1.d.vi": {
               "correctAnswer": "Yes",
-              "question": "供給ソフトウェアのオープンソースコンポーネントを特定、記録、および追跡するためのプロセス？",
+              "question": "プロセスが供給ソフトウェアのオープンソースコンポーネントを特定、記録、および追跡するためのものですか？",
               "number": "1.d.vi",
               "type": "YES_NO",
               "specReference": [
@@ -186,7 +186,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "組織内部のオープンソースコンプライアンスを管理する責任者、グループまたは機能を指名していますか？オープンソースコンプライアンスを履行する役割とオープンソース窓口は同じ担当者が兼務することができます。",
+          "question": "組織内部のオープンソースコンプライアンスを管理する責任者、グループまたは機能を指名していますか？オープンソースコンプライアンスを履行者とオープンソース窓口は同じ担当者が兼務することも可能です。",
           "number": "2.d",
           "type": "YES_NO",
           "specReference": [
@@ -292,7 +292,7 @@
             },
             "3.c.v": {
               "correctAnswer": "Yes",
-              "question": "     供給ソフトウェア内の他のコンポーネントとやりとりする、両立性 のないライセンス下のオープンソースやその他のソフトウェアを含んでいる ",
+              "question": "     供給ソフトウェア内の他のコンポーネントとやりとりする、両立性のないライセンス下のオープンソースやその他のソフトウェアを含んでいる ",
               "number": "3.c.v",
               "type": "YES_NO",
               "specReference": [
@@ -369,7 +369,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "オープンソース コントリビューション ポリシーを文書化していますか？",
+          "question": "オープンソース・コントリビューション・ポリシーを文書化していますか？",
           "number": "5.b",
           "type": "YES_NO",
           "specReference": [
@@ -378,7 +378,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "ソフトウェアスタッフは（トレーニングや社内Wiki、その他実践的なコミュニケーションを通じて）オープンソース コントリビューション ポリシーがあることを知っていますか？",
+          "question": "ソフトウェアスタッフは（トレーニングや社内Wiki、その他実践的なコミュニケーションを通じて）オープンソース・コントリビューション・ポリシーがあることを知っていますか？",
           "number": "5.c",
           "type": "YES_NO",
           "specReference": [
@@ -387,7 +387,7 @@
         },
         {
           "correctAnswer": "Any",
-          "question": "オープンソースコントリビューション ポリシーがコントリビューションを許容するものである場合、オープンソースコントリビューションのプロセスを記載した手順書がありますか？",
+          "question": "オープンソース・コントリビューション・ポリシーがコントリビューションを許容するものである場合、オープンソース・コントリビューションのプロセスを記載した手順書がありますか？",
           "number": "5.d",
           "type": "YES_NO",
           "specReference": [
