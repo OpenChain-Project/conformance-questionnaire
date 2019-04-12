@@ -11,15 +11,8 @@ var PDFDocument = require('pdfkit');
 var glob = require('glob');
 var fs = require('fs');
 var path = require('path');
-
-var outputDir = "./docs/";
-var srcDir = "./";
-var imagedir = "./scripts/images/";
-var fontDir = "./scripts/fonts/ipaexg00301/";
-
-var logofilename = "openchainlogo.png";
-var fontFile = "ipaexg.ttf";
-var font = fontDir + fontFile;
+var logofilename = path.join(__dirname, "../scripts/images/openchainlogo.png");
+var font = path.join(__dirname, "../scripts/fonts/ipaexg00301/ipaexg.ttf");
 var titleFontSize = 36;
 var sectionFontSize = 16;
 var headerFontSize = 12;
@@ -142,7 +135,7 @@ function printSection(doc, section, questionnaire) {
 
 function printPreamble(doc, questionnaire) {
 	// Title page
-	doc.image(imagedir+logofilename, (doc.page.width - 380) /2, 100, {width: 380});
+	doc.image(logofilename, (doc.page.width - 380) /2, 100, {width: 380});
 	doc.fontSize(titleFontSize);
 	doc.moveDown();
 	doc.moveDown();
@@ -161,8 +154,8 @@ function printPreamble(doc, questionnaire) {
 	doc.fontSize(questionFontSize);
 	
 	var lines = questionnaire.preambleText.split("\n");
-	for (var line in lines) {
-		doc.text(lines[line]);
+	for (var i = 0; i < lines.length; i++) {
+		doc.text(lines[i]);
 		doc.moveDown();
 	}
 }
@@ -201,35 +194,118 @@ function createPdf(inputJsonFileName, outputPdfFileName) {
 	doc.end();
 }
 
-function main() {
-	// clean out the old PDF file directory
+/**
+ * Produces a single SPDX output file
+ * @param opt command line options
+ * @returns
+ */
+function produceSingleFile(opt) {
+	if ('source' in opt.options) {
+		console.error("Can not specify both file and source.  Choose one or the other.");
+		opt.showHelp();
+		process.exit(1);
+	}
+	var outputDir;
+	if ('output' in opt.options) {
+		outputDir = path.normalize(opt.options.output);
+		if (!fs.existsSync(outputDir)) {
+			fs.mkdirSync(outputDir);
+		}
+	} else {
+		outputDir = path.parse(opt.options.file).dir;
+	}
+	var jsonFile = path.normalize(opt.options.file);
+	if (!fs.existsSync(jsonFile)) {
+		console.error("Input JSON file "+jsonFile+" does not exist.");
+		process.exit(1);
+	}
+	var pdfFileName = path.join(outputDir, path.parse(jsonFile).name + ".pdf");
+	if (fs.existsSync(pdfFileName)) {
+		if (!('clean' in opt.options)) {
+			console.error("Output file "+pdfFileName+" exists.  Either specify --clean or delete the file.");
+			process.exit(1);
+		}
+	}
+	try {
+		createPdf(jsonFile, pdfFileName);
+		console.info("Successfully produced "+pdfFileName);
+	} catch(err) {
+		console.error(err);
+		process.exit(1);
+	}
+} 
+
+/**
+ * Produces a PDF file for every questionnair-*.json file in a given input directory
+ * @param opt command line options
+ * @returns
+ */
+function produceMultipleFiles(opt) {
+	if (!('source' in opt.options)) {
+		console.error('Missing required source directory parameter');
+		opt.showHelp();
+		process.exit(1);	
+	}
+	if (!('output' in opt.options)) {
+		console.error('Missing required output directory parameter');
+		opt.showHelp();
+		process.exit(1);	
+	}
+	var outputDir = path.normalize(opt.options.output);
 	if (!fs.existsSync(outputDir)) {
 		fs.mkdirSync(outputDir);
 	}
-	var pdfFiles = glob.sync(outputDir + '*');
-	pdfFiles.forEach(function(pdfFile) {
-		fs.unlinkSync(pdfFile);
-	});
-	
+	var pdfFiles = glob.sync(outputDir + path.sep + '*');
+	if ('clean' in opt.options) {		
+		// clean out the old PDF file directory
+		pdfFiles.forEach(function(pdfFile) {
+			fs.unlinkSync(pdfFile);
+		});
+	}
 	var numErrors = 0;
 	var numFiles = 0;
 	var error = "";
-	
+	var srcDir = path.normalize(opt.options.source);
 	var files = glob.sync(srcDir + 'questionnaire*.json');
 	files.forEach(function(file) {
-		var pdfFileName = outputDir + path.parse(file).name + ".pdf";
-		try {
-			createPdf(file, pdfFileName);
-			numFiles++;
-		} catch(err) {
+		var pdfFileName = path.join(outputDir, path.parse(file).name + ".pdf");
+		if (fs.existsSync(pdfFileName)) {
 			numErrors++;
-			error = error + "Error creating PDF file "+pdfFileName+": "+err+"; ";
+			error = error + "PDF file " + pdfFileName + " already exists.  Use --clean to delete files prior to producing the PDF's";
+		} else {
+			try {
+				createPdf(file, pdfFileName);
+				numFiles++;
+			} catch(err) {
+				numErrors++;
+				error = error + "Error creating PDF file "+pdfFileName+": "+err+"; ";
+			}
 		}
 	});
 	console.log('PDF file generation complete complete ' + numFiles + ' created, ' + numErrors + ' errors occurred');
 	if (numErrors > 0) {
 		console.error(error);
 		process.exit(1);
+	}
+}
+
+function main() {
+	var opt = require('node-getopt').create([
+		['', 'source=SoureDirectory', 'Source directory containing conformance questionnaire JSON files'],
+		['', 'output=OutputDirectory', 'Destination output directory containing conformance questionnaire JSON files'],
+		['', 'clean', "Deletes all files in the destination output directory prior to producing the PDF's"],
+		['', 'file=SourceJSONFileName', 'Produces a PDF file for a single JSON file.'],
+		['h', 'help', 'Displays this help']])
+		.bindHelp()
+		.parseSystem();
+	if ('h' in opt.options) {
+		opt.showHelp();
+		return;
+	}
+	if ('file' in opt.options) {
+		produceSingleFile(opt);
+	} else {
+		produceMultipleFiles(opt);
 	}
 }
 

@@ -12,7 +12,7 @@ install:
 
 script:
   - npm test
-  - npm run-script pdf
+  - npm run-script pdf -- --source="./" --output="./docs/" --clean
   
 deploy:
   provider: pages

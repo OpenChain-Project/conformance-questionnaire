@@ -1,0 +1,22 @@
+{
+    "name": "produce-pdf",
+    "version": "1.2.1",
+    "description": "Produces a PDF from the OpenChain Conformance JSON files",
+    "author": "Linux Foundation and its Contributors",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OpenChain-Project/conformance-questionnaire/scripts"
+    },
+    "bugs": {
+        "url": "https://github.com/OpenChain-Project/conformance-questionnaire/issues"
+    },
+    "dependencies": {
+        "glob": "7.1.2",
+        "fs": "",
+        "pdfkit": "0.8.3",
+        "voilab-pdf-table": "0.4.0",
+        "node-getopt": "0.3.2"
+    },
+	"bin": {"produce-pdf": "produce-pdf.js"},
+    "license": "CC-BY-3.0 AND MIT"
+}

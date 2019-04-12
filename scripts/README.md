@@ -17,7 +17,17 @@ These scripts include the Charis SIL 5.0 font: https://software.sil.org/charis. 
 
 These scripts include the IPAex Font (IPAex Gothic) font: https://www.freejapanesefont.com/ipaex-gothic/.  These fonts use the IPA Font License Agreement v1.0.  See scripts/fonts/ipaexg00301/IPA_Font_License_Agreement_v1.0.txt for full text of the license. 
 
-### Tools
+## Producing produce-pdf executables
+To produce executables for produce-pdf:
+
+- Install pkg: `npm install -g pkg`
+- Edit node_modules/pdfkit/package.json: add `"pkg": {"assets":"js/font/data/*"},`
+- Edit node_modules/linebreak/package.json: add `"pkg": {"assets":"**/*.trie"},`
+- Edit node_modules/unicode-properties/package.json: add `"pkg": {"assets":"**/*.trie"},`
+- In this directory, run the pkg command: `pkg package.json`
+- This will produce 3 target executables (Windows, Mac, and Linux)
+
+## Tools
 
 Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
