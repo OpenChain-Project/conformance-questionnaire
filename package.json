@@ -1,6 +1,6 @@
 {
     "name": "conformance-questionnaire",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "conformance questionnaire used in the OpenChain self-certification website",
     "author": "Linux Foundation and its Contributors",
     "repository": {
@@ -28,7 +28,9 @@
         "glob": "7.1.2",
         "fs": "",
         "pdfkit": "0.8.3",
-        "voilab-pdf-table": "0.4.0"
+        "voilab-pdf-table": "0.4.0",
+        "node-getopt": "0.3.2"
     },
+	"bin": {"produce-pdf": "scripts/produce-pdf.js"},
     "license": "CC-BY-3.0 AND MIT"
 }
