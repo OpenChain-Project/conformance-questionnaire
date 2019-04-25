@@ -48,9 +48,9 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Have you determined and documented the competencies required for each role?",
+          "question": "Have you identified and documented the competencies required for each role?",
           "number": "1.d",
-          "type": "SUBQUESTIONS",
+          "type": "YES_NO",
           "specReference": [
             "1.2",
             "1.2.2"
@@ -60,7 +60,7 @@
           "correctAnswer": "Yes",
           "question": "Have you documented evidence of assessed competence for each Program participant?",
           "number": "1.e",
-          "type": "SUBQUESTIONS",
+          "type": "YES_NO",
           "specReference": [
             "1.2",
             "1.2.3"
