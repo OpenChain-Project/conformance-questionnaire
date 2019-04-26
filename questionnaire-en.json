@@ -31,7 +31,7 @@
         {
           "correctAnswer": "Yes",
           "question": "Do you have a documented procedure that communicates the existence of the open source policy to all Software Staff?",
-          "number": "1.c",
+          "number": "1.b",
           "type": "YES_NO",
           "specReference": [
             "1.1.2"
