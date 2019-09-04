@@ -1,5 +1,5 @@
 {
-  "specVersion": "1.2.2",
+  "specVersion": "2.0.0",
   "language": "ja",
   "title": "適合チェック質問一覧",
   "contextText": "背景",
@@ -30,128 +30,129 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "ポリシーは社内で伝わっていますか？",
-          "number": "1.b",
-          "type": "YES_NO",
-          "specReference": [
-            "1.1"
-          ]
-        },
-        {
-          "correctAnswer": "Yes",
           "question": "すべてのソフトウェアスタッフにオープンソースポリシーの存在を伝える手順書がありますか？",
-          "number": "1.c",
+          "number": "1.b",
           "type": "YES_NO",
           "specReference": [
             "1.1.2"
           ]
         },
         {
-		  "question": "次のトピックを取り扱ったオープンソーストレーニング資料（スライド集やオンラインコース等）がありますか？",
+          "correctAnswer": "Yes",
+          "question": "プログラムの性能と有効性に影響のある役割とそれに対応する責任について明確にしていますか？",
+          "number": "1.c",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "各役割に必要な能力を特定し、文書化していますか？",
           "number": "1.d",
-          "type": "SUBQUESTIONS",
+          "type": "YES_NO",
           "specReference": [
             "1.2",
-            "1.2.1"
+            "1.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "各プログラム参加者の能力を評価した証拠を文書化していますか？",
+          "number": "1.e",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.3"
+          ]
+        },
+        {
+          "question": "次のトピックに対する社員の意識を文書化していますか？",
+          "number": "1.f",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "1.3",
+            "1.3.1"
           ],
-          "minNumberValidatedAnswers": 6,
+          "minNumberValidatedAnswers": 4,
           "subQuestions": {
-            "1.d.i": {
+            "1.f.i": {
               "correctAnswer": "Yes",
               "question": "オープンソースポリシーとその場所",
-              "number": "1.d.i",
+              "number": "1.f.i",
               "type": "YES_NO",
               "specReference": [
-                "1.2"
+                "1.3"
               ]
             },
-            "1.d.ii": {
+            "1.f.ii": {
               "correctAnswer": "Yes",
-              "question": "オープンソースおよびオープンソースライセンスに付随する知的財産権関連法令の基本",
-              "number": "1.d.ii",
+              "question": "関連するオープンソースの目的、",
+              "number": "1.f.ii",
               "type": "YES_NO",
               "specReference": [
-                "1.2"
+                "1.3"
               ]
             },
-            "1.d.iii": {
+            "1.f.iii": {
               "correctAnswer": "Yes",
-              "question": "オープンソースライセンスの概念（コピーレフト ライセンスやパーミッシブなライセンスの概念など）",
-              "number": "1.d.iii",
+              "question": "プログラムを確実に有効なものにするために期待されるコントリビューション、",
+              "number": "1.f.iii",
               "type": "YES_NO",
               "specReference": [
-                "1.2"
+                "1.3"
               ]
             },
-            "1.d.iv": {
+            "1.f.iv": {
               "correctAnswer": "Yes",
-              "question": "オープンソースプロジェクトのライセンス供与のモデル",
-              "number": "1.d.iv",
+              "question": "プログラム要件を満たすことができないことの影響",
+              "number": "1.f.iv",
               "type": "YES_NO",
               "specReference": [
-                "1.2"
-              ]
-            },
-            "1.d.v": {
-              "correctAnswer": "Yes",
-              "question": "オープンソースコンプライアンスに具体的に関係し、オープンソースポリシー全般に関係するソフトウェア スタッフの役割と責任",
-              "number": "1.d.v",
-              "type": "YES_NO",
-              "specReference": [
-                "1.2"
-              ]
-            },
-            "1.d.vi": {
-              "correctAnswer": "Yes",
-              "question": "プロセスが供給ソフトウェアのオープンソースコンポーネントを特定、記録、および追跡するためのものですか？",
-              "number": "1.d.vi",
-              "type": "YES_NO",
-              "specReference": [
-                "1.2"
+                "1.3"
               ]
             }
           }
         },
         {
           "correctAnswer": "Yes",
-          "question": "ソフトウェア スタッフ全員についてコースの修了を追跡する手段がありますか？",
-          "number": "1.e",
-          "type": "YES_NO",
-          "specReference": [
-            "1.2.2"
-          ]
-        },
-        {
-          "correctAnswer": "Yes",
-          "question": "ソフトウェア スタッフの85％以上が、オープンソーストレーニングを過去24か月以内に修了していますか？",
-          "number": "1.f",
-          "type": "YES_NO",
-          "specReference": [
-            "1.2",
-			"1.2.3"
-          ]
-        },
-        {
-          "correctAnswer": "Yes",
-          "question": "各ライセンスで付与された義務、制約、権利を判定するための、確認済みライセンスのレビュープロセスがありますか？",
+          "question": "プログラムの適用範囲の決定プロセスがありますか？",
           "number": "1.g",
           "type": "YES_NO",
           "specReference": [
-            "1.3"
+            "1.4"
           ]
         },
         {
           "correctAnswer": "Yes",
-          "question": "各ライセンスで付与された義務、制約、権利をレビューし、文書化した手順書がありますか？",
+          "question": "プログラムの適用範囲および制限を明確に定義した文書がありますか？",
           "number": "1.h",
           "type": "YES_NO",
           "specReference": [
-            "1.3.1"
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "オープンソースの義務、制約、権利を確認するプロセスがありますか？",
+          "number": "1.i",
+          "type": "YES_NO",
+          "specReference": [
+            "1.5"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "義務、制約、権利を確認し、文書化する手順書がありますか？",
+          "number": "1.j",
+          "type": "YES_NO",
+          "specReference": [
+            "1.5.1"
           ]
         }
       ]
     },
-    {
+	{
       "name": "G2",
       "title": "G2: コンプライアンスを履行するための責任者のアサイン",
       "questions": [
@@ -176,17 +177,16 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "オープンソースコンプライアンスの問い合わせに対応する責任者を指名するための手順書がありますか？",
+          "question": "オープンソースコンプライアンスの問い合わせを受けたり、問い合わせに答えたりする責任者を指名する手順書がありますか？",
           "number": "2.c",
           "type": "YES_NO",
           "specReference": [
-            "2.1.2",
-            "2.2.3"
+            "2.1.2"
           ]
         },
         {
           "correctAnswer": "Yes",
-          "question": "組織内部のオープンソースコンプライアンスを管理する責任者、グループまたは機能を指名していますか？オープンソースコンプライアンスを履行者とオープンソース窓口は同じ担当者が兼務することも可能です。",
+          "question": "特定されたプログラムの役割をサポートする人、グループ、または部署を文書化していますか？",
           "number": "2.d",
           "type": "YES_NO",
           "specReference": [
@@ -195,7 +195,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "オープンソースコンプライアンスの履行担当者がオープンソースコンプライアンスに関する法的な専門知識を（その組織内もしくは組織外で）獲得できますか？ ",
+          "question": "特定されたプログラムの役割には、適切に人員が配置され、十分な予算が当てられていますか？",
           "number": "2.e",
           "type": "YES_NO",
           "specReference": [
@@ -204,7 +204,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "オープンソースコンプライアンスのポリシーとプロセスを策定および維持するための責任者を指名していますか？ ",
+          "question": "組織内および組織外のオープンソースコンプライアンスに関する法律の専門家が特定されていますか？",
           "number": "2.f",
           "type": "YES_NO",
           "specReference": [
@@ -213,12 +213,20 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "不適合の場合のレビューや是正について扱う手順書がありますか？",
+          "question": "オープンソースコンプライアンスに関する組織内の責任者を指名する手順書がありますか？",
           "number": "2.g",
           "type": "YES_NO",
           "specReference": [
-            "2.1.2",
             "2.2.4"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "不適合の場合のレビューや是正について扱う手順書がありますか？",
+          "number": "2.h",
+          "type": "YES_NO",
+          "specReference": [
+            "2.2.5"
           ]
         }
       ]
@@ -292,7 +300,7 @@
             },
             "3.c.v": {
               "correctAnswer": "Yes",
-              "question": "     供給ソフトウェア内の他のコンポーネントとやりとりする、両立性のないライセンス下のオープンソースやその他のソフトウェアを含んでいる ",
+              "question": "     供給ソフトウェア内の他のコンポーネントとやりとりする、両立性のないライセンス下のオープンソースやその他のソフトウェアを含んでいる",
               "number": "3.c.v",
               "type": "YES_NO",
               "specReference": [
@@ -314,7 +322,7 @@
     },
     {
       "name": "G4",
-      "title": "G4: オープンソースコンテンツ ドキュメントとコンプライアンス関連資料の頒布",
+      "title": "G4: オープンソースコンプライアンス関連資料の配布",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -336,15 +344,6 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "保管された供給ソフトウェアに関するコンプライアンス関連資料のコピーを簡単に検索することができますか？",
-          "number": "4.c",
-          "type": "YES_NO",
-          "specReference": [
-            "4.1.2"
-          ]
-        },
-        {
-          "correctAnswer": "Yes",
           "question": "コンプライアンス関連資料のコピーは、少なくとも供給ソフトウェアが提供され続けている期間、または確認ライセンスが要求する期間（いずれか長い方の期間）保管されていますか？",
           "number": "4.d",
           "type": "YES_NO",
@@ -359,8 +358,8 @@
       "title": "G5: オープンソースコミュニティへの（積極的な）関わり方の理解",
       "questions": [
         {
-          "correctAnswer": "Any",
-          "question": "組織のために社員がオープンソースにコントリビュートすることを明確に許可または禁止するポリシーがありますか？",
+          "correctAnswer": "Yes",
+          "question": "組織を代表してのオープンソースプロジェクトへのコントリビューションを管理するポリシーがありますか？",
           "number": "5.a",
           "type": "YES_NO",
           "specReference": [
@@ -369,29 +368,44 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "オープンソース・コントリビューション・ポリシーを文書化していますか？",
+          "question": "オープンソースへのコントリビューションを管理する手順書がありますか？",
           "number": "5.b",
-          "type": "YES_NO",
-          "specReference": [
-            "5.1.1"
-          ]
-        },
-        {
-          "correctAnswer": "Yes",
-          "question": "ソフトウェアスタッフは（トレーニングや社内Wiki、その他実践的なコミュニケーションを通じて）オープンソース・コントリビューション・ポリシーがあることを知っていますか？",
-          "number": "5.c",
           "type": "YES_NO",
           "specReference": [
             "5.1.2"
           ]
         },
         {
-          "correctAnswer": "Any",
-          "question": "オープンソース・コントリビューション・ポリシーがコントリビューションを許容するものである場合、オープンソース・コントリビューションのプロセスを記載した手順書がありますか？",
-          "number": "5.d",
+          "correctAnswer": "Yes",
+          "question": "すべてのソフトポリシーウェアスタッフがオープンソース コントリビューション ポリシーの存在を認識できるような手順書がありますか？",
+          "number": "5.c",
           "type": "YES_NO",
           "specReference": [
-            "5.2.1"
+            "5.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "G6",
+      "title": "G6: 仕様要件への遵守",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "プログラムが本仕様の全要件に適合していることを確認できる文書がありますか？",
+          "number": "6.a",
+          "type": "YES_NO",
+          "specReference": [
+            "6.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "プログラムの適合が過去18ヶ月内に見直されたことを確認できる文書がありますか？",
+          "number": "6.b",
+          "type": "YES_NO",
+          "specReference": [
+            "6.2.1"
           ]
         }
       ]
