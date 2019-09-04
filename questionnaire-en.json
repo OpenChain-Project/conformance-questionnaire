@@ -15,8 +15,8 @@
   "preambleText": "The OpenChain Project builds trust in open source by making open source license compliance simpler and more consistent. The OpenChain Specification defines a core set of requirements every quality compliance program must satisfy. The OpenChain Curriculum provides the educational foundation for open source processes and solutions, whilst meeting a key requirement of the OpenChain Specification. OpenChain Conformance allows organizations to display their adherence to these requirements. The result is that open source license compliance becomes more predictable, understandable and efficient for participants of the software supply chain.\nThis document contains a series of questions to determine whether a company is OpenChain Conformant. If each of these questions can be answered with a \"yes\" then that company meets all the requirements of conformance to the OpenChain Specification version 1.2. If any of the questions are answered with a \"no\" then the company can clearly identify where additional investment is needed to improve the compliance process.",
   "sections": [
     {
-      "name": "G1",
-      "title": "G1: Know Your Open Source Responsibilities",
+      "name": "1",
+      "title": "1. Program Foundation",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -153,8 +153,8 @@
       ]
     },
 	{
-      "name": "G2",
-      "title": "G2: Assign Responsibility for Achieving Compliance",
+      "name": "2",
+      "title": "2. Relevant Tasks Defined and Supported",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -232,8 +232,8 @@
       ]
     },
     {
-      "name": "G3",
-      "title": "G3: Review and Approve Open Source Content",
+      "name": "3",
+      "title": "3 Open Source Content Review and Approval",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -321,8 +321,8 @@
       ]
     },
     {
-      "name": "G4",
-      "title": "G4: Deliver Open Source Compliance Artifacts",
+      "name": "4",
+      "title": "4. Compliance Artifact Creation and Delivery",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -354,8 +354,8 @@
       ]
     },
     {
-      "name": "G5",
-      "title": "G5: Understanding Open Source Community Engagements",
+      "name": "5",
+      "title": "5. Understand Open Source Community Engagement",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -387,8 +387,8 @@
       ]
     },
     {
-      "name": "G6",
-      "title": "G6: Adherence to the Specification Requirements",
+      "name": "6",
+      "title": "6. Adherence to the Specification Requirements",
       "questions": [
         {
           "correctAnswer": "Yes",
