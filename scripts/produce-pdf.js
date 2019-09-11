@@ -12,7 +12,7 @@ var glob = require('glob');
 var fs = require('fs');
 var path = require('path');
 var logofilename = path.join(__dirname, "../scripts/images/openchainlogo.png");
-var font = path.join(__dirname, "../scripts/fonts/ipaexg00301/ipaexg.ttf");
+var font = path.join(__dirname, "../scripts/fonts/source-han-serif/SourceHanSerif-Regular.ttc");
 var titleFontSize = 36;
 var sectionFontSize = 16;
 var headerFontSize = 12;
@@ -185,7 +185,7 @@ function createPdf(inputJsonFileName, outputPdfFileName) {
 		throw "No sections found";
 	}
 	
-	doc.font(font);
+	doc.font(font, 'SourceHanSerif-Regular');
 	printPreamble(doc, questionnaire);
 	for (var i = 0; i < questionnaire.sections.length; i++) {
 		doc.addPage();
