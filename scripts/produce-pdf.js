@@ -12,7 +12,9 @@ var glob = require('glob');
 var fs = require('fs');
 var path = require('path');
 var logofilename = path.join(__dirname, "../scripts/images/openchainlogo.png");
-var font = path.join(__dirname, "../scripts/fonts/ipaexg00301/ipaexg.ttf");
+var font_ja = path.join(__dirname, "../scripts/fonts/ipaexg00301/ipaexg.ttf");
+var font_en = path.join(__dirname, "../scripts/fonts/CharisSIL-5.000/CharisSIL-R.ttf");
+var font_ko = path.join(__dirname, "../scripts/fonts/Sunflower/Sunflower-Medium.ttf");
 var titleFontSize = 36;
 var sectionFontSize = 16;
 var headerFontSize = 12;
@@ -184,8 +186,14 @@ function createPdf(inputJsonFileName, outputPdfFileName) {
 	if (!questionnaire.sections || questionnaire.sections.lenght === 0) {
 		throw "No sections found";
 	}
+	if (questionnaire.language == "ko") {
+		doc.font(font_ko);
+	} else if (questionnaire.language == "ja") {
+		doc.font(font_ja);
+	} else {
+		doc.font(font_en);
+	}
 	
-	doc.font(font);
 	printPreamble(doc, questionnaire);
 	for (var i = 0; i < questionnaire.sections.length; i++) {
 		doc.addPage();
