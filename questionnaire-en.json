@@ -96,7 +96,7 @@
             },
             "1.f.iii": {
               "correctAnswer": "Yes",
-              "question": "The contributions expected to ensure the effectiveness of the Program,",
+              "question": "Contributions expected to ensure the effectiveness of the Program,",
               "number": "1.f.iii",
               "type": "YES_NO",
               "specReference": [
