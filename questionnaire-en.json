@@ -58,7 +58,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Have you documented evidence of assessed competence for each Program participant?",
+          "question": "Have you documented the assessed competence for each Program participant?",
           "number": "1.e",
           "type": "YES_NO",
           "specReference": [
