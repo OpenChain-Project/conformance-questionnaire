@@ -300,7 +300,7 @@
             },
             "3.c.vi": {
               "correctAnswer": "Yes",
-              "question": "     contains Open Source with attribution requirements.",
+              "question": "     Containing Open Source with attribution requirements.",
               "number": "3.c.vi",
               "type": "YES_NO",
               "specReference": [
