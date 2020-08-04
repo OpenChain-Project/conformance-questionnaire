@@ -273,7 +273,7 @@
             },
             "3.c.iii": {
               "correctAnswer": "Yes",
-              "question": "     Integration with other Open Source that may trigger copyleft obligations;",
+              "question": "     Containing modified Open Source;",
               "number": "3.c.iii",
               "type": "YES_NO",
               "specReference": [
@@ -282,7 +282,7 @@
             },
             "3.c.iv": {
               "correctAnswer": "Yes",
-              "question": "     Containing modified Open Source;",
+              "question": "     Containing Open Source with attribution requirements;",
               "number": "3.c.iv",
               "type": "YES_NO",
               "specReference": [
@@ -291,7 +291,7 @@
             },
             "3.c.v": {
               "correctAnswer": "Yes",
-              "question": "     Containing Open Source or other software under incompatible licenses for interaction with other components in the Supplied Software;",
+              "question": "     Integration with other Open Source that may trigger copyleft obligations;",
               "number": "3.c.v",
               "type": "YES_NO",
               "specReference": [
@@ -300,7 +300,7 @@
             },
             "3.c.vi": {
               "correctAnswer": "Yes",
-              "question": "     Containing Open Source with attribution requirements.",
+              "question": "     Containing Open Source or other software under incompatible licenses for interaction with other components in the Supplied Software.",
               "number": "3.c.vi",
               "type": "YES_NO",
               "specReference": [
