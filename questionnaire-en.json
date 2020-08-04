@@ -168,7 +168,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure that assigns responsibility for receiving and responding to Open Source compliance inquiries?",
+          "question": "Do you have a documented procedure for receiving and responding to Open Source compliance inquiries?",
           "number": "2.c",
           "type": "YES_NO",
           "specReference": [
