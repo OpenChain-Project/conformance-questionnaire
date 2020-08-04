@@ -125,7 +125,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a written statement that clearly defines the scope and limits of the Program?",
+          "question": "Do you have a written statement clearly defining the scope and limits of the Program?",
           "number": "1.h",
           "type": "YES_NO",
           "specReference": [
