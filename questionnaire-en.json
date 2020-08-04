@@ -195,7 +195,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Is legal expertise pertaining to internal and external Open Source compliance identified?",
+          "question": "Is legal expertise to address internal and external Open Source compliance identified?",
           "number": "2.f",
           "type": "YES_NO",
           "specReference": [
