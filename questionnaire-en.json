@@ -159,7 +159,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Is the Open Source Liaison function publicly identified (e.g. via an email address and/or the Linux Foundation\u0027s Open Compliance Directory)?",
+          "question": "Is the external Open Source compliance contact publicly identified (e.g. via an email address or the Linux Foundation Open Compliance Directory)?",
           "number": "2.b",
           "type": "YES_NO",
           "specReference": [
