@@ -12,7 +12,7 @@
   "specRefColumnText": "Spec Ref",
   "questionColumnText": "Question Text",
   "tocText": "Table of Contents",
-  "preambleText": "The OpenChain Project builds trust in open source by making open source license compliance simpler and more consistent. The OpenChain Specification defines a core set of requirements every quality compliance program must satisfy. The OpenChain Curriculum provides the educational foundation for open source processes and solutions, whilst meeting a key requirement of the OpenChain Specification. OpenChain Conformance allows organizations to display their adherence to these requirements. The result is that open source license compliance becomes more predictable, understandable and efficient for participants of the software supply chain.\nThis document contains a series of questions to determine whether a company is OpenChain Conformant. If each of these questions can be answered with a \"yes\" then that company meets all the requirements of conformance to the OpenChain Specification version 2.0. If any of the questions are answered with a \"no\" then the company can clearly identify where additional investment is needed to improve the compliance process.",
+  "preambleText": "The OpenChain Project builds trust in Open Source by making Open Source license compliance simpler and more consistent. The OpenChain Specification defines a core set of requirements every quality compliance program must satisfy. The OpenChain Curriculum provides the educational foundation for Open Source processes and solutions, whilst meeting a key requirement of the OpenChain Specification. OpenChain Conformance allows organizations to display their adherence to these requirements. The result is that Open Source license compliance becomes more predictable, understandable and efficient for participants of the software supply chain.\nThis document contains a series of questions to determine whether a company is OpenChain Conformant. If each of these questions can be answered with a \"yes\" then that company meets all the requirements of conformance to the OpenChain Specification version 2.0. If any of the questions are answered with a \"no\" then the company can clearly identify where additional investment is needed to improve the compliance process.",
   "sections": [
     {
       "name": "G1",
@@ -20,7 +20,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented policy governing the open source license compliance of the Supplied Software?",
+          "question": "Do you have a documented policy governing the Open Source license compliance of the Supplied Software?",
           "number": "1.a",
           "type": "YES_NO",
           "specReference": [
@@ -30,7 +30,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure to communicate the existence of the open source policy to all Software Staff",
+          "question": "Do you have a documented procedure to communicate the existence of the Open Source policy to all Software Staff",
           "number": "1.b",
           "type": "YES_NO",
           "specReference": [
@@ -78,7 +78,7 @@
           "subQuestions": {
             "1.f.i": {
               "correctAnswer": "Yes",
-              "question": "The open source policy and where to find it,",
+              "question": "The Open Source policy and where to find it,",
               "number": "1.f.i",
               "type": "YES_NO",
               "specReference": [
@@ -87,7 +87,7 @@
             },
             "1.f.ii": {
               "correctAnswer": "Yes",
-              "question": "Relevant open source objectives,",
+              "question": "Relevant Open Source objectives,",
               "number": "1.f.ii",
               "type": "YES_NO",
               "specReference": [
@@ -134,7 +134,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure to review and document open source license obligations, restrictions and rights?",
+          "question": "Do you have a documented procedure to review and document Open Source license obligations, restrictions and rights?",
           "number": "1.i",
           "type": "YES_NO",
           "specReference": [
@@ -149,7 +149,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Have you assigned individual(s) responsibility for receiving external open source compliance inquiries?",
+          "question": "Have you assigned individual(s) responsibility for receiving external Open Source compliance inquiries?",
           "number": "2.a",
           "type": "YES_NO",
           "specReference": [
@@ -168,7 +168,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure that assigns responsibility for receiving and responding to open source compliance inquiries?",
+          "question": "Do you have a documented procedure that assigns responsibility for receiving and responding to Open Source compliance inquiries?",
           "number": "2.c",
           "type": "YES_NO",
           "specReference": [
@@ -195,7 +195,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Is legal expertise pertaining to internal and external open source compliance identified?",
+          "question": "Is legal expertise pertaining to internal and external Open Source compliance identified?",
           "number": "2.f",
           "type": "YES_NO",
           "specReference": [
@@ -228,7 +228,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure for identifying, tracking and archiving information about the collection of open source components from which a Supplied Software release is comprised?",
+          "question": "Do you have a documented procedure for identifying, tracking and archiving information about the collection of Open Source components from which a Supplied Software release is comprised?",
           "number": "3.a",
           "type": "YES_NO",
           "specReference": [
@@ -237,7 +237,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have open source component records for each Supplied Software release which demonstrates the documented procedure was properly followed?",
+          "question": "Do you have Open Source component records for each Supplied Software release which demonstrates the documented procedure was properly followed?",
           "number": "3.b",
           "type": "YES_NO",
           "specReference": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-		  "question": "Have you implemented a procedure that handles at least the following common open source license use cases for the open source components of each supplied Supplied Software release?",
+		  "question": "Have you implemented a procedure that handles at least the following common Open Source license use cases for the Open Source components of each supplied Supplied Software release?",
           "number": "3.c",
           "type": "SUBQUESTIONS",
           "specReference": [
@@ -273,7 +273,7 @@
             },
             "3.c.iii": {
               "correctAnswer": "Yes",
-              "question": "     integrated with other open source such that it may trigger copyleft obligations;",
+              "question": "     integrated with other Open Source such that it may trigger copyleft obligations;",
               "number": "3.c.iii",
               "type": "YES_NO",
               "specReference": [
@@ -282,7 +282,7 @@
             },
             "3.c.iv": {
               "correctAnswer": "Yes",
-              "question": "     contains modified open source;",
+              "question": "     contains modified Open Source;",
               "number": "3.c.iv",
               "type": "YES_NO",
               "specReference": [
@@ -291,7 +291,7 @@
             },
             "3.c.v": {
               "correctAnswer": "Yes",
-              "question": "     contains open source or other software under an incompatible license interacting with other components within the Supplied Software;",
+              "question": "     contains Open Source or other software under an incompatible license interacting with other components within the Supplied Software;",
               "number": "3.c.v",
               "type": "YES_NO",
               "specReference": [
@@ -300,7 +300,7 @@
             },
             "3.c.vi": {
               "correctAnswer": "Yes",
-              "question": "     contains open source with attribution requirements.",
+              "question": "     contains Open Source with attribution requirements.",
               "number": "3.c.vi",
               "type": "YES_NO",
               "specReference": [
@@ -350,7 +350,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a policy that governs contributions to open source projects on behalf of the organization?",
+          "question": "Do you have a policy that governs contributions to Open Source projects on behalf of the organization?",
           "number": "5.a",
           "type": "YES_NO",
           "specReference": [
