@@ -78,7 +78,7 @@
           "subQuestions": {
             "1.f.i": {
               "correctAnswer": "Yes",
-              "question": "The Open Source policy and where to find it,",
+              "question": "The Open Source policy and where to find it;",
               "number": "1.f.i",
               "type": "YES_NO",
               "specReference": [
@@ -87,7 +87,7 @@
             },
             "1.f.ii": {
               "correctAnswer": "Yes",
-              "question": "Relevant Open Source objectives,",
+              "question": "Relevant Open Source objectives;",
               "number": "1.f.ii",
               "type": "YES_NO",
               "specReference": [
@@ -96,7 +96,7 @@
             },
             "1.f.iii": {
               "correctAnswer": "Yes",
-              "question": "Contributions expected to ensure the effectiveness of the Program,",
+              "question": "Contributions expected to ensure the effectiveness of the Program;",
               "number": "1.f.iii",
               "type": "YES_NO",
               "specReference": [
@@ -105,7 +105,7 @@
             },
             "1.f.iv": {
               "correctAnswer": "Yes",
-              "question": "The implications of failing to follow the Program requirements,",
+              "question": "The implications of failing to follow the Program requirements.",
               "number": "1.f.iv",
               "type": "YES_NO",
               "specReference": [
