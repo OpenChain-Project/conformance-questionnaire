@@ -282,7 +282,7 @@
             },
             "3.c.iv": {
               "correctAnswer": "Yes",
-              "question": "     contains modified Open Source;",
+              "question": "     Containing modified Open Source;",
               "number": "3.c.iv",
               "type": "YES_NO",
               "specReference": [
