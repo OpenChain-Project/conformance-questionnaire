@@ -186,7 +186,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Have the identified Program roles been properly staffed and has adequate funding provided?",
+          "question": "Have the identified Program roles been properly staffed and adequately funded?",
           "number": "2.e",
           "type": "YES_NO",
           "specReference": [
