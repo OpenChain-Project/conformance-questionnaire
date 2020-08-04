@@ -149,7 +149,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Have you assigned individual(s) responsible for receiving external open source compliance inquiries (\"Open Source Liaison\")?",
+          "question": "Have you assigned individual(s) responsibility for receiving external open source compliance inquiries?",
           "number": "2.a",
           "type": "YES_NO",
           "specReference": [
