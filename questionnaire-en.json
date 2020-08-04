@@ -255,7 +255,7 @@
           "subQuestions": {
             "3.c.i": {
               "correctAnswer": "Yes",
-              "question": "     distributed in binary form;",
+              "question": "     Distribution in binary form;",
               "number": "3.c.i",
               "type": "YES_NO",
               "specReference": [
