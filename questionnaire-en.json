@@ -335,7 +335,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?",
+          "question": "Are the Compliance Artifacts archived at least as long as the Supplied Software is offered and as required by the Identified Licenses?",
           "number": "4.d",
           "type": "YES_NO",
           "specReference": [
