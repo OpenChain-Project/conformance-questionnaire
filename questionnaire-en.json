@@ -87,7 +87,7 @@
             },
             "1.f.ii": {
               "correctAnswer": "Yes",
-              "question": "The relevant open source objectives,",
+              "question": "Relevant open source objectives,",
               "number": "1.f.ii",
               "type": "YES_NO",
               "specReference": [
