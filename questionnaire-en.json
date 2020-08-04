@@ -228,7 +228,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure for identifying, tracking and archiving information about the collection of Open Source components from which a Supplied Software release is comprised?",
+          "question": "Do you have a documented procedure for identifying, tracking and archiving information about the Open Source components in a Supplied Software release?",
           "number": "3.a",
           "type": "YES_NO",
           "specReference": [
