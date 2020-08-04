@@ -317,7 +317,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?",
+          "question": "Do you have a documented procedure describing the process ensuring the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?",
           "number": "4.a",
           "type": "YES_NO",
           "specReference": [
