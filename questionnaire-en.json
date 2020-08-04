@@ -237,7 +237,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have Open Source component records for each Supplied Software release which demonstrates the documented procedure was properly followed?",
+          "question": "Do you have Open Source component records for Supplied Software which demonstrates the documented procedure was properly followed?",
           "number": "3.b",
           "type": "YES_NO",
           "specReference": [
