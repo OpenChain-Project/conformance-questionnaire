@@ -273,7 +273,7 @@
             },
             "3.c.iii": {
               "correctAnswer": "Yes",
-              "question": "     integrated with other Open Source such that it may trigger copyleft obligations;",
+              "question": "     Integration with other Open Source that may trigger copyleft obligations;",
               "number": "3.c.iii",
               "type": "YES_NO",
               "specReference": [
