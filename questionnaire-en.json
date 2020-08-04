@@ -245,7 +245,7 @@
           ]
         },
         {
-		  "question": "Do you have a documented procedure that covers at least these common Open Source license use cases for Open Source components in the Supplied Software?",
+		  "question": "Do you have a documented procedure that covers these common Open Source license use cases for Open Source components in the Supplied Software?",
           "number": "3.c",
           "type": "SUBQUESTIONS",
           "specReference": [
