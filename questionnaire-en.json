@@ -20,7 +20,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented policy that governs open source license compliance of the Supplied Software distribution (e.g., via training, internal wiki, or other practical communication method)?",
+          "question": "Do you have a documented policy governing the open source license compliance of the Supplied Software?",
           "number": "1.a",
           "type": "YES_NO",
           "specReference": [
