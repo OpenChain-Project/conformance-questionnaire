@@ -326,7 +326,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you archive copies of the Compliance Artifacts of the Supplied Software?",
+          "question": "Do you have a documented procedure for archiving copies of Compliance Artifacts for the Supplied Software?",
           "number": "4.b",
           "type": "YES_NO",
           "specReference": [
