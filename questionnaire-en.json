@@ -350,7 +350,7 @@
       "questions": [
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a policy that governs contribution to Open Source projects on behalf of the organization?",
+          "question": "Do you have a policy for contribution to Open Source projects on behalf of the organization?",
           "number": "5.a",
           "type": "YES_NO",
           "specReference": [
@@ -359,7 +359,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure that governs Open Source contributions?",
+          "question": "Do you have a documented procedure to govern Open Source contributions?",
           "number": "5.b",
           "type": "YES_NO",
           "specReference": [
