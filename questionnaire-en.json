@@ -39,7 +39,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Have you identified the roles and the corresponding responsibilities that affect the performance and effectiveness of the Program?",
+          "question": "Have you identified the roles and responsibilities that affect the performance and effectiveness of the Program?",
           "number": "1.c",
           "type": "YES_NO",
           "specReference": [
