@@ -291,7 +291,7 @@
             },
             "3.c.v": {
               "correctAnswer": "Yes",
-              "question": "     contains Open Source or other software under an incompatible license interacting with other components within the Supplied Software;",
+              "question": "     Containing Open Source or other software under incompatible licenses for interaction with other components in the Supplied Software;",
               "number": "3.c.v",
               "type": "YES_NO",
               "specReference": [
