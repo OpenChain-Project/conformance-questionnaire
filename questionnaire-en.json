@@ -336,7 +336,7 @@
         {
           "correctAnswer": "Yes",
           "question": "Are the Compliance Artifacts archived at least as long as the Supplied Software is offered and as required by the Identified Licenses?",
-          "number": "4.d",
+          "number": "4.c",
           "type": "YES_NO",
           "specReference": [
             "4.1.2"
