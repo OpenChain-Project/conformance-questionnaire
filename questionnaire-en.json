@@ -359,7 +359,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure to govern Open Source contributions?",
+          "question": "Do you have a documented procedure governing Open Source contributions?",
           "number": "5.b",
           "type": "YES_NO",
           "specReference": [
