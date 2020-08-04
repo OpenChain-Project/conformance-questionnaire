@@ -134,20 +134,11 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a process for reviewing open source license obligations, restrictions and rights?",
+          "question": "Do you have a documented procedure to review and document open source license obligations, restrictions and rights?",
           "number": "1.i",
           "type": "YES_NO",
           "specReference": [
             "1.5"
-          ]
-        },
-        {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure to review and document the obligations, restrictions and rights?",
-          "number": "1.j",
-          "type": "YES_NO",
-          "specReference": [
-            "1.5.1"
           ]
         }
       ]
