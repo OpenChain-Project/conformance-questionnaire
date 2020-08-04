@@ -368,7 +368,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure that makes all Software Staff aware of the existence of the Open Source contribution policy?",
+          "question": "Do you have a documented procedure for making all Software Staff aware of the Open Source contribution policy?",
           "number": "5.c",
           "type": "YES_NO",
           "specReference": [
