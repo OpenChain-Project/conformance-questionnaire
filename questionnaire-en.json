@@ -204,7 +204,7 @@
         },
         {
           "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure assigning internal responsibilities for Open Source compliance.",
+          "question": "Do you have a documented procedure assigning internal responsibilities for Open Source compliance?",
           "number": "2.g",
           "type": "YES_NO",
           "specReference": [
