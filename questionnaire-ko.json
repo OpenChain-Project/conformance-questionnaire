@@ -1,5 +1,5 @@
 {
-  "specVersion": "2.0.0",
+  "specVersion": "2.1.0",
   "language": "ko",
   "title": "준수 확인을 위한 질문",
   "contextText": "배경",
@@ -15,7 +15,7 @@
   "preambleText": "OpenChain 프로젝트는 오픈소스 라이선스 컴플라이언스를 보다 간단하고 일관성있게 만들어 오픈소스에 대한 신뢰를 구축합니다. OpenChain 설명서는 모든 우수한 컴플라이언스 프로그램이 충족해야하는 핵심 요건을 정의합니다. OpenChain 커리큘럼은 OpenChain 설명서의 핵심 요구 사항을 충족하는 오픈 소스 프로세스 및 솔루션에 대한 교육 기반을 제공합니다. OpenChain 준수 확인을 통해 조직은 이러한 요건을 준수하고 있음을 나타낼 수 있습니다. 그 결과 소프트웨어 공급망의 참가자가 오픈소스 라이선스 컴플라이언스를 보다 예측 가능하고 이해하기 쉽고 효율적으로 만들 수 있습니다.\n이 문서에는 회사가 OpenChain을 준수하는지 여부를 확인하기위한 일련의 질문이 포함되어 있습니다. 이러한 각 질문에 \"예\"라고 대답 할 수 있으면 해당 회사는 OpenChain 설명서 버전 2.0에 대한 모든 요건을 충족합니다. 질문에 \"아니오\"라고 대답하면 회사는 컴플라이언스 프로세스를 개선하기 위해 추가 투자가 필요한 위치를 명확하게 식별 할 수 있습니다.",
   "sections": [
     {
-      "name": "G1",
+      "name": "Part 1",
       "title": "1. 프로그램 설립",
       "questions": [
         {
@@ -43,6 +43,7 @@
           "number": "1.c",
           "type": "YES_NO",
           "specReference": [
+		    "1.2",
             "1.2.1"
           ]
         },
@@ -120,7 +121,8 @@
           "number": "1.g",
           "type": "YES_NO",
           "specReference": [
-            "1.4"
+            "1.4",
+			"1.4.1"
           ]
         },
         {
@@ -129,6 +131,7 @@
           "number": "1.h",
           "type": "YES_NO",
           "specReference": [
+		    "1.4",
             "1.4.1"
           ]
         },
@@ -138,7 +141,8 @@
           "number": "1.i",
           "type": "YES_NO",
           "specReference": [
-            "1.5"
+            "1.5",
+            "1.5.1"
           ]
         },
         {
@@ -153,7 +157,7 @@
       ]
     },
 	{
-      "name": "G2",
+      "name": "Part 2",
       "title": "2. 관련 업무 정의 및 지원",
       "questions": [
         {
@@ -172,7 +176,8 @@
           "number": "2.b",
           "type": "YES_NO",
           "specReference": [
-            "2.1.1"
+            "2.1",
+			"2.1.1"
           ]
         },
         {
@@ -181,7 +186,8 @@
           "number": "2.c",
           "type": "YES_NO",
           "specReference": [
-            "2.1.2"
+            "2.1",
+			"2.1.2"
           ]
         },
         {
@@ -190,7 +196,8 @@
           "number": "2.d",
           "type": "YES_NO",
           "specReference": [
-            "2.2.1"
+            "2.1",
+			"2.2.1"
           ]
         },
         {
@@ -199,7 +206,8 @@
           "number": "2.e",
           "type": "YES_NO",
           "specReference": [
-            "2.2.2"
+            "2.1",
+			"2.2.2"
           ]
         },
         {
@@ -208,7 +216,8 @@
           "number": "2.f",
           "type": "YES_NO",
           "specReference": [
-            "2.2.3"
+            "2.1",
+			"2.2.3"
           ]
         },
         {
@@ -217,7 +226,8 @@
           "number": "2.g",
           "type": "YES_NO",
           "specReference": [
-            "2.2.4"
+            "2.1",
+			"2.2.4"
           ]
         },
         {
@@ -232,7 +242,7 @@
       ]
     },
     {
-      "name": "G3",
+      "name": "Part 3",
       "title": "3. 오픈소스 컨텐츠 검토 및 승인",
       "questions": [
         {
@@ -241,7 +251,8 @@
           "number": "3.a",
           "type": "YES_NO",
           "specReference": [
-            "3.1.1"
+            "3.1",
+			"3.1.1"
           ]
         },
         {
@@ -250,7 +261,8 @@
           "number": "3.b",
           "type": "YES_NO",
           "specReference": [
-            "3.1.2"
+            "3.1",
+			"3.1.2"
           ]
         },
         {
@@ -258,7 +270,8 @@
           "number": "3.c",
           "type": "SUBQUESTIONS",
           "specReference": [
-            "3.2.1"
+            "3.2",
+			"3.2.1"
           ],
           "minNumberValidatedAnswers": 6,
           "subQuestions": {
@@ -268,7 +281,8 @@
               "number": "3.c.i",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.ii": {
@@ -277,7 +291,8 @@
               "number": "3.c.ii",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.iii": {
@@ -286,7 +301,8 @@
               "number": "3.c.iii",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.iv": {
@@ -295,7 +311,8 @@
               "number": "3.c.iv",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.v": {
@@ -304,7 +321,8 @@
               "number": "3.c.v",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.vi": {
@@ -313,7 +331,8 @@
               "number": "3.c.vi",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             }
           }
@@ -321,7 +340,7 @@
       ]
     },
     {
-      "name": "G4",
+      "name": "Part 4",
       "title": "4. 컴플라이언스 결과물 생성 및 전달",
       "questions": [
         {
@@ -330,7 +349,8 @@
           "number": "4.a",
           "type": "YES_NO",
           "specReference": [
-            "4.1.1"
+            "4.1",
+			"4.1.1"
           ]
         },
         {
@@ -339,22 +359,24 @@
           "number": "4.b",
           "type": "YES_NO",
           "specReference": [
-            "4.1.2"
+            "4.1",
+			"4.1.2"
           ]
         },
         {
           "correctAnswer": "Yes",
           "question": "컴플라이언스 결과물 사본은 적어도 공급 대상 소프트웨어가 제공되는 중이거나 식별된 라이선스가 요구하는 기간 중 더 긴 시간 동안 보관됩니까?",
-          "number": "4.d",
+          "number": "4.c",
           "type": "YES_NO",
           "specReference": [
-            "4.1.2"
+            "4.1",
+			"4.1.2"
           ]
         }
       ]
     },
     {
-      "name": "G5",
+      "name": "Part 5",
       "title": "5. 오픈소스 커뮤니티 참여에 대한 이해",
       "questions": [
         {
@@ -363,7 +385,8 @@
           "number": "5.a",
           "type": "YES_NO",
           "specReference": [
-            "5.1"
+            "5.1",
+            "5.1.1"
           ]
         },
         {
@@ -372,7 +395,8 @@
           "number": "5.b",
           "type": "YES_NO",
           "specReference": [
-            "5.1.2"
+            "5.1",
+			"5.1.2"
           ]
         },
         {
@@ -381,13 +405,14 @@
           "number": "5.c",
           "type": "YES_NO",
           "specReference": [
-            "5.1.3"
+            "5.1",
+			"5.1.3"
           ]
         }
       ]
     },
     {
-      "name": "G6",
+      "name": "Part 6",
       "title": "6. 설명서 요건 준수",
       "questions": [
         {
@@ -396,7 +421,8 @@
           "number": "6.a",
           "type": "YES_NO",
           "specReference": [
-            "6.1.1"
+            "6.1",
+			"6.1.1"
           ]
         },
         {
@@ -405,7 +431,8 @@
           "number": "6.b",
           "type": "YES_NO",
           "specReference": [
-            "6.2.1"
+            "6.2",
+			"6.2.1"
           ]
         }
       ]

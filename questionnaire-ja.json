@@ -1,5 +1,5 @@
 {
-  "specVersion": "2.0.0",
+  "specVersion": "2.1.0",
   "language": "ja",
   "title": "適合チェック質問一覧",
   "contextText": "背景",
@@ -15,8 +15,8 @@
   "preambleText": "OpenChainプロジェクトは、オープンソースライセンスへのコンプライアンスをよりシンプルにし、一貫性を持たせることで、オープンソースに対する信頼を築きます。OpenChain仕様では、各品質コンプライアンスプログラムが満足すべき核となる要件を定義しています。OpenChainカリキュラムは、OpenChain仕様の必須要件を満たしながら、オープンソースプロセスやソリューションの教育的基礎を提供しています。企業は、OpenChain適合によって、こういった要件に適合していることを示すことができます。その結果、オープンソース・ライセンス・コンプライアンスがソフトウェアサプライチェーンの中にいる者にとって、より予測可能でわかりやすく、効率的なものになっています。\nこのドキュメントには企業がOpenChain適合がどうかを判断するための一連の質問が記載されています。すべての質問が「はい」だった場合、その企業はOpenChain仕様2.0版のすべての要件に適合していることになります。いくつかの質問に対する答えが「いいえ」だった場合、その企業はコンプライアンスプロセスの改善のために何が必要かを明確にすることができます。",
   "sections": [
     {
-      "name": "G1",
-      "title": "G1: オープンソースの責任を理解している",
+      "name": "Part 1",
+      "title": "1: オープンソースの責任を理解している",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -43,6 +43,7 @@
           "number": "1.c",
           "type": "YES_NO",
           "specReference": [
+		    "1.2",
             "1.2.1"
           ]
         },
@@ -120,7 +121,8 @@
           "number": "1.g",
           "type": "YES_NO",
           "specReference": [
-            "1.4"
+            "1.4",
+			"1.4.1"
           ]
         },
         {
@@ -129,7 +131,8 @@
           "number": "1.h",
           "type": "YES_NO",
           "specReference": [
-            "1.4.1"
+            "1.4",
+			"1.4.1"
           ]
         },
         {
@@ -138,7 +141,8 @@
           "number": "1.i",
           "type": "YES_NO",
           "specReference": [
-            "1.5"
+            "1.5",
+            "1.5.1"
           ]
         },
         {
@@ -153,8 +157,8 @@
       ]
     },
 	{
-      "name": "G2",
-      "title": "G2: コンプライアンスを履行するための責任者のアサイン",
+      "name": "Part 2",
+      "title": "2: コンプライアンスを履行するための責任者のアサイン",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -172,7 +176,8 @@
           "number": "2.b",
           "type": "YES_NO",
           "specReference": [
-            "2.1.1"
+            "2.1",
+			"2.1.1"
           ]
         },
         {
@@ -181,7 +186,8 @@
           "number": "2.c",
           "type": "YES_NO",
           "specReference": [
-            "2.1.2"
+            "2.1",
+			"2.1.2"
           ]
         },
         {
@@ -190,7 +196,8 @@
           "number": "2.d",
           "type": "YES_NO",
           "specReference": [
-            "2.2.1"
+            "2.1",
+			"2.2.1"
           ]
         },
         {
@@ -199,7 +206,8 @@
           "number": "2.e",
           "type": "YES_NO",
           "specReference": [
-            "2.2.2"
+            "2.1",
+			"2.2.2"
           ]
         },
         {
@@ -208,7 +216,8 @@
           "number": "2.f",
           "type": "YES_NO",
           "specReference": [
-            "2.2.3"
+            "2.1",
+			"2.2.3"
           ]
         },
         {
@@ -217,7 +226,8 @@
           "number": "2.g",
           "type": "YES_NO",
           "specReference": [
-            "2.2.4"
+            "2.1",
+			"2.2.4"
           ]
         },
         {
@@ -232,8 +242,8 @@
       ]
     },
     {
-      "name": "G3",
-      "title": "G3: オープンソースコンテンツのレビューと承認",
+      "name": "Part 3",
+      "title": "3: オープンソースコンテンツのレビューと承認",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -241,7 +251,8 @@
           "number": "3.a",
           "type": "YES_NO",
           "specReference": [
-            "3.1.1"
+            "3.1",
+			"3.1.1"
           ]
         },
         {
@@ -250,7 +261,8 @@
           "number": "3.b",
           "type": "YES_NO",
           "specReference": [
-            "3.1.2"
+            "3.1",
+			"3.1.2"
           ]
         },
         {
@@ -258,7 +270,8 @@
           "number": "3.c",
           "type": "SUBQUESTIONS",
           "specReference": [
-            "3.2.1"
+            "3.2",
+			"3.2.1"
           ],
           "minNumberValidatedAnswers": 6,
           "subQuestions": {
@@ -268,7 +281,8 @@
               "number": "3.c.i",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.ii": {
@@ -277,7 +291,8 @@
               "number": "3.c.ii",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.iii": {
@@ -286,7 +301,8 @@
               "number": "3.c.iii",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.iv": {
@@ -295,7 +311,8 @@
               "number": "3.c.iv",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.v": {
@@ -304,7 +321,8 @@
               "number": "3.c.v",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             },
             "3.c.vi": {
@@ -313,7 +331,8 @@
               "number": "3.c.vi",
               "type": "YES_NO",
               "specReference": [
-                "3.2"
+                "3.2",
+            	"3.2.1"
               ]
             }
           }
@@ -321,8 +340,8 @@
       ]
     },
     {
-      "name": "G4",
-      "title": "G4: オープンソースコンプライアンス関連資料の配布",
+      "name": "Part 4",
+      "title": "4: オープンソースコンプライアンス関連資料の配布",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -330,7 +349,8 @@
           "number": "4.a",
           "type": "YES_NO",
           "specReference": [
-            "4.1.1"
+            "4.1",
+			"4.1.1"
           ]
         },
         {
@@ -339,23 +359,25 @@
           "number": "4.b",
           "type": "YES_NO",
           "specReference": [
-            "4.1.2"
+            "4.1",
+			"4.1.2"
           ]
         },
         {
           "correctAnswer": "Yes",
           "question": "コンプライアンス関連資料のコピーは、少なくとも供給ソフトウェアが提供され続けている期間、または確認ライセンスが要求する期間（いずれか長い方の期間）保管されていますか？",
-          "number": "4.d",
+          "number": "4.c",
           "type": "YES_NO",
           "specReference": [
-            "4.1.2"
+            "4.1",
+			"4.1.2"
           ]
         }
       ]
     },
     {
-      "name": "G5",
-      "title": "G5: オープンソースコミュニティへの（積極的な）関わり方の理解",
+      "name": "Part 5",
+      "title": "5: オープンソースコミュニティへの（積極的な）関わり方の理解",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -363,7 +385,8 @@
           "number": "5.a",
           "type": "YES_NO",
           "specReference": [
-            "5.1"
+            "5.1",
+            "5.1.1"
           ]
         },
         {
@@ -372,7 +395,8 @@
           "number": "5.b",
           "type": "YES_NO",
           "specReference": [
-            "5.1.2"
+            "5.1",
+			"5.1.2"
           ]
         },
         {
@@ -381,14 +405,15 @@
           "number": "5.c",
           "type": "YES_NO",
           "specReference": [
-            "5.1.3"
+            "5.1",
+			"5.1.3"
           ]
         }
       ]
     },
     {
-      "name": "G6",
-      "title": "G6: 仕様要件への遵守",
+      "name": "Part 6",
+      "title": "6: 仕様要件への遵守",
       "questions": [
         {
           "correctAnswer": "Yes",
@@ -396,7 +421,8 @@
           "number": "6.a",
           "type": "YES_NO",
           "specReference": [
-            "6.1.1"
+            "6.1",
+			"6.1.1"
           ]
         },
         {
@@ -405,7 +431,8 @@
           "number": "6.b",
           "type": "YES_NO",
           "specReference": [
-            "6.2.1"
+            "6.2",
+			"6.2.1"
           ]
         }
       ]
