@@ -1,26 +1,26 @@
 {
   "specVersion": "2.1.1",
   "language": "ko",
-  "title": "Conformance in Questions",
-  "contextText": "Context",
-  "questionsText": "Questions",
-  "completedText": "Completed?",
-  "statusText": "Status",
-  "answerColumnText": "Answer",
-  "sectionColumnText": "Section",
-  "numberColumnText": "Number",
-  "specRefColumnText": "Spec Ref",
-  "questionColumnText": "Question Text",
-  "tocText": "Table of Contents",
-  "preambleText": "The OpenChain Project builds trust in open source by making license compliance simpler and more consistent. It maintains the OpenChain Specification to define a core set of requirements every quality compliance program must satisfy. The result is that open source license compliance becomes more predictable, understandable and efficient for participants of the software supply chain.\nThis document contains a series of questions to determine whether a company has an OpenChain Conformant program. If each of these questions can be answered with a \"yes\" then that company meets all the requirements of conformance to the OpenChain Specification version 2.1 (functionally identical to ISO/IEC DIS 5230:2020(e)). If any of the questions are answered with a \"no\" then the company can clearly identify where additional investment is needed to improve the compliance process.",
+  "title": "준수 확인을 위한 질문",
+  "contextText": "배경",
+  "questionsText": "질문",
+  "completedText": "완료?",
+  "statusText": "상태",
+  "answerColumnText": "답변",
+  "sectionColumnText": "섹션",
+  "numberColumnText": "No",
+  "specRefColumnText": "설명서 Ref",
+  "questionColumnText": "질문 내용",
+  "tocText": "목차",
+  "preambleText": "OpenChain 프로젝트는 오픈소스 라이선스 컴플라이언스를 보다 간단하고 일관성있게 만들어 오픈소스에 대한 신뢰를 구축합니다. OpenChain 설명서는 모든 우수한 컴플라이언스 프로그램이 충족해야하는 핵심 요건을 정의합니다. 그 결과 소프트웨어 공급망의 참가자가 오픈소스 라이선스 컴플라이언스를 보다 예측 가능하고 이해하기 쉽고 효율적으로 만들 수 있습니다.\n이 문서에는 회사가 OpenChain을 준수하는지 여부를 확인하기위한 일련의 질문이 포함되어 있습니다. 이러한 각 질문에 \"예\"라고 대답 할 수 있으면 해당 회사는 OpenChain 설명서 버전 2.0에 대한 모든 요건을 충족합니다. 질문에 \"아니오\"라고 대답하면 회사는 컴플라이언스 프로세스를 개선하기 위해 추가 투자가 필요한 위치를 명확하게 식별 할 수 있습니다.",
   "sections": [
     {
       "name": "Part 1",
-      "title": "1. Program foundation",
+      "title": "1. 프로그램 설립",
       "questions": [
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented policy governing the open source license compliance of the Supplied Software?",
+          "correctAnswer": "네",
+          "question": "공급 대상 소프트웨어 배포에 대한 오픈소스 라이선스 컴플라이언스를 관리하는 문서화된 정책이 있습니까(예: 교육, 내부 위키 혹은 기타 실질적인 의사소통 방법)?",
           "number": "1.a",
           "type": "YES_NO",
           "specReference": [
@@ -29,8 +29,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure to communicate the existence of the open source policy to all Software Staff",
+          "correctAnswer": "네",
+          "question": "오픈소스 정책의 존재를 모든 소프트웨어 공급 담당자에게 알리는 문서화된 절차가 있습니까?",
           "number": "1.b",
           "type": "YES_NO",
           "specReference": [
@@ -39,8 +39,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Have you identified the roles and responsibilities that affect the performance and effectiveness of the Program?",
+          "correctAnswer": "네",
+          "question": "프로그램의 성능 및 효과에 영향을 미치는 역할 및 책임을 확인했습니까?",
           "number": "1.c",
           "type": "YES_NO",
           "specReference": [
@@ -49,8 +49,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Have you identified and documented the competencies required for each role?",
+          "correctAnswer": "네",
+          "question": "각 역할에 필요한 역량을 확인하고 문서화했습니까?",
           "number": "1.d",
           "type": "YES_NO",
           "specReference": [
@@ -59,8 +59,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Have you documented the assessed competence for each Program participant?",
+          "correctAnswer": "네",
+          "question": "각 프로그램 참여자에 대해 역량을 평가한 증거를 문서화 했습니까?",
           "number": "1.e",
           "type": "YES_NO",
           "specReference": [
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "question": "Have you documented the awareness of your Program participants on the following topics?",
+          "question": "다음 주제에 대한 직원의 인지도를 문서화 한 증거가 있습니까?",
           "number": "1.f",
           "type": "SUBQUESTIONS",
           "specReference": [
@@ -79,8 +79,8 @@
           "minNumberValidatedAnswers": 4,
           "subQuestions": {
             "1.f.i": {
-              "correctAnswer": "Yes",
-              "question": "The open source policy and where to find it;",
+              "correctAnswer": "네",
+              "question": "오픈소스 정책 및 찾을 수 있는 위치,",
               "number": "1.f.i",
               "type": "YES_NO",
               "specReference": [
@@ -88,8 +88,8 @@
               ]
             },
             "1.f.ii": {
-              "correctAnswer": "Yes",
-              "question": "Relevant open source objectives;",
+              "correctAnswer": "네",
+              "question": "관련 오픈소스 목표,",
               "number": "1.f.ii",
               "type": "YES_NO",
               "specReference": [
@@ -97,8 +97,8 @@
               ]
             },
             "1.f.iii": {
-              "correctAnswer": "Yes",
-              "question": "Contributions expected to ensure the effectiveness of the Program;",
+              "correctAnswer": "네",
+              "question": "프로그램의 효과를 보장하기 위해 기대되는 기여,",
               "number": "1.f.iii",
               "type": "YES_NO",
               "specReference": [
@@ -106,8 +106,8 @@
               ]
             },
             "1.f.iv": {
-              "correctAnswer": "Yes",
-              "question": "The implications of failing to follow the Program requirements.",
+              "correctAnswer": "네",
+              "question": "프로그램 요건을 준수하지 않는 것의 의미,",
               "number": "1.f.iv",
               "type": "YES_NO",
               "specReference": [
@@ -117,8 +117,8 @@
           }
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a process for determining the scope of your Program?",
+          "correctAnswer": "네",
+          "question": "프로그램의 적용 범위를 결정하는 프로세스가 있습니까?",
           "number": "1.g",
           "type": "YES_NO",
           "specReference": [
@@ -127,8 +127,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a written statement clearly defining the scope and limits of the Program?",
+          "correctAnswer": "네",
+          "question": "프로그램의 범위와 한계를 명확하게 정의한 서면 진술이 있습니까?",
           "number": "1.h",
           "type": "YES_NO",
           "specReference": [
@@ -137,8 +137,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure to review and document open source license obligations, restrictions and rights?",
+          "correctAnswer": "네",
+          "question": "오픈소스 라이선스 의무, 제한 및 권리를 검토하는 프로세스가 있습니까?",
           "number": "1.i",
           "type": "YES_NO",
           "specReference": [
@@ -149,12 +149,12 @@
       ]
     },
 	{
-      "name": "Part 2",
-      "title": "2. Relevant tasks defined and supported",
+      "name": "Yes",
+      "title": "2. 1.j",
       "questions": [
         {
-          "correctAnswer": "Yes",
-          "question": "Have you assigned individual(s) responsibility for receiving external open source compliance inquiries?",
+          "correctAnswer": "네",
+          "question": "Part 2",
           "number": "2.a",
           "type": "YES_NO",
           "specReference": [
@@ -163,8 +163,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Is the external open source compliance contact publicly identified (e.g. via an email address or the Linux Foundation Open Compliance Directory)?",
+          "correctAnswer": "네",
+          "question": "외부 오픈소스 컴플라이언스 문의를 받는 담당자(오픈소스 연락담당자)를 지정했습니까?",
           "number": "2.b",
           "type": "YES_NO",
           "specReference": [
@@ -173,8 +173,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure for receiving and responding to open source compliance inquiries?",
+          "correctAnswer": "네",
+          "question": "오픈소스 연락 담당자 정보가 외부에 공개되어 있습니까(예: 이메일 주소 또는 Linux Foundation의 Open Compliance Directory)?",
           "number": "2.c",
           "type": "YES_NO",
           "specReference": [
@@ -183,8 +183,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Have you documented the persons, group or function supporting the Program role(s) identified?",
+          "correctAnswer": "네",
+          "question": "오픈소스 컴플라이언스 문의를 받고 대응하기 위한 책임을 부여하는 문서화된 절차가 있습니까?",
           "number": "2.d",
           "type": "YES_NO",
           "specReference": [
@@ -193,8 +193,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Have the identified Program roles been properly staffed and adequately funded?",
+          "correctAnswer": "네",
+          "question": "확인된 프로그램 역할을 지원하는 사람, 그룹 또는 기능을 문서화했습니까?",
           "number": "2.e",
           "type": "YES_NO",
           "specReference": [
@@ -203,8 +203,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Has legal expertise to address internal and external open source compliance been identified?",
+          "correctAnswer": "네",
+          "question": "확인된 프로그램 역할에 적절하게 인원이 충원되었고 적합한 자금이 제공되었습니까?",
           "number": "2.f",
           "type": "YES_NO",
           "specReference": [
@@ -213,8 +213,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure assigning internal responsibilities for open source compliance?",
+          "correctAnswer": "네",
+          "question": "오픈소스 컴플라이언스와 관련된 내부 또는 외부의 법률 전문 지식을 이용할 수 있는 방법이 확인되었습니까?",
           "number": "2.g",
           "type": "YES_NO",
           "specReference": [
@@ -223,8 +223,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure for handling review and remediation of non-compliant cases?",
+          "correctAnswer": "네",
+          "question": "오픈소스 컴플라이언스에 대한 내부 책임을 할당하는 문서화된 절차가 있습니까?",
           "number": "2.h",
           "type": "YES_NO",
           "specReference": [
@@ -235,12 +235,12 @@
       ]
     },
     {
-      "name": "Part 3",
-      "title": "3 Open source content review and approval",
+      "name": "Yes",
+      "title": "미준수 사례의 검토 및 시정을 규정하는 문서화된 절차가 있습니까?",
       "questions": [
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure for identifying, tracking and archiving information about the open source components in a Supplied Software release?",
+          "correctAnswer": "네",
+          "question": "YES_NO",
           "number": "3.a",
           "type": "YES_NO",
           "specReference": [
@@ -249,8 +249,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have open source component records for the Supplied Software which demonstrate the documented procedure was properly followed?",
+          "correctAnswer": "네",
+          "question": "공급 대상 소프트웨어를 구성하는 오픈소스 컴포넌트 모음에 대한 정보를 식별, 추적 및 보관하기 위한 문서화된 절차가 있습니까?",
           "number": "3.b",
           "type": "YES_NO",
           "specReference": [
@@ -259,7 +259,7 @@
           ]
         },
         {
-		  "question": "Do you have a documented procedure that covers these common open source license use cases for open source components in the Supplied Software?",
+		  "question": "Yes",
           "number": "3.c",
           "type": "SUBQUESTIONS",
           "specReference": [
@@ -269,8 +269,8 @@
           "minNumberValidatedAnswers": 6,
           "subQuestions": {
             "3.c.i": {
-              "correctAnswer": "Yes",
-              "question": "     Distribution in binary form;",
+              "correctAnswer": "네",
+              "question": "     각 공급 대상 소프트웨어 배포의 오픈소스 컴포넌트에 대해 적어도 다음과 같은 일반적인 오픈소스 라이선스 사용 사례를 처리하는 절차를 구현했습니까?",
               "number": "3.c.i",
               "type": "YES_NO",
               "specReference": [
@@ -279,8 +279,8 @@
               ]
             },
             "3.c.ii": {
-              "correctAnswer": "Yes",
-              "question": "     Distribution in source form;",
+              "correctAnswer": "네",
+              "question": "     바이너리 형태로 배포;",
               "number": "3.c.ii",
               "type": "YES_NO",
               "specReference": [
@@ -289,8 +289,8 @@
               ]
             },
             "3.c.iii": {
-              "correctAnswer": "Yes",
-              "question": "     Integration with other open source that may trigger additional obligations;",
+              "correctAnswer": "네",
+              "question": "     소스 형태로 배포;",
               "number": "3.c.iii",
               "type": "YES_NO",
               "specReference": [
@@ -299,8 +299,8 @@
               ]
             },
             "3.c.iv": {
-              "correctAnswer": "Yes",
-              "question": "     Containing modified open source;",
+              "correctAnswer": "네",
+              "question": "     Copyleft 의무를 발생시킬 수 있는 다른 오픈 소스와 통합;",
               "number": "3.c.iv",
               "type": "YES_NO",
               "specReference": [
@@ -309,8 +309,8 @@
               ]
             },
             "3.c.v": {
-              "correctAnswer": "Yes",
-              "question": "     Containing open source or other software under incompatible licenses for interaction with other components in the Supplied Software;",
+              "correctAnswer": "네",
+              "question": "     수정한 오픈소스를 포함;",
               "number": "3.c.v",
               "type": "YES_NO",
               "specReference": [
@@ -319,8 +319,8 @@
               ]
             },
             "3.c.vi": {
-              "correctAnswer": "Yes",
-              "question": "     Containing open source with attribution requirements.",
+              "correctAnswer": "네",
+              "question": "     공급 대상 소프트웨어 내에서 상호 작용하는 다른 컴포넌트와 호환되지 않는 라이선스 하의 오픈소스 또는 기타 소프트웨어를 포함;",
               "number": "3.c.vi",
               "type": "YES_NO",
               "specReference": [
@@ -333,12 +333,12 @@
       ]
     },
     {
-      "name": "Part 4",
-      "title": "4. Compliance artifact creation and delivery",
+      "name": "Yes",
+      "title": "4. 3.c.vi",
       "questions": [
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure describing the process for ensuring the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?",
+          "correctAnswer": "네",
+          "question": "Part 4",
           "number": "4.a",
           "type": "YES_NO",
           "specReference": [
@@ -347,8 +347,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure for archiving copies of Compliance Artifacts for the Supplied Software?",
+          "correctAnswer": "네",
+          "question": "식별된 라이선스에서 요구하는대로 컴플라이언스 결과물을 공급 대상 소프트웨어와 함께 배포하기 위한 프로세스를 설명하는 문서화된 절차가 있습니까?",
           "number": "4.b",
           "type": "YES_NO",
           "specReference": [
@@ -357,8 +357,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Are the Compliance Artifacts archived at least as long as the Supplied Software is offered and as required by the Identified Licenses?",
+          "correctAnswer": "네",
+          "question": "공급 대상 소프트웨어의 컴플라이언스 결과물 사본을 보관합니까?",
           "number": "4.c",
           "type": "YES_NO",
           "specReference": [
@@ -369,12 +369,12 @@
       ]
     },
     {
-      "name": "Part 5",
-      "title": "5. Understanding open source community engagements",
+      "name": "Yes",
+      "title": "5. 4.c",
       "questions": [
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a policy for contribution to open source projects on behalf of the organization?",
+          "correctAnswer": "네",
+          "question": "Part 5",
           "number": "5.a",
           "type": "YES_NO",
           "specReference": [
@@ -383,8 +383,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure governing open source contributions?",
+          "correctAnswer": "네",
+          "question": "조직을 대신하여 오픈소스 프로젝트에 기여하는 것을 관리하는 정책이 있습니까?",
           "number": "5.b",
           "type": "YES_NO",
           "specReference": [
@@ -393,8 +393,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have a documented procedure for making all Software Staff aware of the open source contribution policy?",
+          "correctAnswer": "네",
+          "question": "오픈소스 기여를 관리하는 문서화된 절차가 있습니까?",
           "number": "5.c",
           "type": "YES_NO",
           "specReference": [
@@ -405,12 +405,12 @@
       ]
     },
     {
-      "name": "Part 6",
-      "title": "6. Adherence to the specification requirements",
+      "name": "Yes",
+      "title": "6. 5.c",
       "questions": [
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have documentation confirming that your Program meets all the requirements of this specification?",
+          "correctAnswer": "네",
+          "question": "Part 6",
           "number": "6.a",
           "type": "YES_NO",
           "specReference": [
@@ -419,8 +419,8 @@
           ]
         },
         {
-          "correctAnswer": "Yes",
-          "question": "Do you have documentation confirming that your Program conformance was reviewed within the last 18 months?",
+          "correctAnswer": "네",
+          "question": "프로그램이 이 설명서의 모든 요구사항을 충족함을 확인하는 문서가 있습니까?",
           "number": "6.b",
           "type": "YES_NO",
           "specReference": [
