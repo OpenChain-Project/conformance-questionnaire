@@ -13,7 +13,7 @@ var srcDir = "./";
 
 // Patterns used for validation
 var specVersionPattern = new RegExp("^\\d+\\.\\d+(\\.\\d+)?$");
-var langPattern = new RegExp("^\\w+$"); //TODO: Change this to the pattern per the language tag specification
+var langPattern = new RegExp("^[a-zA-Z-]+$");
 var numberPattern = new RegExp("(\\d+)(\\.[a-z]+)?(\\.[ivxlmcd]+)?");
 var specRefPattern = numberPattern;
 
