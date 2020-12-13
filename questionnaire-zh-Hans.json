@@ -1,0 +1,434 @@
+{
+  "specVersion": "2.1.1",
+  "language": "zh-Hans",
+  "title": "合规性问题一览",
+  "contextText": "背景",
+  "questionsText": "问题",
+  "completedText": "已完成？",
+  "statusText": "状态",
+  "answerColumnText": "回答",
+  "sectionColumnText": "部分",
+  "numberColumnText": "编号",
+  "specRefColumnText": "规范参考",
+  "questionColumnText": "问题文本",
+  "tocText": "目录",
+  "preambleText": "OpenChain项目通过简化开放源许可合规性和保持一致性，建立对于开放源的信任。维护OpenChain规范，定义各品质合规程序必须满足的一组核心需求。其结果是，对于软件供应链参与者来说，开放源许可合规性变得更加可预测、可理解和高效。\n本文档包含一系列确定公司是否符合OpenChain的问题。如果所有问题的答案都为“是”，那么该公司符合OpenChain规范2.1版（功能与ISO\/IEC DIS 5230:2020（e）一致）的所有要求。如果任一问题的答案为“否”，那么公司可以清楚地确定哪些需要追加投资以改进合规程序。",
+  "sections": [
+    {
+      "name": "Part 1",
+      "title": "1. 计划基础",
+      "questions": [
+        {
+          "correctAnswer": "是",
+          "question": "是否有管理所提供软件的开放源许可合规性的文档化策略？",
+          "number": "1.a",
+          "type": "YES_NO",
+          "specReference": [
+            "1.1",
+            "1.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有向所有软件员工传达开放源策略存在的文档化程序？",
+          "number": "1.b",
+          "type": "YES_NO",
+          "specReference": [
+            "1.1",
+            "1.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否已确定影响计划绩效和有效性的角色和职责？",
+          "number": "1.c",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否已确定并记录各角色所需的能力？",
+          "number": "1.d",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否已记录每个计划参与者的评估能力？",
+          "number": "1.e",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.3"
+          ]
+        },
+        {
+          "question": "是否已记录计划参与者对以下主题的认识？",
+          "number": "1.f",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "1.3",
+            "1.3.1"
+          ],
+          "minNumberValidatedAnswers": 4,
+          "subQuestions": {
+            "1.f.i": {
+              "correctAnswer": "是",
+              "question": "开放源策略及其存在场所；",
+              "number": "1.f.i",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.ii": {
+              "correctAnswer": "是",
+              "question": "相关开放源目标；",
+              "number": "1.f.ii",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.iii": {
+              "correctAnswer": "是",
+              "question": "为确保计划的有效性需做的贡献；",
+              "number": "1.f.iii",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.iv": {
+              "correctAnswer": "是",
+              "question": "未遵守计划要求的影响",
+              "number": "1.f.iv",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            }
+          }
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有确定计划范围的流程？",
+          "number": "1.g",
+          "type": "YES_NO",
+          "specReference": [
+            "1.4",
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有明确规定计划范围和限制书面声明？",
+          "number": "1.h",
+          "type": "YES_NO",
+          "specReference": [
+            "1.4",
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有审查和记录开放源许可的义务、限制和权利的文档化程序？",
+          "number": "1.i",
+          "type": "YES_NO",
+          "specReference": [
+            "1.5",
+            "1.5.1"
+          ]
+        }
+      ]
+    },
+	{
+      "name": "Part 2",
+      "title": "2. 定义并支持的相关任务",
+      "questions": [
+        {
+          "correctAnswer": "是",
+          "question": "是否已指定接受外部开放源合规性查询的个人职责？",
+          "number": "2.a",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否已公开确定外部开放源合规性联系人（例如通过电子邮件地址或 Linux Foundation Open Compliance目录）？",
+          "number": "2.b",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有接收和回复开放源合规性查询的文档化程序？",
+          "number": "2.c",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否已记录支持特定计划角色的人员、小组或职能部门？",
+          "number": "2.d",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "特定计划角色是否已配备合适人员和充足资金？",
+          "number": "2.e",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否已确定处理内部和外部开放源合规性的法律专家？",
+          "number": "2.f",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.3"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有指定开放源合规性内部责任的文档化程序？",
+          "number": "2.g",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.4"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有处理不合规案件审查和补救的文档化程序？",
+          "number": "2.h",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 3",
+      "title": "3 开放源内容审查和核准",
+      "questions": [
+        {
+          "correctAnswer": "是",
+          "question": "是否有识别、跟踪和归档所提供软件版本中开放源组件信息的文档化程序？",
+          "number": "3.a",
+          "type": "YES_NO",
+          "specReference": [
+            "3.1",
+            "3.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有所提供软件的开放源组件记录，可证明文档化程序得到正确遵循？",
+          "number": "3.b",
+          "type": "YES_NO",
+          "specReference": [
+            "3.1",
+            "3.1.2"
+          ]
+        },
+        {
+		  "question": "是否有涵盖所提供软件中开放源组件的常用开放源许可用例的文档化程序？",
+          "number": "3.c",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "3.2",
+            "3.2.1"
+          ],
+          "minNumberValidatedAnswers": 6,
+          "subQuestions": {
+            "3.c.i": {
+              "correctAnswer": "是",
+              "question": "     二进制分发；",
+              "number": "3.c.i",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.ii": {
+              "correctAnswer": "是",
+              "question": "     源代码形式分发；",
+              "number": "3.c.ii",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.iii": {
+              "correctAnswer": "是",
+              "question": "     与可能引发附加义务的其他开放源整合；",
+              "number": "3.c.iii",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.iv": {
+              "correctAnswer": "是",
+              "question": "     包含修改后的开放源；",
+              "number": "3.c.iv",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.v": {
+              "correctAnswer": "是",
+              "question": "     包含与所提供软件中的其他组件进行交互、不兼容许可证下的开放源或其他软件；",
+              "number": "3.c.v",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.vi": {
+              "correctAnswer": "是",
+              "question": "     包含具有属性要求的开放源。",
+              "number": "3.c.vi",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Part 4",
+      "title": "4. 合规性资料创建和交付",
+      "questions": [
+        {
+          "correctAnswer": "是",
+          "question": "是否有描述确保合规性资料按照特定许可证要求与所提供软件一起分发的流程的文档化程序？",
+          "number": "4.a",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有所提供软件的合规性资料存档副本的文档化程序？",
+          "number": "4.b",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "合规性资料是否至少在所提供软件销售期间以及该许可证所要求的时间内存档？",
+          "number": "4.c",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 5",
+      "title": "5. 了解开放源社区活动",
+      "questions": [
+        {
+          "correctAnswer": "是",
+          "question": "是否有代表组织对开放源项目贡献的策略？",
+          "number": "5.a",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有管理开放源贡献的文档化程序？",
+          "number": "5.b",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有让所有软件员工知道开放源贡献策略的文档化程序？",
+          "number": "5.c",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 6",
+      "title": "6. 遵守规范要求",
+      "questions": [
+        {
+          "correctAnswer": "是",
+          "question": "是否有文件证明计划符合本规范的所有要求？",
+          "number": "6.a",
+          "type": "YES_NO",
+          "specReference": [
+            "6.1",
+            "6.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "是",
+          "question": "是否有文件证明计划合规性在过去18个月内已得到审查？",
+          "number": "6.b",
+          "type": "YES_NO",
+          "specReference": [
+            "6.2",
+            "6.2.1"
+          ]
+        }
+      ]
+    }
+  ]
+}
