@@ -71,7 +71,7 @@
         {
           "question": "Haben Sie das Kenntnisnahme Ihrer Programmteilnehmer zu folgenden Themen dokumentiert?",
           "number": "1.f",
-          "type": "Weitere Fragen",
+          "type": "SUBQUESTIONS",
           "specReference": [
             "1.3",
             "1.3.1"
@@ -261,7 +261,7 @@
         {
 		  "question": "Haben Sie ein dokumentiertes Verfahren, das diese allgemeinen Anwendungsfälle für Open Source-Lizenzen für Open Source-Komponenten in der mitgelieferten Software abdeckt?",
           "number": "3.c",
-          "type": "Weitere Fragen",
+          "type": "SUBQUESTIONS",
           "specReference": [
             "3.2",
             "3.2.1"
