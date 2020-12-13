@@ -19,7 +19,7 @@
       "title": "1. 프로그램 설립",
       "questions": [
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "공급 대상 소프트웨어 배포에 대한 오픈소스 라이선스 컴플라이언스를 관리하는 문서화된 정책이 있습니까(예: 교육, 내부 위키 혹은 기타 실질적인 의사소통 방법)?",
           "number": "1.a",
           "type": "YES_NO",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "오픈소스 정책의 존재를 모든 소프트웨어 공급 담당자에게 알리는 문서화된 절차가 있습니까?",
           "number": "1.b",
           "type": "YES_NO",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "프로그램의 성능 및 효과에 영향을 미치는 역할 및 책임을 확인했습니까?",
           "number": "1.c",
           "type": "YES_NO",
@@ -49,7 +49,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "각 역할에 필요한 역량을 확인하고 문서화했습니까?",
           "number": "1.d",
           "type": "YES_NO",
@@ -59,7 +59,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "각 프로그램 참여자에 대해 역량을 평가한 증거를 문서화 했습니까?",
           "number": "1.e",
           "type": "YES_NO",
@@ -79,7 +79,7 @@
           "minNumberValidatedAnswers": 4,
           "subQuestions": {
             "1.f.i": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "오픈소스 정책 및 찾을 수 있는 위치,",
               "number": "1.f.i",
               "type": "YES_NO",
@@ -88,7 +88,7 @@
               ]
             },
             "1.f.ii": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "관련 오픈소스 목표,",
               "number": "1.f.ii",
               "type": "YES_NO",
@@ -97,7 +97,7 @@
               ]
             },
             "1.f.iii": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "프로그램의 효과를 보장하기 위해 기대되는 기여,",
               "number": "1.f.iii",
               "type": "YES_NO",
@@ -106,7 +106,7 @@
               ]
             },
             "1.f.iv": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "프로그램 요건을 준수하지 않는 것의 의미,",
               "number": "1.f.iv",
               "type": "YES_NO",
@@ -117,7 +117,7 @@
           }
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "프로그램의 적용 범위를 결정하는 프로세스가 있습니까?",
           "number": "1.g",
           "type": "YES_NO",
@@ -127,7 +127,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "프로그램의 범위와 한계를 명확하게 정의한 서면 진술이 있습니까?",
           "number": "1.h",
           "type": "YES_NO",
@@ -137,7 +137,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "오픈소스 라이선스 의무, 제한 및 권리를 검토하는 프로세스가 있습니까?",
           "number": "1.i",
           "type": "YES_NO",
@@ -153,7 +153,7 @@
       "title": "2. 1.j",
       "questions": [
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "Part 2",
           "number": "2.a",
           "type": "YES_NO",
@@ -163,7 +163,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "외부 오픈소스 컴플라이언스 문의를 받는 담당자(오픈소스 연락담당자)를 지정했습니까?",
           "number": "2.b",
           "type": "YES_NO",
@@ -173,7 +173,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "오픈소스 연락 담당자 정보가 외부에 공개되어 있습니까(예: 이메일 주소 또는 Linux Foundation의 Open Compliance Directory)?",
           "number": "2.c",
           "type": "YES_NO",
@@ -183,7 +183,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "오픈소스 컴플라이언스 문의를 받고 대응하기 위한 책임을 부여하는 문서화된 절차가 있습니까?",
           "number": "2.d",
           "type": "YES_NO",
@@ -193,7 +193,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "확인된 프로그램 역할을 지원하는 사람, 그룹 또는 기능을 문서화했습니까?",
           "number": "2.e",
           "type": "YES_NO",
@@ -203,7 +203,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "확인된 프로그램 역할에 적절하게 인원이 충원되었고 적합한 자금이 제공되었습니까?",
           "number": "2.f",
           "type": "YES_NO",
@@ -213,7 +213,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "오픈소스 컴플라이언스와 관련된 내부 또는 외부의 법률 전문 지식을 이용할 수 있는 방법이 확인되었습니까?",
           "number": "2.g",
           "type": "YES_NO",
@@ -223,7 +223,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "오픈소스 컴플라이언스에 대한 내부 책임을 할당하는 문서화된 절차가 있습니까?",
           "number": "2.h",
           "type": "YES_NO",
@@ -239,7 +239,7 @@
       "title": "미준수 사례의 검토 및 시정을 규정하는 문서화된 절차가 있습니까?",
       "questions": [
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "YES_NO",
           "number": "3.a",
           "type": "YES_NO",
@@ -249,7 +249,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "공급 대상 소프트웨어를 구성하는 오픈소스 컴포넌트 모음에 대한 정보를 식별, 추적 및 보관하기 위한 문서화된 절차가 있습니까?",
           "number": "3.b",
           "type": "YES_NO",
@@ -269,7 +269,7 @@
           "minNumberValidatedAnswers": 6,
           "subQuestions": {
             "3.c.i": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "     각 공급 대상 소프트웨어 배포의 오픈소스 컴포넌트에 대해 적어도 다음과 같은 일반적인 오픈소스 라이선스 사용 사례를 처리하는 절차를 구현했습니까?",
               "number": "3.c.i",
               "type": "YES_NO",
@@ -279,7 +279,7 @@
               ]
             },
             "3.c.ii": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "     바이너리 형태로 배포;",
               "number": "3.c.ii",
               "type": "YES_NO",
@@ -289,7 +289,7 @@
               ]
             },
             "3.c.iii": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "     소스 형태로 배포;",
               "number": "3.c.iii",
               "type": "YES_NO",
@@ -299,7 +299,7 @@
               ]
             },
             "3.c.iv": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "     Copyleft 의무를 발생시킬 수 있는 다른 오픈 소스와 통합;",
               "number": "3.c.iv",
               "type": "YES_NO",
@@ -309,7 +309,7 @@
               ]
             },
             "3.c.v": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "     수정한 오픈소스를 포함;",
               "number": "3.c.v",
               "type": "YES_NO",
@@ -319,7 +319,7 @@
               ]
             },
             "3.c.vi": {
-              "correctAnswer": "네",
+              "correctAnswer": "Yes",
               "question": "     공급 대상 소프트웨어 내에서 상호 작용하는 다른 컴포넌트와 호환되지 않는 라이선스 하의 오픈소스 또는 기타 소프트웨어를 포함;",
               "number": "3.c.vi",
               "type": "YES_NO",
@@ -337,7 +337,7 @@
       "title": "4. 3.c.vi",
       "questions": [
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "Part 4",
           "number": "4.a",
           "type": "YES_NO",
@@ -347,7 +347,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "식별된 라이선스에서 요구하는대로 컴플라이언스 결과물을 공급 대상 소프트웨어와 함께 배포하기 위한 프로세스를 설명하는 문서화된 절차가 있습니까?",
           "number": "4.b",
           "type": "YES_NO",
@@ -357,7 +357,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "공급 대상 소프트웨어의 컴플라이언스 결과물 사본을 보관합니까?",
           "number": "4.c",
           "type": "YES_NO",
@@ -373,7 +373,7 @@
       "title": "5. 4.c",
       "questions": [
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "Part 5",
           "number": "5.a",
           "type": "YES_NO",
@@ -383,7 +383,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "조직을 대신하여 오픈소스 프로젝트에 기여하는 것을 관리하는 정책이 있습니까?",
           "number": "5.b",
           "type": "YES_NO",
@@ -393,7 +393,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "오픈소스 기여를 관리하는 문서화된 절차가 있습니까?",
           "number": "5.c",
           "type": "YES_NO",
@@ -409,7 +409,7 @@
       "title": "6. 5.c",
       "questions": [
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "Part 6",
           "number": "6.a",
           "type": "YES_NO",
@@ -419,7 +419,7 @@
           ]
         },
         {
-          "correctAnswer": "네",
+          "correctAnswer": "Yes",
           "question": "프로그램이 이 설명서의 모든 요구사항을 충족함을 확인하는 문서가 있습니까?",
           "number": "6.b",
           "type": "YES_NO",

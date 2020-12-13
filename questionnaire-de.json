@@ -19,7 +19,7 @@
       "title": "1. Programmgrundlage",
       "questions": [
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie eine dokumentierte Richtlinie zur Einhaltung der Open Source-Lizenzbestimmungen für die mitgelieferte Software?",
           "number": "1.a",
           "type": "YES_NO",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren, um allen Software-Mitarbeitern das Vorhandensein der Open Source-Richtlinie mitzuteilen?",
           "number": "1.b",
           "type": "YES_NO",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie die Rollen und Verantwortlichkeiten definiert, die sich auf die Leistung und Effektivität des Programms auswirken?",
           "number": "1.c",
           "type": "YES_NO",
@@ -49,7 +49,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie die für jede Rolle erforderlichen Kompetenzen definiert und dokumentiert?",
           "number": "1.d",
           "type": "YES_NO",
@@ -59,7 +59,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie die zugewiesene Kompetenz für jeden Programmteilnehmer dokumentiert?",
           "number": "1.e",
           "type": "YES_NO",
@@ -79,7 +79,7 @@
           "minNumberValidatedAnswers": 4,
           "subQuestions": {
             "1.f.i": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "Die Open Source-Richtlinie und wo sie zu finden ist;",
               "number": "1.f.i",
               "type": "YES_NO",
@@ -88,7 +88,7 @@
               ]
             },
             "1.f.ii": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "Relevante Open Source-Ziele;",
               "number": "1.f.ii",
               "type": "YES_NO",
@@ -97,7 +97,7 @@
               ]
             },
             "1.f.iii": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "Beiträge, die die Wirksamkeit des Programms gewährleisten sollen;",
               "number": "1.f.iii",
               "type": "YES_NO",
@@ -106,7 +106,7 @@
               ]
             },
             "1.f.iv": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "Folgen der Nichteinhaltung der Programmanforderungen.",
               "number": "1.f.iv",
               "type": "YES_NO",
@@ -117,7 +117,7 @@
           }
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie einen Prozess zur Bestimmung des Umfangs Ihres Programms?",
           "number": "1.g",
           "type": "YES_NO",
@@ -127,7 +127,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie eine schriftliche Erklärung, in der Umfang und Grenzen des Programms klar definiert sind?",
           "number": "1.h",
           "type": "YES_NO",
@@ -137,7 +137,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren zur Überprüfung und Dokumentation von Open Source-Lizenzverpflichtungen, -beschränkungen und -rechten?",
           "number": "1.i",
           "type": "YES_NO",
@@ -153,7 +153,7 @@
       "title": "2. Relevante Aufgaben definiert und unterstützt",
       "questions": [
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie  Verantwortliche für den Empfang externer Open Source-Compliance-Anfragen bestimmt?",
           "number": "2.a",
           "type": "YES_NO",
@@ -163,7 +163,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Wird der externe Open Source-Compliance-Kontakt öffentlich identifiziert (z. B. über eine E-Mail-Adresse oder das Open Foundation Directory der Linux Foundation)?",
           "number": "2.b",
           "type": "YES_NO",
@@ -173,7 +173,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren zum Empfangen und Beantworten von Open Source-Compliance-Anfragen?",
           "number": "2.c",
           "type": "YES_NO",
@@ -183,7 +183,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Sind die Personen, Gruppen oder Funktionen, die im Programm eine Rolle spielen, dokumentiert?",
           "number": "2.d",
           "type": "YES_NO",
@@ -193,7 +193,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Wurden die für das Programm identifizierten Rollen ordnungsgemäß besetzt und angemessen finanziert?",
           "number": "2.e",
           "type": "YES_NO",
@@ -203,7 +203,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Wurde juristisches Fachwissen zur Einhaltung interner und externer Open Source-Richtlinien ermittelt?",
           "number": "2.f",
           "type": "YES_NO",
@@ -213,7 +213,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren, das interne Verantwortlichkeiten für die Einhaltung von Open Source-Richtlinien zuweist?",
           "number": "2.g",
           "type": "YES_NO",
@@ -223,7 +223,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren für die Überprüfung und Behebung nicht konformer Fälle?",
           "number": "2.h",
           "type": "YES_NO",
@@ -239,7 +239,7 @@
       "title": "3 Überprüfung und Genehmigung von Open Source-Inhalten",
       "questions": [
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren zum Identifizieren, Verfolgen und Archivieren von Informationen zu den Open Source-Komponenten in einer mitgelieferten Softwareversion?",
           "number": "3.a",
           "type": "YES_NO",
@@ -249,7 +249,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie Open Source-Komponentendatensätze für die mitgelieferte Software, die belegen, dass das dokumentierte Verfahren ordnungsgemäß befolgt wurde?",
           "number": "3.b",
           "type": "YES_NO",
@@ -269,7 +269,7 @@
           "minNumberValidatedAnswers": 6,
           "subQuestions": {
             "3.c.i": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "     Verbreitung in binärer Form;",
               "number": "3.c.i",
               "type": "YES_NO",
@@ -279,7 +279,7 @@
               ]
             },
             "3.c.ii": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "     Verbreitung in Quellform;",
               "number": "3.c.ii",
               "type": "YES_NO",
@@ -289,7 +289,7 @@
               ]
             },
             "3.c.iii": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "     Integration mit anderen Open Source, die zusätzliche Verpflichtungen auslösen können;",
               "number": "3.c.iii",
               "type": "YES_NO",
@@ -299,7 +299,7 @@
               ]
             },
             "3.c.iv": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "     Enthält modifiziertes Open Source;",
               "number": "3.c.iv",
               "type": "YES_NO",
@@ -309,7 +309,7 @@
               ]
             },
             "3.c.v": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "     Enthält Open Source oder andere Software unter inkompatiblen Lizenzen für die Interaktion mit anderen Komponenten der mitgelieferten Software;",
               "number": "3.c.v",
               "type": "YES_NO",
@@ -319,7 +319,7 @@
               ]
             },
             "3.c.vi": {
-              "correctAnswer": "Ja",
+              "correctAnswer": "Yes",
               "question": "     Enthält Open Source mit Attributionsanforderungen.",
               "number": "3.c.vi",
               "type": "YES_NO",
@@ -337,7 +337,7 @@
       "title": "4. Erstellung und Bereitstellung von Compliance-Artefakten",
       "questions": [
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren, das den Prozess beschreibt, mit dem sichergestellt wird, dass die Compliance-Artefakte gemäß den Anforderungen der identifizierten Lizenzen mit der mitgelieferten Software verbreitet werden?",
           "number": "4.a",
           "type": "YES_NO",
@@ -347,7 +347,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren zum Archivieren von Kopien von Compliance-Artefakten für die mitgelieferte Software?",
           "number": "4.b",
           "type": "YES_NO",
@@ -357,7 +357,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Werden die Compliance-Artefakte mindestens so lange archiviert, wie die mitgelieferte Software angeboten wird und wie in den identifizierten Lizenzen vorgeschrieben?",
           "number": "4.c",
           "type": "YES_NO",
@@ -373,7 +373,7 @@
       "title": "5. Open Source Community Engagements verstehen",
       "questions": [
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie eine Richtlinie für Beiträge zu Open Source-Projekten im Namen der Organisation?",
           "number": "5.a",
           "type": "YES_NO",
@@ -383,7 +383,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren für Open Source-Beiträge?",
           "number": "5.b",
           "type": "YES_NO",
@@ -393,7 +393,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie ein dokumentiertes Verfahren, um alle Software-Mitarbeiter auf die Open-Source-Beitragsrichtlinie aufmerksam zu machen?",
           "number": "5.c",
           "type": "YES_NO",
@@ -409,7 +409,7 @@
       "title": "6. Einhaltung der Spezifikationsanforderungen",
       "questions": [
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie Unterlagen, die bestätigen, dass Ihr Programm alle Anforderungen dieser Spezifikation erfüllt?",
           "number": "6.a",
           "type": "YES_NO",
@@ -419,7 +419,7 @@
           ]
         },
         {
-          "correctAnswer": "Ja",
+          "correctAnswer": "Yes",
           "question": "Haben Sie Unterlagen, die bestätigen, dass Ihre Programmkonformität in den letzten 18 Monaten überprüft wurde?",
           "number": "6.b",
           "type": "YES_NO",

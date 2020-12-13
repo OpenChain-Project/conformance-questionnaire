@@ -19,7 +19,7 @@
       "title": "1. 基礎程序",
       "questions": [
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "您是否有書面指南來管理合規的開源授權碼軟體？",
           "number": "1.a",
           "type": "YES_NO",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否擁有向所有軟體工程師傳達開源策略存在的指導手冊？",
           "number": "1.b",
           "type": "YES_NO",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否已擬定影響計劃執行和績效的任務與職責？",
           "number": "1.c",
           "type": "YES_NO",
@@ -49,7 +49,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否已確認並書面化各項職務所需的能力？",
           "number": "1.d",
           "type": "YES_NO",
@@ -59,7 +59,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否已紀録每個計劃參與者的能力評估？",
           "number": "1.e",
           "type": "YES_NO",
@@ -79,7 +79,7 @@
           "minNumberValidatedAnswers": 4,
           "subQuestions": {
             "1.f.i": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "開源策略及如何找尋；",
               "number": "1.f.i",
               "type": "YES_NO",
@@ -88,7 +88,7 @@
               ]
             },
             "1.f.ii": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "相關的開源目標；",
               "number": "1.f.ii",
               "type": "YES_NO",
@@ -97,7 +97,7 @@
               ]
             },
             "1.f.iii": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "為確保計畫的執行力需做的努力；",
               "number": "1.f.iii",
               "type": "YES_NO",
@@ -106,7 +106,7 @@
               ]
             },
             "1.f.iv": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "未遵守計畫要求的後果",
               "number": "1.f.iv",
               "type": "YES_NO",
@@ -117,7 +117,7 @@
           }
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否已擬定計劃範圍和限制的流程？",
           "number": "1.g",
           "type": "YES_NO",
@@ -127,7 +127,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有書面資料以明確定義計劃範圍和限制？",
           "number": "1.h",
           "type": "YES_NO",
@@ -137,7 +137,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有書面資料來審査和紀録開源許可的義務、限制和權利？",
           "number": "1.i",
           "type": "YES_NO",
@@ -153,7 +153,7 @@
       "title": "2. 定義並支持相關的任務",
       "questions": [
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否已指定專人負責接受外部開源合規性的査詢？",
           "number": "2.a",
           "type": "YES_NO",
@@ -163,7 +163,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否已對外公開開源合規的聯絡方式（例如透過電子郵件或 Linux Foundation開源合規平台）？",
           "number": "2.b",
           "type": "YES_NO",
@@ -173,7 +173,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有建立接收和回覆開源合規查詢的指導手冊？",
           "number": "2.c",
           "type": "YES_NO",
@@ -183,7 +183,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有書面化建置支持特定計劃案的人員、小組或專屬部門？",
           "number": "2.d",
           "type": "YES_NO",
@@ -193,7 +193,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "特定計劃案是否已配備了適當的人員並提供了足夠的資金？",
           "number": "2.e",
           "type": "YES_NO",
@@ -203,7 +203,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否確定了解決内部和外部開源合規性的法律專業知識？",
           "number": "2.f",
           "type": "YES_NO",
@@ -213,7 +213,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有建立明確的程序來分配内部職責，以實現開源合規性？",
           "number": "2.g",
           "type": "YES_NO",
@@ -223,7 +223,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有建立明確的書面程序，來處理不合規案件的審查和補救措施？",
           "number": "2.h",
           "type": "YES_NO",
@@ -239,7 +239,7 @@
       "title": "3 開源内容審查和核准",
       "questions": [
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有明確的書面程序來規範在随附的軟體版本中，具有識别、追踪和存檔所提供的開源組件信息？",
           "number": "3.a",
           "type": "YES_NO",
@@ -249,7 +249,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "在随附的軟體版本中，是否有可資證明開源組件紀録得到正確的遵循？",
           "number": "3.b",
           "type": "YES_NO",
@@ -269,7 +269,7 @@
           "minNumberValidatedAnswers": 6,
           "subQuestions": {
             "3.c.i": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "     以二進制分發；",
               "number": "3.c.i",
               "type": "YES_NO",
@@ -279,7 +279,7 @@
               ]
             },
             "3.c.ii": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "     以源代碼形式分發；",
               "number": "3.c.ii",
               "type": "YES_NO",
@@ -289,7 +289,7 @@
               ]
             },
             "3.c.iii": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "     與其他開源整合，可能引發附加的責任；",
               "number": "3.c.iii",
               "type": "YES_NO",
@@ -299,7 +299,7 @@
               ]
             },
             "3.c.iv": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "     包含修改後的開源；",
               "number": "3.c.iv",
               "type": "YES_NO",
@@ -309,7 +309,7 @@
               ]
             },
             "3.c.v": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "     包含與所提供軟體版本中的其他開源碼進行交互、不兼容許可下的開源或其他軟體；",
               "number": "3.c.v",
               "type": "YES_NO",
@@ -319,7 +319,7 @@
               ]
             },
             "3.c.vi": {
-              "correctAnswer": "是",
+              "correctAnswer": "Yes",
               "question": "     包含具有署名要求的開源。",
               "number": "3.c.vi",
               "type": "YES_NO",
@@ -337,7 +337,7 @@
       "title": "4. 合規資料的創建與交付",
       "questions": [
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否已有描述確保合規資料，按照特定許可要求與所提供軟體一起分發的流程指導指南？",
           "number": "4.a",
           "type": "YES_NO",
@@ -347,7 +347,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "存檔合規資料副本時，是否按照随附軟體執行，此標準程序在指導手冊内嗎？",
           "number": "4.b",
           "type": "YES_NO",
@@ -357,7 +357,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "合規資料是否在所提供軟體銷售期間以及該授權所要求的期限内存檔？",
           "number": "4.c",
           "type": "YES_NO",
@@ -373,7 +373,7 @@
       "title": "5. 瞭解開源參與者圏内的活動",
       "questions": [
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "您是否有代表組織對開源項目做出貢獻的策略？",
           "number": "5.a",
           "type": "YES_NO",
@@ -383,7 +383,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "您是否有管理開源貢獻的書面程序？",
           "number": "5.b",
           "type": "YES_NO",
@@ -393,7 +393,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有建置讓所有軟體員工知道開源貢獻策略的指南？",
           "number": "5.c",
           "type": "YES_NO",
@@ -409,7 +409,7 @@
       "title": "6. 遵守規範要求",
       "questions": [
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有文件證明您的程序符合本規範的所有要求？",
           "number": "6.a",
           "type": "YES_NO",
@@ -419,7 +419,7 @@
           ]
         },
         {
-          "correctAnswer": "是",
+          "correctAnswer": "Yes",
           "question": "是否有文件證明，在過去18個月内您的程序合規性已得到審査？",
           "number": "6.b",
           "type": "YES_NO",
