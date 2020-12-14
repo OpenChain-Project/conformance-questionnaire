@@ -13,10 +13,12 @@
     "dependencies": {
         "glob": "7.1.2",
         "fs": "",
-        "pdfkit": "0.8.3",
+        "pdfkit-next": "0.11.0",
         "voilab-pdf-table": "0.4.0",
         "node-getopt": "0.3.2"
     },
-	"bin": {"produce-pdf": "produce-pdf.js"},
+    "bin": {
+        "produce-pdf": "produce-pdf.js"
+    },
     "license": "CC-BY-3.0 AND MIT"
 }

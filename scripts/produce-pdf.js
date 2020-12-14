@@ -7,14 +7,16 @@
  */
 
 var PdfTable = require('voilab-pdf-table');
-var PDFDocument = require('pdfkit');
+var PDFDocument = require('pdfkit-next');
 var glob = require('glob');
 var fs = require('fs');
 var path = require('path');
 var logofilename = path.join(__dirname, "../scripts/images/openchainlogo.png");
-var font_ja = path.join(__dirname, "../scripts/fonts/ipaexg00301/ipaexg.ttf");
-var font_en = path.join(__dirname, "../scripts/fonts/CharisSIL-5.000/CharisSIL-R.ttf");
-var font_ko = path.join(__dirname, "../scripts/fonts/Sunflower/Sunflower-Medium.ttf");
+var font_ja = path.join(__dirname, "../scripts/fonts/Noto_Sans_JP/NotoSansJP-Regular.otf");
+var font_en = path.join(__dirname, "../scripts/fonts/Noto_Sans/NotoSans-Regular.ttf");
+var font_ko = path.join(__dirname, "../scripts/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf");
+var font_zh_hans = path.join(__dirname, "../scripts/fonts/Noto_Sans_SC/NotoSansSC-Regular.otf");
+var font_zh_hant = path.join(__dirname, "../scripts/fonts/Noto_Sans_TC/NotoSansTC-Regular.otf");
 var titleFontSize = 36;
 var sectionFontSize = 16;
 var headerFontSize = 12;
@@ -186,10 +188,14 @@ function createPdf(inputJsonFileName, outputPdfFileName) {
 	if (!questionnaire.sections || questionnaire.sections.lenght === 0) {
 		throw "No sections found";
 	}
-	if (questionnaire.language == "ko") {
+	if (questionnaire.language === "ko") {
 		doc.font(font_ko);
-	} else if (questionnaire.language == "ja") {
+	} else if (questionnaire.language === "ja") {
 		doc.font(font_ja);
+	} else if (questionnaire.language === "zh-Hans") {
+		doc.font(font_zh_hans);
+	} else if (questionnaire.language === "zh-Hant") {
+		doc.font(font_zh_hant);
 	} else {
 		doc.font(font_en);
 	}
