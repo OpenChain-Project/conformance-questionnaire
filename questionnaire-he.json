@@ -1,0 +1,434 @@
+{
+  "specVersion": "2.1.1",
+  "language": "he",
+  "title": "התאמה בשאלות",
+  "contextText": "הקשר",
+  "questionsText": "שאלות",
+  "completedText": "סיימת?",
+  "statusText": "סטטוס",
+  "answerColumnText": "תשובה",
+  "sectionColumnText": "קטע",
+  "numberColumnText": "מספר",
+  "specRefColumnText": "מפרט מס'",
+  "questionColumnText": "טקסט השאלה",
+  "tocText": "תוכן העניינים",
+  "preambleText": "פרויקט OpenChain יוצר אמון בקוד פתוח באמצעות תהליך פשוט ועקבי יותר של תאימות רישיונות. הוא שומר על מפרט OpenChain כדי להגדיר מערך של דרישות יסוד שכל תוכנית תאימות איכותית חייבת לעמוד בהן. התוצאה היא שאפשר לצפות עמידה ברישיון קוד פתוח, להבין מה המשמעות שלה ולהפוך אותה ליעילה יותר עבור המשתתפים בשרשרת אספקת התוכנה.\nמסמך זה מכיל סדרה של שאלות שנועדו לקבוע אם לחברה יש תוכנית תאימות ל-OpenChain. אם התשובה לכל השאלות היא כן, החברה הזאת עומדת בכל דרישות התאימות למפרט OpenChain גרסה 2.1 (פונקציונליות זהה ל-ISO\/IEC DIS 5230:2020(e)‎‎) אם התשובה לאחת מהשאלות היא לא, החברה יכולה לזהות בבירור את הגורם שצריך להשקיע בו יותר כדי לשפר את תהליך התאימות.",
+  "sections": [
+    {
+      "name": "Part 1",
+      "title": "1. יסודות התוכנית",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיימת מדיניות מתועדת המסדירה את התאימות לרישיון קוד פתוח של התוכנה שתסופק?",
+          "number": "1.a",
+          "type": "YES_NO",
+          "specReference": [
+            "1.1",
+            "1.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם יש לך נוהל מתועד להסברה על קיומה של מדיניות הקוד הפתוח לכל צוות התוכנה",
+          "number": "1.b",
+          "type": "YES_NO",
+          "specReference": [
+            "1.1",
+            "1.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם זיהית מהם התפקידים ותחומי האחריות המשפיעים על ביצועי התוכנית ועל יעילותה?",
+          "number": "1.c",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם זיהית מהם הכישורים הנדרשים לכל תפקיד ותיעדת אותם?",
+          "number": "1.d",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם תיעדת מהי הכשירות המוערכת של כל משתתף בתוכנית?",
+          "number": "1.e",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.3"
+          ]
+        },
+        {
+          "question": "האם תיעדת את רמת המודעות של משתתפי התוכנית בנושאים האלה:",
+          "number": "1.f",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "1.3",
+            "1.3.1"
+          ],
+          "minNumberValidatedAnswers": 4,
+          "subQuestions": {
+            "1.f.i": {
+              "correctAnswer": "Yes",
+              "question": "מדיניות הקוד הפתוח והמקום שבו היא נמצאת;",
+              "number": "1.f.i",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.ii": {
+              "correctAnswer": "Yes",
+              "question": "מטרות הקוד הפתוח הרלוונטיות;",
+              "number": "1.f.ii",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.iii": {
+              "correctAnswer": "Yes",
+              "question": "תרומות שצפויות להבטיח את יעילות התוכנית;",
+              "number": "1.f.iii",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.iv": {
+              "correctAnswer": "Yes",
+              "question": "ההשלכות של אי-עמידה בדרישות התוכנית.",
+              "number": "1.f.iv",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            }
+          }
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם מתקיים אצלך תהליך לקביעת היקף התוכנית?",
+          "number": "1.g",
+          "type": "YES_NO",
+          "specReference": [
+            "1.4",
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם יש לך הצהרה בכתב המגדירה בבירור את ההיקף של התוכנית ואת המגבלות שלה?",
+          "number": "1.h",
+          "type": "YES_NO",
+          "specReference": [
+            "1.4",
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם יש לך נוהל מתועד לבדיקה של חובות, מגבלות וזכויות של רישיון הקוד הפתוח ותיעודן?",
+          "number": "1.i",
+          "type": "YES_NO",
+          "specReference": [
+            "1.5",
+            "1.5.1"
+          ]
+        }
+      ]
+    },
+	{
+      "name": "Part 2",
+      "title": "2. משימות מוגדרות ונתמכות רלוונטיות",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "האם מינית אחראי או אחראים לקבלת שאילתות חיצוניות בנושא תאימות הקוד הפתוח?",
+          "number": "2.a",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם אפשר לזהות באופן פומבי את איש הקשר לגורמים חיצוניים בנושא תאימות הקוד הפתוח (למשל באמצעות כתובת דוא\"ל או באמצעות Linux Foundation Open Compliance Directory)?",
+          "number": "2.b",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם יש לך נוהל מתועד לקבלת שאילתות בנושא קוד פתוח ולמענה עליהן?",
+          "number": "2.c",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם האנשים, הקבוצה או הפונקציה התומכים בתפקידי התוכנית שזיהית מתועדים?",
+          "number": "2.d",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם תפקידי התוכנית שזיהית אויישו כראוי ומומנו בהתאם?",
+          "number": "2.e",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם זיהית שקיימת מומחיות משפטית לטיפול פנימי וחיצוני בתאימות קוד פתוח?",
+          "number": "2.f",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.3"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים נוהל מתועד לחלוקת תחומי אחריות באופן פנימי לציות קוד פתוח?",
+          "number": "2.g",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.4"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים נוהל מתועד לטיפול בבדיקת מקרים של אי-תאימות ותיקונם?",
+          "number": "2.h",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 3",
+      "title": "3 בדיקת תוכן קוד פתוח ואישורו",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים נוהל מתועד לזיהוי, מעקב והעברה לארכיון של מידע בנושא רכיבי הקוד הפתוח במהדורת התוכנה שתסופק?",
+          "number": "3.a",
+          "type": "YES_NO",
+          "specReference": [
+            "3.1",
+            "3.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם לתוכנה שתסופק קיים תיעוד רשומות רכיב קוד פתוח המראה שהנוהל המתועד בוצע כהלכה?",
+          "number": "3.b",
+          "type": "YES_NO",
+          "specReference": [
+            "3.1",
+            "3.1.2"
+          ]
+        },
+        {
+		  "question": "האם קיים נוהל מתועד הכולל את המקרים האלה של שימוש נפוץ ברישיון קוד פתוח עבור רכיבי קוד פתוח בתוכנה שתסופק?",
+          "number": "3.c",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "3.2",
+            "3.2.1"
+          ],
+          "minNumberValidatedAnswers": 6,
+          "subQuestions": {
+            "3.c.i": {
+              "correctAnswer": "Yes",
+              "question": "     הפצה בצורה בינארית;",
+              "number": "3.c.i",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.ii": {
+              "correctAnswer": "Yes",
+              "question": "     הפצה בצורת המקור;",
+              "number": "3.c.ii",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.iii": {
+              "correctAnswer": "Yes",
+              "question": "     שילוב עם קוד פתוח אחר העשוי לגרום להתחייבויות נוספות;",
+              "number": "3.c.iii",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.iv": {
+              "correctAnswer": "Yes",
+              "question": "     מכיל קוד פתוח שונה;",
+              "number": "3.c.iv",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.v": {
+              "correctAnswer": "Yes",
+              "question": "     מכיל קוד פתוח או תוכנה אחרת ברישיונות שאינם תואמים לאינטראקציה עם רכיבים אחרים בתוכנה שתסופק;",
+              "number": "3.c.v",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.vi": {
+              "correctAnswer": "Yes",
+              "question": "     מכיל קוד פתוח עם דרישות שיוך.",
+              "number": "3.c.vi",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Part 4",
+      "title": "4. יצירה של תוצרי לוואי של תאימות ומסירתם",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים נוהל מתועד המתאר את התהליך להבטחת הפצה של תוצרי הלוואי של התאימות בתוכנה שתסופק כפי שנדרש ברישיונות שזיהית?",
+          "number": "4.a",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים נוהל מתועד להעברת עותקים של תוצרי הלוואי של התאימות לארכיון בתוכנה שתסופק?",
+          "number": "4.b",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם תוצרי הלוואי של התאימות מאוחסנים בארכיון לפחות כל עוד התוכנה שלך זמינה וכפי שנדרש ברישיונות שזיהית?",
+          "number": "4.c",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 5",
+      "title": "5. הבנת מעורבות בקהילה של קוד פתוח",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיימת מדיניות בנושא תרומה לפרויקטים של קוד פתוח מטעם הארגון?",
+          "number": "5.a",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים נוהל מתועד המסדיר את תרומות הקוד הפתוח?",
+          "number": "5.b",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים נוהל מתועד להעלאת המודעות של כל צוות העובדים של התוכנה למדיניות התרומה לקוד הפתוח?",
+          "number": "5.c",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 6",
+      "title": "6. עמידה בדרישות המפרט",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים תיעוד המאשר שהתוכנית שלך עומדת בכל הדרישות של המפרט הזה?",
+          "number": "6.a",
+          "type": "YES_NO",
+          "specReference": [
+            "6.1",
+            "6.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "האם קיים תיעוד המאשר שבדקת את תאימות התוכנית במהלך 18 החודשים האחרונים?",
+          "number": "6.b",
+          "type": "YES_NO",
+          "specReference": [
+            "6.2",
+            "6.2.1"
+          ]
+        }
+      ]
+    }
+  ]
+}

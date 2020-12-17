@@ -1,0 +1,434 @@
+{
+  "specVersion": "2.1.1",
+  "language": "fr",
+  "title": "La conformité en questions",
+  "contextText": "Contexte",
+  "questionsText": "Questions",
+  "completedText": "Terminé ?",
+  "statusText": "Statut",
+  "answerColumnText": "Réponse",
+  "sectionColumnText": "Section",
+  "numberColumnText": "Numéro",
+  "specRefColumnText": "Référence dans la spécification",
+  "questionColumnText": "Texte de la question",
+  "tocText": "Table des matières",
+  "preambleText": "Le projet OpenChain instaure la confiance dans l'open source en rendant la conformité aux licences plus simple et plus cohérente. Il gère la spécification OpenChain afin de définir un ensemble d'exigences de base que chaque programme de conformité de qualité doit satisfaire. Le résultat est que la conformité aux licences open source devient plus prévisible, plus compréhensible et plus efficace pour les participants de la chaîne d'approvisionnement en logiciels.\nCe document contient une série de questions permettant de déterminer si une entreprise dispose d'un programme de conformité OpenChain. Si la réponse à chacune de ces questions est affirmative, alors cette entreprise satisfait à toutes les exigences de conformité à la spécification OpenChain version 2.1 (fonctionnellement identique à ISO\/IEC DIS 5230:2020(e)). Si la réponse à l'une de ces questions est négative, l'entreprise peut alors clairement identifier les domaines dans lesquels un investissement supplémentaire est nécessaire pour améliorer le processus de conformité.",
+  "sections": [
+    {
+      "name": "Part 1",
+      "title": "1. Fondamentaux du programme",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "Disposez-vous d'une politique documentée qui régit la conformité aux licences open source du logiciel fourni ?",
+          "number": "1.a",
+          "type": "YES_NO",
+          "specReference": [
+            "1.1",
+            "1.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Disposez-vous d'une procédure documentée pour communiquer l'existence de cette politique open source à tous les participants au programme",
+          "number": "1.b",
+          "type": "YES_NO",
+          "specReference": [
+            "1.1",
+            "1.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous identifié les rôles et responsabilités qui garantissent la performance et l'efficacité programme ?",
+          "number": "1.c",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous identifié et documenté les compétences requises pour chaque rôle ?",
+          "number": "1.d",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous documenté les compétences évaluées pour chaque participant au programme ?",
+          "number": "1.e",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.3"
+          ]
+        },
+        {
+          "question": "Avez-vous documenté le degré de sensibilisation des participants au programme sur les sujets suivants ?",
+          "number": "1.f",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "1.3",
+            "1.3.1"
+          ],
+          "minNumberValidatedAnswers": 4,
+          "subQuestions": {
+            "1.f.i": {
+              "correctAnswer": "Yes",
+              "question": "La politique open source et où la trouver ;",
+              "number": "1.f.i",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.ii": {
+              "correctAnswer": "Yes",
+              "question": "Les objectifs pertinents de l’open source ;",
+              "number": "1.f.ii",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.iii": {
+              "correctAnswer": "Yes",
+              "question": "Les contributions attendues pour assurer l'efficacité du programme ;",
+              "number": "1.f.iii",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.iv": {
+              "correctAnswer": "Yes",
+              "question": "Les conséquences du non-respect des exigences du programme.",
+              "number": "1.f.iv",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            }
+          }
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous un processus pour déterminer le champ d'application de votre programme ?",
+          "number": "1.g",
+          "type": "YES_NO",
+          "specReference": [
+            "1.4",
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une déclaration écrite qui définit clairement le champ d'application et les limites du programme ?",
+          "number": "1.h",
+          "type": "YES_NO",
+          "specReference": [
+            "1.4",
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée pour examiner et documenter les obligations, restrictions et les droits liés aux licences open source ?",
+          "number": "1.i",
+          "type": "YES_NO",
+          "specReference": [
+            "1.5",
+            "1.5.1"
+          ]
+        }
+      ]
+    },
+	{
+      "name": "Part 2",
+      "title": "2. Définition des tâches nécessaires et des ressources associées",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous confié à une ou plusieurs personnes la responsabilité de recevoir les demandes externes relatives à la conformité open source ?",
+          "number": "2.a",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Le contact externe pour la conformité des logiciels open source est-il identifié publiquement (par une adresse électronique ou le répertoire de conformité de la Fondation Linux, etc.) ?",
+          "number": "2.b",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée pour recevoir et répondre aux demandes relatives à la conformité des logiciels open source ?",
+          "number": "2.c",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous documenté les personnes, groupes ou fonctions pour chaque rôle identifié au sein du programme ?",
+          "number": "2.d",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Est-ce que les rôles définis pour le programme ont été suffisamment pourvus en personnel et bénéficient d'un financement adéquat ?",
+          "number": "2.e",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Les compétences juridiques nécessaires pour répondre à la conformité interne et externe open source sont-elles identifiées ?",
+          "number": "2.f",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.3"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée attribuant les responsabilités internes en matière de conformité à l'open source ?",
+          "number": "2.g",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.4"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée pour traiter l'examen et la correction des cas de non-conformité ?",
+          "number": "2.h",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 3",
+      "title": "3 Examen et validation des contenus open source",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée pour identifier, suivre et archiver les informations au sujet de l’ensemble des composants open source dans une version du logiciel fourni ?",
+          "number": "3.a",
+          "type": "YES_NO",
+          "specReference": [
+            "3.1",
+            "3.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous des archives sur les composants open source du logiciel fourni qui démontrent que la procédure documentée a été correctement suivie ?",
+          "number": "3.b",
+          "type": "YES_NO",
+          "specReference": [
+            "3.1",
+            "3.1.2"
+          ]
+        },
+        {
+		  "question": "Avez-vous une procédure documentée qui couvre les cas d'utilisation de licences open source communes pour les composants open source dans le logiciel fourni ?",
+          "number": "3.c",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "3.2",
+            "3.2.1"
+          ],
+          "minNumberValidatedAnswers": 6,
+          "subQuestions": {
+            "3.c.i": {
+              "correctAnswer": "Yes",
+              "question": "     distribué sous forme de binaire ;",
+              "number": "3.c.i",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.ii": {
+              "correctAnswer": "Yes",
+              "question": "     distribué sous forme de code source ;",
+              "number": "3.c.ii",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.iii": {
+              "correctAnswer": "Yes",
+              "question": "     intégré à d’autres logiciels open source qui peuvent entraîner des obligations supplémentaires ;",
+              "number": "3.c.iii",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.iv": {
+              "correctAnswer": "Yes",
+              "question": "     contient du code open source modifié ;",
+              "number": "3.c.iv",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.v": {
+              "correctAnswer": "Yes",
+              "question": "     contient du code open source ou du code diffusé sous une licence incompatible qui interagit avec d’autres composants du logiciel fourni ;",
+              "number": "3.c.v",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.vi": {
+              "correctAnswer": "Yes",
+              "question": "     contient du code open source avec des exigences d’attribution.",
+              "number": "3.c.vi",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Part 4",
+      "title": "4. Création et fourniture de livrables de conformité",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée qui décrit le processus selon lequel les livrables de conformité sont distribués avec le logiciel fourni comme requis par les licences identifiées ?",
+          "number": "4.a",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée pour archiver des copies des livrables de conformité pour le logiciel fourni ?",
+          "number": "4.b",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Est-ce que les livrables de conformité sont archivés aussi longtemps que le logiciel fourni est diffusé et comme requis par les licences identifiées ?",
+          "number": "4.c",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 5",
+      "title": "5. Comprendre les engagements de la communauté open source",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une politique de contribution aux projets open source pour l'organisation ?",
+          "number": "5.a",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée régissant les contributions open source ?",
+          "number": "5.b",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous une procédure documentée pour sensibiliser l'ensemble des participants au programme à la politique de contribution aux projets open source ?",
+          "number": "5.c",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 6",
+      "title": "6. Conformité aux exigences de la spécification",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous des documents qui confirment que votre programme répond à toutes les exigences de cette spécification ?",
+          "number": "6.a",
+          "type": "YES_NO",
+          "specReference": [
+            "6.1",
+            "6.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "Avez-vous des documents qui confirment que la conformité de votre programme a été examinée au cours des 18 derniers mois ?",
+          "number": "6.b",
+          "type": "YES_NO",
+          "specReference": [
+            "6.2",
+            "6.2.1"
+          ]
+        }
+      ]
+    }
+  ]
+}
