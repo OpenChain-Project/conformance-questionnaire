@@ -1,0 +1,434 @@
+{
+  "specVersion": "2.1.1",
+  "language": "es",
+  "title": "Adecuación de las preguntas",
+  "contextText": "Contexto",
+  "questionsText": "Preguntas",
+  "completedText": "¿Ha terminado?",
+  "statusText": "Estado",
+  "answerColumnText": "Respuesta",
+  "sectionColumnText": "Sección",
+  "numberColumnText": "Número",
+  "specRefColumnText": "Referencia de las especificaciones",
+  "questionColumnText": "Texto de la pregunta",
+  "tocText": "Contenidos",
+  "preambleText": "El Proyecto OpenChain genera confianza en el código abierto al hacer que el cumplimiento de la licencia sea más simple y consistente. La Especificaciones de OpenChain definen un conjunto de requisitos básicos que todo programa de cumplimiento de calidad debe satisfacer. El resultado es que el cumplimiento de la licencia de código abierto se hace más previsible, comprensible y eficiente para los participantes de la cadena de suministro de software.\nEste documento contiene una serie de preguntas para determinar si una empresa tiene un programa OpenChain adecuado. Si cada una de estas preguntas puede ser respondida con un «sí», entonces esa empresa cumple todos los requisitos de las Especificaciones para la Conformidad con OpenChain versión 2.1 (funcionalmente idéntica a la ISO\/IEC DIS 5230:2020 [e]). Si alguna de las preguntas se responde con un «no», entonces la empresa podrá identificar claramente dónde se necesita una inversión adicional para mejorar el proceso de cumplimiento.",
+  "sections": [
+    {
+      "name": "Part 1",
+      "title": "1. Fundación del programa",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene una política escrita que establezca el cumplimiento de la licencia de código abierto del Software Suministrado?",
+          "number": "1.a",
+          "type": "YES_NO",
+          "specReference": [
+            "1.1",
+            "1.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene de algún procedimiento escrito para comunicar la existencia de la política de código abierto a todo el Personal de Software?",
+          "number": "1.b",
+          "type": "YES_NO",
+          "specReference": [
+            "1.1",
+            "1.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Ha identificado las funciones y responsabilidades que afectan al rendimiento y la eficacia del Programa?",
+          "number": "1.c",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Ha identificado y documentado las competencias necesarias para cada función?",
+          "number": "1.d",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Ha documentado por escrito las competencias evaluadas de cada participante del Programa?",
+          "number": "1.e",
+          "type": "YES_NO",
+          "specReference": [
+            "1.2",
+            "1.2.3"
+          ]
+        },
+        {
+          "question": "¿Ha documentado la concienciación de los participantes de su Programa sobre los siguientes temas?",
+          "number": "1.f",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "1.3",
+            "1.3.1"
+          ],
+          "minNumberValidatedAnswers": 4,
+          "subQuestions": {
+            "1.f.i": {
+              "correctAnswer": "Yes",
+              "question": "La política del código abierto y dónde encontrarla;",
+              "number": "1.f.i",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.ii": {
+              "correctAnswer": "Yes",
+              "question": "Objetivos relevantes del código abierto;",
+              "number": "1.f.ii",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.iii": {
+              "correctAnswer": "Yes",
+              "question": "Contribuciones esperadas para garantizar la eficacia del Programa;",
+              "number": "1.f.iii",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            },
+            "1.f.iv": {
+              "correctAnswer": "Yes",
+              "question": "Las implicaciones de no seguir los requisitos del Programa.",
+              "number": "1.f.iv",
+              "type": "YES_NO",
+              "specReference": [
+                "1.3"
+              ]
+            }
+          }
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene de algún proceso para determinar el alcance de su Programa?",
+          "number": "1.g",
+          "type": "YES_NO",
+          "specReference": [
+            "1.4",
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene alguna declaración escrita que defina claramente el alcance y los límites del Programa?",
+          "number": "1.h",
+          "type": "YES_NO",
+          "specReference": [
+            "1.4",
+            "1.4.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene algún procedimiento escrito para revisar y documentar las obligaciones, restricciones y derechos de la licencia de código abierto?",
+          "number": "1.i",
+          "type": "YES_NO",
+          "specReference": [
+            "1.5",
+            "1.5.1"
+          ]
+        }
+      ]
+    },
+	{
+      "name": "Part 2",
+      "title": "2. Tareas relevantes definidas y apoyadas",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Ha asignado a una o varias personas la responsabilidad de recibir las consultas externas sobre el cumplimiento de las normas del código abierto?",
+          "number": "2.a",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Dispone de alguna dirección de contacto para el cumplimiento de código abierto identificado públicamente para recibir consultas externas (por ejemplo, a través de una dirección de correo electrónico pública, o en el Open Directory de la Fundación Linux)?",
+          "number": "2.b",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene algún procedimiento escrito para recibir y responder a las consultas sobre el cumplimiento del código abierto?",
+          "number": "2.c",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Ha descrito en algún documento a las personas, a los grupos o a los departamentos que apoyan las funciones del Programa identificado?",
+          "number": "2.d",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Se ha dotado de personal y fondos suficientes a las funciones identificadas del Programa?",
+          "number": "2.e",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Se han definido los expertos en derecho para abordar el cumplimiento del código abierto tanto dentro como fuera de la organización?",
+          "number": "2.f",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.3"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene algún procedimiento escrito que asigne a los responsables internos para el cumplimiento del código abierto?",
+          "number": "2.g",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.4"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene algún procedimiento escrito para gestionar el examen y la reparación en casos de que se produzca un incumplimiento?",
+          "number": "2.h",
+          "type": "YES_NO",
+          "specReference": [
+            "2.1",
+            "2.2.5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 3",
+      "title": "3. Revisión y aprobación de los contenidos del código abierto",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene de algún procedimiento escrito para identificar, rastrear y archivar la información sobre los componentes de código abierto en la versión de Software Suministrado?",
+          "number": "3.a",
+          "type": "YES_NO",
+          "specReference": [
+            "3.1",
+            "3.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene de algún registro de componentes de código abierto para el Software Suministrado que demuestren que el procedimiento documentado se siguió correctamente?",
+          "number": "3.b",
+          "type": "YES_NO",
+          "specReference": [
+            "3.1",
+            "3.1.2"
+          ]
+        },
+        {
+		  "question": "¿Tiene de algún procedimiento escrito que cubra estos casos comunes de uso de licencias de código abierto para componentes de código abierto en el Software Suministrado?",
+          "number": "3.c",
+          "type": "SUBQUESTIONS",
+          "specReference": [
+            "3.2",
+            "3.2.1"
+          ],
+          "minNumberValidatedAnswers": 6,
+          "subQuestions": {
+            "3.c.i": {
+              "correctAnswer": "Yes",
+              "question": "     Distribuidos en forma binaria;",
+              "number": "3.c.i",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.ii": {
+              "correctAnswer": "Yes",
+              "question": "     Distribuidos en forma de código fuente;",
+              "number": "3.c.ii",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.iii": {
+              "correctAnswer": "Yes",
+              "question": "     Integrado con otros componentes de código abierto, de tal manera que pueda desencadenar en obligaciones adicionales;",
+              "number": "3.c.iii",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.iv": {
+              "correctAnswer": "Yes",
+              "question": "     Contiene código abierto modificado;",
+              "number": "3.c.iv",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.v": {
+              "correctAnswer": "Yes",
+              "question": "     Contiene software de código abierto u otro software bajo licencias incompatibles cuando interactúa con otros componentes del Software Suministrado;",
+              "number": "3.c.v",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            },
+            "3.c.vi": {
+              "correctAnswer": "Yes",
+              "question": "     Contiene código abierto con requisitos de atribución.",
+              "number": "3.c.vi",
+              "type": "YES_NO",
+              "specReference": [
+                "3.2",
+            	"3.2.1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Part 4",
+      "title": "4. Creación y entrega de Artefactos de Cumplimiento",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene de algún procedimiento escrito que describa el proceso para asegurar que los Artefactos de Cumplimiento sean distribuidos con el Software Suministrado como lo requieren las Licencias Identificadas?",
+          "number": "4.a",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene de algún procedimiento escrito para archivar copias de los Artefactos de Cumplimiento para el Software Suministrado?",
+          "number": "4.b",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Se archivan los Artefactos de Cumplimiento al menos mientras se ofrezca el Software Suministrado y según lo requerido por las Licencias Identificadas?",
+          "number": "4.c",
+          "type": "YES_NO",
+          "specReference": [
+            "4.1",
+            "4.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 5",
+      "title": "5. Entender el compromiso con la comunidad de código abierto",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene una política escrita para la contribución a los proyectos de código abierto en nombre de la organización?",
+          "number": "5.a",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene de algún procedimiento documentado que regule las contribuciones a proyectos de código a abierto?",
+          "number": "5.b",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.2"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene algún procedimiento escrito que informe a todo el Personal de Software sobre la política de contribución de código abierto?",
+          "number": "5.c",
+          "type": "YES_NO",
+          "specReference": [
+            "5.1",
+            "5.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part 6",
+      "title": "6. Adhesión a los requisitos de OpenChain",
+      "questions": [
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene documentación que confirme que su Programa cumple todos los requisitos de estas Especificaciones?",
+          "number": "6.a",
+          "type": "YES_NO",
+          "specReference": [
+            "6.1",
+            "6.1.1"
+          ]
+        },
+        {
+          "correctAnswer": "Yes",
+          "question": "¿Tiene documentación que confirme que su conformidad con el Programa ha sido revisada durante los últimos 18 meses?",
+          "number": "6.b",
+          "type": "YES_NO",
+          "specReference": [
+            "6.2",
+            "6.2.1"
+          ]
+        }
+      ]
+    }
+  ]
+}
