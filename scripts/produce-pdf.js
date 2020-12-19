@@ -17,7 +17,7 @@ var font_en = path.join(__dirname, "../scripts/fonts/Noto_Sans/NotoSans-Regular.
 var font_ko = path.join(__dirname, "../scripts/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf");
 var font_zh_hans = path.join(__dirname, "../scripts/fonts/Noto_Sans_SC/NotoSansSC-Regular.otf");
 var font_zh_hant = path.join(__dirname, "../scripts/fonts/Noto_Sans_TC/NotoSansTC-Regular.otf");
-var font_he = path.join(__dirname, "../scripts/fonts/NotoSansHebrew-hinted/NotoSansHebrew-Regular.ttf");
+var font_he = path.join(__dirname, "../scripts/fonts/Frank_Ruhl_Libre/FrankRuhlLibre-Regular.ttf");
 var titleFontSize = 36;
 var sectionFontSize = 16;
 var headerFontSize = 12;
@@ -197,7 +197,6 @@ function createPdf(inputJsonFileName, outputPdfFileName) {
 		doc.font(font_zh_hans);
 	} else if (questionnaire.language === "zh-Hant") {
 		doc.font(font_zh_hant);
-		font_he
 	} else if (questionnaire.language === "he") {
 		doc.font(font_he);
 	} else {
