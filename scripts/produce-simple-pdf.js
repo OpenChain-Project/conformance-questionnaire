@@ -19,8 +19,9 @@ var font_ko = path.join(__dirname, "../scripts/fonts/Noto_Sans_KR/NotoSansKR-Reg
 var font_zh_hans = path.join(__dirname, "../scripts/fonts/Noto_Sans_SC/NotoSansSC-Regular.otf");
 var font_zh_hant = path.join(__dirname, "../scripts/fonts/Noto_Sans_TC/NotoSansTC-Regular.otf");
 var font_he = path.join(__dirname, "../scripts/fonts/NotoSansHebrew-hinted/NotoSansHebrew-Regular.ttf");
-var titleFontSize = 33;
-var sectionFontSize = 16;
+var titleFontSize = 28;
+var subtitleFontSize = 16;
+var sectionFontSize = 14;
 var headerFontSize = 12;
 var questionFontSize = 9;
 
@@ -64,79 +65,27 @@ function formatQuestion(question) {
  */
 function printSection(doc, section, questionnaire) {
 	doc.fontSize(sectionFontSize);
+	doc.moveDown();
 	doc.text(section.title);
 	doc.fontSize(questionFontSize);
 	if (!section.questions) {
 		throw "Missing questions for section " + section.title;
 	}
-	var table = new PdfTable(doc, {
-        bottomMargin: 30
-    });
-	table
-    .addPlugin(new (require('voilab-pdf-table/plugins/fitcolumn'))({
-        column: 'text'
-    }))
-    .setColumnsDefaults({
-        headerBorder: 'LTBR',
-        headerPadding: [5],
-        headerAlign: 'center',
-        border: 'LTBR',
-        align: 'left',
-        valign: 'center',
-        padding: [5]
-    })
-    .addColumns([
-        {
-            id: 'section',
-            header: ' ' + questionnaire.sectionColumnText,
-            align: 'left',
-            width: 100,
-            valign: 'center',
-            padding: [5]
-        },
-        {
-            id: 'number',
-            header: ' ' + questionnaire.numberColumnText,
-            width: 60,
-            valign: 'center',
-            padding: [5]
-        },
-        {
-            id: 'specref',
-            header: ' ' + questionnaire.specRefColumnText,
-            width: 60,
-            valign: 'center',
-            padding: [5]
-        },
-        {
-            id: 'text',
-            header: ' ' + questionnaire.questionColumnText,
-            valign: 'center',
-            padding: [5],
-        }
-    ])
-    .onPageAdded(function (tb) {
-    	tb.addHeader();
-    });
-	var rows = [];
+	
 	for (var i = 0; i < section.questions.length; i++) {
-		rows.push({'section':section.title, 
-			'number':section.questions[i].number,
-			'specref':formatSpecRef(section.questions[i].specReference),
-			'text':section.questions[i].question});
+		doc.moveDown();
+		doc.text(section.questions[i].question);
+		
 		if (section.questions[i].subQuestions) {
 			var subquestions = section.questions[i].subQuestions;
 			for (var subq in subquestions) {
 				if (subquestions[subq]) {
-					rows.push({'section':section.title, 
-						'number':subquestions[subq].number,
-						'specref':formatSpecRef(subquestions[subq].specReference),
-						'text':'- '+subquestions[subq].question});
+					doc.moveDown();
+					doc.text('- '+subquestions[subq].question);
 				}
 			}
 		}
 	}
-	table.addBody(rows);
 }
 
 function printPreamble(doc, questionnaire) {
@@ -144,9 +93,10 @@ function printPreamble(doc, questionnaire) {
 	doc.image(logofilename, 30, 60, {width: 400});
 	doc.image(questiongraphic_filename, 450, 50, {width: 120});
 	doc.fontSize(titleFontSize);
-	doc.text(questionnaire.title, 30, 110);
-	doc.fontSize(sectionFontSize);
-	doc.text("Specification Version 2.1 (ISO/IEC 5230:2020)", 30, 140);  //TODO: Update from questionnaire
+	//doc.text(questionnaire.title, 30, 110);  TODO: Update the title in the JSON file
+	doc.text("Self-Certification Questionnaire", 30, 110);
+	doc.fontSize(subtitleFontSize);
+	doc.text("Specification Version 2.1 (ISO/IEC 5230:2020)", 30, 160);  //TODO: Update from questionnaire
 }
 
 /**
@@ -189,7 +139,6 @@ function createPdf(inputJsonFileName, outputPdfFileName) {
 	
 	printPreamble(doc, questionnaire);
 	for (var i = 0; i < questionnaire.sections.length; i++) {
-		doc.addPage();
 		printSection(doc, questionnaire.sections[i], questionnaire);
 	}
 	doc.end();
