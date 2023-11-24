@@ -1,5 +1,14 @@
 [![Build Status](https://travis-ci.org/OpenChain-Project/conformance-questionnaire.svg?branch=master)](https://travis-ci.org/OpenChain-Project/conformance-questionnaire)
 # Conformance Questionnaire
+
+## Retired
+
+This project is now retired.  Up until November, 2023, this repo contained the data for the web app used for self-certification.  This has been replaced by a manual process based on documentation.
+
+## Original README
+
+Below is the original README:
+
 Welcome to the OpenChain Project Conformance Questionnaire repository.
 
 This repository contains the conformance questionnaire used in the [OpenChain self-certification website](https://certification.openchainproject.org/).
